@@ -1,0 +1,31 @@
+---
+import Icon from './Icon.astro';
+
+interface Props {
+  lang: string;
+  messages: any;
+}
+const { messages } = Astro.props;
+const safety = messages.safety;
+const items = safety.items ?? [];
+---
+
+<section id="safety" class="scroll-mt-20 bg-sand/60 py-16 md:py-24">
+  <div class="mx-auto max-w-6xl px-4">
+    <p class="section-eyebrow">{safety.eyebrow}</p>
+    <h2 class="mt-2 font-serif text-3xl font-bold text-green-deep md:text-4xl">{safety.title}</h2>
+
+    <ul class="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        items.map((item: string) => (
+          <li class="glass-card flex items-start gap-3 rounded-2xl p-5">
+            <span class="mt-0.5 text-red-soft">
+              <Icon name="shield" class="w-6 h-6" />
+            </span>
+            <span class="text-sm text-charcoal/80">{item}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,143 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { siteConfig } from '../config';
+import { attraction, mapsUrl, ogLocale } from '../config';
+import { buildAlternates, htmlLangAttr, languagesList } from '../i18n/ui';
+
+interface Props {
+  lang: string;
+  messages: any;
+  path?: string;
+}
+const { lang, messages, path = '' } = Astro.props;
+
+const title = messages.meta?.title ?? siteConfig.name;
+const description = messages.meta?.description ?? '';
+const ogTitle = messages.meta?.ogTitle ?? title;
+const ogDescription = messages.meta?.ogDescription ?? description;
+const image = `${siteConfig.baseUrl}/gallery/wright-park-1.jpg`;
+const cityName = lang === 'tl' ? 'Lungsod ng Baguio' : 'Baguio City';
+
+const basePath = path ? '/' + path.replace(/^\/+|\/+$/g, '') : '';
+const canonical = `${siteConfig.baseUrl}/${lang}${basePath}`;
+const url = `${siteConfig.baseUrl}/${lang}${basePath}`;
+const alternates = buildAlternates(path);
+const htmlLang = htmlLangAttr(lang);
+
+const siteNameFallback = siteConfig.name;
+
+const faqItems = (messages.faq?.items ?? []).map((it: any) => ({
+  '@type': 'Question',
+  name: it.q,
+  acceptedAnswer: { '@type': 'Answer', text: it.a },
+}));
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['TouristAttraction', 'Place'],
+      name: attraction.name[lang] ?? attraction.name.en,
+      description,
+      image,
+      url,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: attraction.address[lang] ?? attraction.address.en,
+        addressLocality: cityName,
+        addressRegion: 'Benguet',
+        addressCountry: 'PH',
+      },
+      geo: { '@type': 'GeoCoordinates', latitude: attraction.lat, longitude: attraction.lng },
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: attraction.rating,
+        reviewCount: attraction.reviews,
+      },
+      openingHoursSpecification: {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        opens: '06:00',
+        closes: '18:00',
+      },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: messages.header?.siteName ?? siteNameFallback,
+          item: url,
+        },
+      ],
+    },
+    ...(faqItems.length
+      ? [{ '@type': 'FAQPage', mainEntity: faqItems }]
+      : []),
+  ],
+};
+
+const GA_MEASUREMENT_ID = 'G-YJTNXGWZNY';
+const gaScriptSrc = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+const gaConfigSnippet = `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '${GA_MEASUREMENT_ID}');
+`;
+---
+
+<!doctype html>
+<html lang={htmlLang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="theme-color" content="#274C30" />
+
+    {
+      Object.entries(alternates).map(([h, href]) => (
+        <link
+          rel="alternate"
+          hreflang={h === 'xDefault' ? 'x-default' : htmlLangAttr(h)}
+          href={href}
+        />
+      ))
+    }
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={messages.header?.siteName ?? siteNameFallback} />
+    <meta property="og:title" content={ogTitle} />
+    <meta property="og:description" content={ogDescription} />
+    <meta property="og:url" content={url} />
+    <meta property="og:image" content={image} />
+    <meta property="og:locale" content={ogLocale[lang] ?? lang} />
+    {
+      languagesList
+        .filter((l) => l !== lang)
+        .map((l) => <meta property="og:locale:alternate" content={ogLocale[l] ?? l} />)
+    }
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={ogTitle} />
+    <meta name="twitter:description" content={ogDescription} />
+    <meta name="twitter:image" content={image} />
+
+    <script is:inline async src={gaScriptSrc}></script>
+    <script is:inline set:html={gaConfigSnippet}></script>
+
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">{messages.header?.skipToContent}</a>
+    <Header lang={lang} messages={messages} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer lang={lang} messages={messages} />
+  </body>
+</html>

@@ -1,0 +1,35 @@
+---
+import Icon from './Icon.astro';
+
+interface Props {
+  lang: string;
+  messages: any;
+}
+const { messages } = Astro.props;
+const info = messages.info;
+const facts = info.facts ?? [];
+---
+
+<section id="info" class="scroll-mt-20 bg-cream py-16 md:py-20">
+  <div class="mx-auto max-w-6xl px-4">
+    <p class="section-eyebrow">{info.eyebrow}</p>
+    <h2 class="mt-2 font-serif text-3xl font-bold text-green-deep md:text-4xl">{info.title}</h2>
+    <p class="mt-3 max-w-2xl text-charcoal/70">{info.subtitle}</p>
+
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        facts.map((f: any) => (
+          <div class="glass-card flex items-start gap-3 rounded-2xl p-5">
+            <span class="rounded-full bg-green/10 p-2 text-green-deep">
+              <Icon name={f.icon ?? 'info'} class="w-6 h-6" />
+            </span>
+            <div>
+              <p class="text-xs uppercase tracking-wide text-charcoal/55">{f.k}</p>
+              <p class="mt-1 font-semibold text-charcoal">{f.v}</p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

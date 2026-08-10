@@ -1,0 +1,721 @@
+{
+  "meta": {
+    "title": "Wright Park Baguio — Complete Visitor Guide (Pool of Pines)",
+    "description": "Independent non-profit guide to Wright Park (Pool of Pines) in Baguio City, Philippines. History, legends, transport, facilities, horse riding and travel information for the City of Pines.",
+    "ogTitle": "Wright Park — Pool of Pines Visitor Guide",
+    "ogDescription": "History, folklore, transport, facilities and travel tips for Wright Park in Baguio, the Summer Capital of the Philippines."
+  },
+  "header": {
+    "siteName": "Wright Park",
+    "tagline": "Baguio City · Philippines",
+    "intro": "Overview",
+    "history": "History & Folklore",
+    "architecture": "Nature & Features",
+    "guide": "Visitor Guide",
+    "nearby": "Nearby Places",
+    "bestTime": "Best Time",
+    "transport": "Getting There",
+    "facilities": "Facilities",
+    "safety": "Visitor Tips",
+    "faq": "FAQ",
+    "map": "Location & Map",
+    "gallery": "Gallery",
+    "selectLanguage": "Language",
+    "skipToContent": "Skip to main content"
+  },
+  "common": {
+    "maps": "View Map",
+    "photoCredit": "Photo credit",
+    "readMore": "Read more",
+    "onSiteConfirm": "Hours and fees may change — confirm on-site before visiting"
+  },
+  "hero": {
+    "localName": "Luneta ng mga Pino",
+    "title": "Wright Park",
+    "subtitle": "Baguio's century-old pine-clad park, home to the iconic Pool of Pines and a gateway to the Summer Capital's highland heritage.",
+    "rating": "4.6",
+    "reviews": "12,800",
+    "reviewsSuffix": "public reviews",
+    "ctaMaps": "View Map",
+    "ctaExplore": "Start Exploring",
+    "facts": [
+      { "k": "Type", "v": "Urban Forest Park" },
+      { "k": "Location", "v": "Baguio City, Benguet" },
+      { "k": "Elevation", "v": "~1,400 m ASL" },
+      { "k": "Established", "v": "Early 1900s" },
+      { "k": "Rating", "v": "4.6 / 5" },
+      { "k": "Region", "v": "Cordillera Administrative Region" }
+    ],
+    "heroAlt": "Wright Park Baguio, with the Pool of Pines reflecting towering Benguet pine trees, surrounded by rolling highland forest"
+  },
+  "info": {
+    "eyebrow": "At a Glance",
+    "title": "Visitor Information",
+    "subtitle": "Essential facts for planning your visit to Wright Park, Baguio.",
+    "facts": [
+      { "k": "Official Name", "v": "Wright Park (Pool of Pines)", "icon": "park" },
+      { "k": "Tagalog Name", "v": "Luneta ng mga Pino", "icon": "city" },
+      { "k": "Type", "v": "Public Urban Forest Park", "icon": "tree" },
+      { "k": "Address", "v": "Leonard Wood Road, Baguio City", "icon": "pin" },
+      { "k": "Plus Code", "v": "6CWV+427 Baguio", "icon": "pin" },
+      { "k": "Rating", "v": "4.6 / 5 (≈12,800 reviews)", "icon": "star" },
+      { "k": "Altitude", "v": "Approx. 1,400 metres above sea level", "icon": "city" },
+      { "k": "Province", "v": "Benguet, Cordillera Region", "icon": "park" }
+    ]
+  },
+  "intro": {
+    "eyebrow": "Introduction",
+    "title": "About Wright Park",
+    "description": "Wright Park is a historic forested urban park in Baguio City, the summer capital of the Philippines. Perched at roughly 1,400 metres above sea level, the park is best known for its elongated reflecting pool — the Pool of Pines — framed by rows of mature Benguet pine trees (Pinus kesiya). The site lies along Leonard Wood Road, directly opposite The Mansion, the official summer residence of the President of the Philippines, and forms one of the city's most photographed and most visited public spaces. Locals and visitors come to Wright Park to stroll among the pines, go horseback riding, breathe the cool highland air, picnic under the canopy and use it as a base for exploring Baguio's other heritage attractions.",
+    "whyTitle": "Why visit Wright Park",
+    "why": "If you are visiting Baguio for the first time, Wright Park should be near the top of your itinerary. Few single locations capture the essence of the City of Pines as well: the crisp mountain air, the straight colonnades of pine, the still reflecting pool, the clip-clop of horses along the bridle path and, directly across the road, the presidential gardens of The Mansion. It is simultaneously a historic site laid out during the American colonial period, a working equestrian space for local pony owners, and a quiet green retreat only a short ride from the bustle of Session Road. A morning walk here before the crowds arrive, followed by breakfast in a nearby café, remains one of the classic Baguio experiences.",
+    "highlights": {
+      "title": "What you'll find",
+      "items": [
+        "The Pool of Pines — a long reflecting pool framed by mature pine trees",
+        "Shaded pine forest trails and lawns for walking and picnicking",
+        "Horseback riding and pony rides on the park's bridle path",
+        "Direct view of The Mansion (Philippine Presidential Summer Residence) across Leonard Wood Road",
+        "A starting point for walking routes including Mines View, Botanical Garden and The Mansion grounds"
+      ]
+    }
+  },
+  "history": {
+    "eyebrow": "History & Folklore",
+    "title": "From American Hill Station to City Park",
+    "subtitle": "How a small mountain outpost became the Summer Capital, and how Wright Park took shape alongside Baguio's colonial and post-colonial history.",
+    "sections": [
+      {
+        "era": "Pre-colonial",
+        "heading": "The Igorot highland homeland",
+        "body": "Long before Baguio existed as a city, the area was part of the ancestral domain of the Ibaloi and Kankana-ey peoples of the Cordillera Mountains. The temperate climate, pine forests and mineral-rich soil supported swidden farming, gold working and trade with the lowlands. Place names such as 'Kafagway' — the Ibaloi name for the Baguio basin — predate any colonial survey and are still remembered by elders and written in Cordillera studies. Wright Park itself sits on a ridge that was once used as a pasture and trail corridor between highland villages."
+      },
+      {
+        "era": "1900s",
+        "heading": "Baguio as the American Summer Capital",
+        "body": "After the United States established colonial rule over the Philippines at the turn of the 20th century, American planners sought a cool retreat from the sweltering heat of Manila. The Baguio plateau, surveyed by architect and city planner Daniel H. Burnham in 1904, was selected as the site of a planned hill station. Wright Park was laid out shortly thereafter as part of the larger vision of a garden city with grand avenues, reflecting pools and pine-lined boulevards. Governor General Luke Edward Wright, after whom the park is named, played a key role in approving these early improvements."
+      },
+      {
+        "era": "1908",
+        "heading": "The Pool of Pines is built",
+        "body": "Around 1908, the elongated reflecting pool that is now the park's signature feature was constructed. Planners designed it as a grand axial vista: standing at one end, a visitor would look down a long water surface bordered on both sides by symmetrical rows of newly planted Benguet pine saplings. Over the following century those saplings matured into the soaring canopy that frames the pool today, giving the site its affectionate nickname — the Pool of Pines (Luneta ng mga Pino in Tagalog)."
+      },
+      {
+        "era": "American Period",
+        "heading": "The Mansion and the Bridle Path",
+        "body": "Across Leonard Wood Road, The Mansion was built as the official summer residence of the American Governor-General, and later of the President of the independent Philippines. Wright Park, situated directly opposite, became the landscaped foreground to this state residence. A bridle path was added so that colonial officials and their guests could ride horses through the pine forest. Horseback riding has remained a continuous tradition at Wright Park ever since, managed in recent decades by a cooperative of local horse owners from surrounding Cordillera communities."
+      },
+      {
+        "era": "WWII & Reconstruction",
+        "heading": "War damage and the post-war city",
+        "body": "Baguio suffered heavily during the Second World War. Many buildings and trees were lost to bombing and fighting in 1945, and some parts of Wright Park were damaged or used as staging areas. The Pool of Pines, however, survived the war largely intact, and the city's reconstruction during the 1950s and 1960s restored and extended the park's gardens and pathways. Baguio's continued popularity as a summer destination ensured that Wright Park remained at the heart of the city's public life."
+      },
+      {
+        "era": "1987",
+        "heading": "The 1990 Luzon earthquake and resilience",
+        "body": "The magnitude 7.7 Luzon earthquake of 16 July 1990 devastated large parts of Baguio. Wright Park, too, sustained damage including collapsed retaining walls, fallen trees and ground cracking. In the years that followed, the park was rehabilitated with the help of the city government, volunteer groups and donations. Today, visitors walking the grounds will see trees of different ages: some are the original centenary pines; others were planted during the post-earthquake recovery, a quiet reminder of the city's resilience."
+      },
+      {
+        "era": "Today",
+        "heading": "Wright Park in the 21st century",
+        "body": "Wright Park remains one of the most-visited green spaces in Northern Luzon. On weekends and during the April-May Panagbenga Flower Festival, the park fills with families, students, couples and tour groups, but it is still possible to find quiet corners on weekday mornings. The City Government of Baguio, in partnership with the Department of Environment and Natural Resources (DENR) and local community cooperatives, manages tree-planting drives, waste-management programmes and heritage conservation initiatives to keep the park viable for the next hundred years."
+      }
+    ],
+    "legend": {
+      "eyebrow": "Folklore & Local Memory",
+      "title": "Stories of the Pines",
+      "intro": "Wright Park and the Baguio plateau carry layers of oral history from the Igorot communities of the Cordilleras and from the lowland Tagalog and Ilocano settlers who later made the city their home. Below are folk narratives and cultural themes associated with the area, compiled from public sources for general education. Oral versions differ by community.",
+      "stories": [
+        {
+          "title": "The Spirit of the White Pine",
+          "body": "Some Ibaloi elders tell of a forest spirit, often described as a tall figure in white robes, who watches over the oldest pines of the Baguio plateau. Locals say that the spirit protects travellers who treat the forest with respect, but may lead those who litter or harm the trees into circling the same path until dawn. This story is part of a larger pattern of Cordillera environmental ethics, where the forest is not merely a resource but a living relative."
+        },
+        {
+          "title": "The Echo of the Horse's Hoof",
+          "body": "Local residents and security guards sometimes recount that on cold, misty nights the sound of a horse's hooves can be heard along the bridle path even when no rider is present. The story attributes the sound to the ghost of a colonial-era groom who tended the Governor-General's horses and refused to leave his post after death. Locals treat the tale with amusement rather than fear, saying the spirit is simply keeping watch over the park he loved."
+        },
+        {
+          "title": "The Pool That Reflected a Nation",
+          "body": "A more recent folk idea holds that the Pool of Pines reflects not only the sky and the pines but also the state of the nation. Proponents point to the pool's condition during crisis years — murky, clogged with leaves, or even partially drained — and its state during more hopeful periods when lilies bloom and the water runs clear. Whether or not one reads it as a metaphor, the pool's upkeep has indeed become a small but widely watched barometer of civic pride in Baguio."
+        },
+        {
+          "title": "Panagbenga and the Flowers of February",
+          "body": "The Panagbenga Festival (also called the Baguio Flower Festival) takes place each year in February and March. Although the grand parades run through Session Road and Burnham Park, Wright Park is often chosen as a photo backdrop and a quiet place to rest before or after the events. Locals note that the pines around the pool seem greener in Panagbenga season, as if dressed up for the city's biggest party of the year."
+        }
+      ],
+      "note": "The above narratives are compiled from public sources and community oral history for general educational purposes. They are not official historical conclusions. For verified history, please refer to the publications of the National Historical Commission of the Philippines, Baguio City Hall and the Department of Tourism of the Philippines."
+    }
+  },
+  "architecture": {
+    "eyebrow": "Nature & Features",
+    "title": "Highlights of Wright Park",
+    "subtitle": "From the Pool of Pines to the bridle path and pine forest — here are the signature features you will encounter on a typical walk.",
+    "items": [
+      {
+        "icon": "building",
+        "name": "The Pool of Pines",
+        "tagalog": "Luneta ng mga Pino",
+        "desc": "The park's iconic long reflecting pool, lined on both sides by mature Benguet pine trees. The pool is at its most photogenic in the early morning when the surface is still and the pines are reflected without ripples. Water lilies and occasional koi add colour during the wet season."
+      },
+      {
+        "icon": "star",
+        "name": "Pine Forest Canopy",
+        "tagalog": "Lipunang mga Pino",
+        "desc": "Mature Benguet pines (Pinus kesiya), some over a century old, cover most of the park's slopes. Their needles blanket the ground in a soft carpet and their canopy cools the air several degrees below the surrounding city. The forest is home to birds such as the Philippine bulbul and long-tailed shrike, and occasionally to pine-nut foraging squirrels."
+      },
+      {
+        "icon": "view",
+        "name": "The Bridle Path",
+        "tagalog": "Landas ng Kabayo",
+        "desc": "A wide, gently sloping gravel and dirt path reserved for horseback riding. Ponies and horses, most of them mountain-bred from Benguet and Mountain Province, are available for hire by the hour or by the round. Rides typically loop through the pine forest and back, with guides accompanying beginners and children."
+      },
+      {
+        "icon": "park",
+        "name": "Lawns and Picnic Groves",
+        "tagalog": "Pook Piknik at mga Damuhan",
+        "desc": "Open lawns and designated picnic groves are scattered along the walkways. Families often set up mats and portable grills on weekends, though open fires are subject to city regulations. Visitors are encouraged to bring reusable containers and take all waste away with them to keep the forest clean."
+      },
+      {
+        "icon": "leaf",
+        "name": "Tree-lined Promenade",
+        "tagalog": "Daanang May mga Puno",
+        "desc": "The main promenade running along the length of the pool is a favourite for strolling, photography and people-watching. Benches spaced along the path are a good place to sit, listen to the wind in the pines and watch the horses pass. The path also offers a direct framed view of the front gate of The Mansion across the road."
+      },
+      {
+        "icon": "moon",
+        "name": "Sunrise & Mist",
+        "tagalog": "Bukang-liwayway at Hamog",
+        "desc": "Baguio's cool highland climate means that mist often rolls through the park in the early morning, softening the outlines of the pines and turning the Pool of Pines into a painterly scene. Sunrise visits, although cold, reward early risers with the park's most atmospheric light and fewest crowds."
+      }
+    ],
+    "note": "Access to the public areas of Wright Park is generally free of charge. Horseback riding, parking, and some event spaces may have separate fees set by the city or by local cooperatives. Please confirm rates and operating hours on-site before making a plan."
+  },
+  "guide": {
+    "eyebrow": "Visitor Guide",
+    "title": "How to Explore Wright Park",
+    "subtitle": "Suggested walking routes combining the park with nearby landmarks such as The Mansion, Botanical Garden and Mines View Park.",
+    "route": {
+      "title": "Classic Baguio Heritage Walk",
+      "steps": [
+        "Wright Park (Pool of Pines & pine forest)",
+        "The Mansion (Presidential Summer Residence, across the road)",
+        "Baguio Botanical Garden (northwest via footpath)",
+        "Mines View Park (ridge walk, city & mining vista)",
+        "Good Shepherd Convent & strawberry area (snack & souvenirs)"
+      ]
+    },
+    "tips": {
+      "title": "Good for",
+      "items": [
+        "Families with children (pony rides, wide paths)",
+        "Photographers, painters and plein-air artists",
+        "Senior travellers (mostly level promenade, benches)",
+        "Equestrian and pony-ride beginners",
+        "History and highland-ecology travellers"
+      ]
+    }
+  },
+  "bestTime": {
+    "eyebrow": "Best Time to Visit",
+    "title": "When to Visit Wright Park",
+    "subtitle": "Baguio has a temperate highland climate year-round. Mornings and evenings are typically the most comfortable, and mist is common in the cool season.",
+    "day": [
+      { "label": "Morning (06:00–09:00)", "tone": "morning", "score": "Best overall", "text": "Coolest temperatures, minimal crowds and frequent soft mist over the Pool of Pines. Light is ideal for photography, and joggers and dog-walkers share the paths with early tourists." },
+      { "label": "Midday (10:00–14:00)", "tone": "afternoon", "score": "Busy but manageable", "text": "Tour groups and weekend families tend to arrive after breakfast. The pine canopy keeps walking shaded, but parking near the main entrance may be full. Weekdays are noticeably quieter." },
+      { "label": "Afternoon (15:00–18:00)", "tone": "afternoon", "score": "Golden hour", "text": "Warm afternoon light and long shadows make the pine forest and the Pool of Pines especially attractive for photos. Horseback rides are popular at this hour." },
+      { "label": "Evening (18:00 onwards)", "tone": "evening", "score": "Atmospheric", "text": "Temperatures drop quickly and mist may return. The park remains open, but some sections are less lit. Visitors are advised to stay on the main promenade and leave before the park's closing time if staying in the city centre." }
+    ],
+    "season": {
+      "title": "By Season",
+      "items": [
+        { "k": "Cool Dry (Nov–Feb)", "v": "Most popular. Nights can be as cool as 10–15 °C; misty mornings. Expect larger crowds during Panagbenga (Feb–Mar) and Holy Week." },
+        { "k": "Hot Dry (Mar–May)", "v": "Still cooler than Manila (roughly 18–26 °C). Flower festivals and school-holiday traffic. Book accommodation early." },
+        { "k": "Wet (Jun–Oct)", "v": "Afternoon thunderstorms are common, but rain tends to clear quickly. Fewer tourists, greener pines, and water lilies on the Pool of Pines. Good value for travellers on a budget." }
+      ]
+    },
+    "note": "Baguio is cooler than most of the Philippines, but ultraviolet exposure at 1,400 m is still high. Bring a light jacket, raincoat, closed shoes and a hat. Wear layers, as the temperature can shift 10 °C between noon and evening."
+  },
+  "transport": {
+    "eyebrow": "Getting There",
+    "title": "How to Get to Wright Park",
+    "overview": "Wright Park sits in central Baguio City, roughly 5–10 minutes by car from Session Road and Burnham Park, and about 20–30 minutes from Loakan Airport depending on traffic. Below are step-by-step options for the most common starting points.",
+    "modes": [
+      {
+        "icon": "plane",
+        "title": "From Loakan Airport (Baguio, BAG)",
+        "description": "Loakan Airport is Baguio's only commercial airport, located on the eastern edge of the city. Wright Park is roughly 7 km southwest of the airport, about 20–30 minutes by road depending on weather and traffic.",
+        "details": [
+          "After exiting the arrivals hall, locate the airport's licensed taxi rank near the main curb; only use clearly marked vehicles with an official meter or agreed fare receipt",
+          "Alternatively, use a ride-hailing app if you have mobile data: set the destination to 'Wright Park, Leonard Wood Road, Baguio City' and confirm the driver's identity before boarding",
+          "Public jeepneys also run from the airport area towards the city centre: alight at a stop near Session Road or Burnham Park, then take a connecting jeepney or taxi for the remaining distance",
+          "Keep small bills in Philippine pesos handy; many local jeepneys and smaller taxis do not keep large amounts of change",
+          "If you are arriving during fog or a thunderstorm, allow extra travel time — some roads may briefly close for safety and visibility at the airport can delay ground transport",
+          "The most direct route generally travels via Loakan Road, then right onto Leonard Wood Road near Camp John Hay; Wright Park's main entrance will be on your left after The Mansion gate"
+        ]
+      },
+      {
+        "icon": "plane",
+        "title": "From Ninoy Aquino International Airport (Manila, MNL)",
+        "description": "Most international travellers and many domestic travellers will arrive in Manila first. Wright Park is approximately 250 km north of Manila, reachable by a combination of domestic flight or by overland bus/van.",
+        "details": [
+          "Option A (fastest): Fly from NAIA Terminal to Loakan Airport in Baguio with a domestic carrier; flights take roughly 45–60 minutes, then follow the airport-to-park steps above",
+          "Option B (budget & scenic): Take an air-conditioned bus from a Metro Manila bus terminal (e.g., Cubao or Pasay) bound for Baguio; most buses run overnight or early morning and take 5–7 hours depending on traffic at Tarlac and Pangasinan",
+          "Option C (private): Hire a private car or van from the airport; the drive takes about 5–6 hours via the North Luzon Expressway (NLEX) and Subic-Clark-Tarlac Expressway (SCTEX) before climbing Marcos Highway into Baguio",
+          "If travelling by bus, buy your ticket in advance online or at the terminal, especially during Panagbenga, Holy Week and December; popular buses sell out days ahead",
+          "When you arrive at the Baguio City bus terminal (Dangwa or other major terminals), take a taxi, jeepney or ride-hailing vehicle to Wright Park; the trip usually takes 10–20 minutes depending on your terminal",
+          "Some buses will drop passengers at a petrol station or mall along Marcos Highway before entering the city centre; confirm with the conductor whether you should alight there or continue to the final terminal"
+        ]
+      },
+      {
+        "icon": "walk",
+        "title": "On Foot from the City Centre",
+        "description": "Wright Park is within walking distance of the Session Road and Burnham Park area for travellers who enjoy a brisk uphill walk through Baguio's sloping streets.",
+        "details": [
+          "Start from the top of Session Road near SM Baguio or the Baguio Cathedral and head north-west towards Governor Pack Road",
+          "Continue along Governor Pack Road past the Baguio Botanical Garden turn-off; the walk is uphill in sections so pace yourself and stop for water at sari-sari stores along the route",
+          "Alternatively, take the quieter footpath past Teachers' Camp and cut across to Leonard Wood Road, passing the Botanical Garden entrance before arriving at Wright Park",
+          "The total distance from Session Road is roughly 2.5–3.5 km depending on your starting point, and most visitors complete it in 40–60 minutes with small stops",
+          "Take care on narrow sidewalks, especially near the Botanical Garden and The Mansion, as some roads lack a dedicated footpath"
+        ]
+      },
+      {
+        "icon": "bus",
+        "title": "Jeepney & Public Transport",
+        "description": "Baguio's iconic jeepneys and modernized public utility vehicles (PUVs) serve most of the routes around the city and surrounding barangays. Fares are low and routes are well known to locals.",
+        "details": [
+          "From the city centre, look for jeepneys marked with signs such as 'Mines View / Wright Park', 'The Mansion / Loop' or similar route numbers and colour codes",
+          "Ask the driver or conductor to alert you when the jeepney reaches the Wright Park stop; most will drop you directly at the main entrance along Leonard Wood Road",
+          "Jeepney fares are set by the Land Transportation Franchising and Regulatory Board (LTFRB); check the posted fare matrix inside the jeepney or ask a local how much is the usual charge",
+          "If you are unsure of the route, ask another passenger or a storekeeper for help — Baguio locals are generally happy to assist tourists with directions",
+          "Peak hours (07:00–09:00 and 17:00–19:00) mean standing room on some routes, so travel outside those hours if luggage or mobility is a concern"
+        ]
+      },
+      {
+        "icon": "taxi",
+        "title": "Taxi & Ride-hailing",
+        "description": "Metered taxis and app-based ride-hailing services are widely available in Baguio, often the most convenient option for families, luggage-heavy travellers and rainy days.",
+        "details": [
+          "Use only licensed metered taxis or booked ride-hailing vehicles with a clear driver and vehicle photo displayed in the app; insist on the meter being used, or negotiate a fixed total before the trip begins if the meter is not operational",
+          "Set your destination clearly as 'Wright Park main entrance, Leonard Wood Road, opposite The Mansion' to avoid the driver taking you to the smaller side gates",
+          "Fares from Burnham Park or Session Road are typically short, within the city's minimum metered range; from Loakan Airport or from bus terminals, expect a standard city fare depending on distance and traffic",
+          "Keep small bills for the fare and tip; drivers often carry limited change, especially early in the day",
+          "During Panagbenga, Holy Week and December, demand spikes, so book vehicles well ahead and allow extra time for traffic around the park and Session Road"
+        ]
+      },
+      {
+        "icon": "car",
+        "title": "Driving & Parking",
+        "description": "Many visitors to Baguio drive their own car or a rental from Manila. Mountain driving requires caution, especially during fog and rain, and parking near the park is limited on busy days.",
+        "details": [
+          "From Manila, take NLEX north, connect to SCTEX, then exit to either Marcos Highway or Kennon Road; Marcos Highway is wider and the preferred year-round route, while Kennon is a narrow scenic highway occasionally closed for repairs",
+          "Drive slowly around blind hairpin turns and use lower gears on descents to avoid brake overheating; be prepared for slow-moving trucks and occasional fog banks that reduce visibility to a few metres",
+          "At the park, look for the designated public parking area near the main pool; on busy weekends, the city may open overflow parking on the lawns of nearby schools or barangay lots, signposted by traffic marshals",
+          "Never park on the Leonard Wood Road shoulder directly in front of The Mansion gate, as towing is strictly enforced by city traffic police",
+          "Check the weather forecast before driving; typhoon season (July–October) can bring landslides and temporary road closures to the Kennon and Aspiras-Palispis routes"
+        ]
+      }
+    ]
+  },
+  "facilities": {
+    "eyebrow": "Facilities",
+    "title": "Visitor Facilities & Nearby Services",
+    "subtitle": "Type-based guidance only — no individual business names are recommended. Always confirm rates, opening hours and accessibility before visiting.",
+    "cards": [
+      {
+        "icon": "wc",
+        "title": "Restrooms / Toilets",
+        "text": "Public restrooms are available near the main entrance, picnic groves and horse-riding area of Wright Park, some with a small maintenance fee. Additional restrooms can be found at The Mansion visitor area across the road, at the Baguio Botanical Garden and at the public building or market complexes a short walk or jeepney ride away. Carrying your own toilet paper and a small pack of hand sanitiser is strongly recommended, as supplies in public facilities are not always consistent."
+      },
+      {
+        "icon": "access",
+        "title": "Accessibility",
+        "text": "The main promenade along the Pool of Pines has a relatively level paved surface and is generally usable for strollers and basic wheelchairs. Side paths and deeper parts of the pine forest, however, include unpaved gravel, steps and moderate slopes that may be difficult for visitors with reduced mobility. Drop-off points and accessible parking bays are usually available near the main entrance. Visitors with specific mobility needs are advised to call the city tourism office in advance and visit during the quieter hours of the morning."
+      },
+      {
+        "icon": "parking",
+        "title": "Parking",
+        "text": "Designated on-site parking is provided at Wright Park, but capacity is limited and quickly fills up on weekends, during Panagbenga and over holiday periods. When on-site parking is full, city marshals normally direct drivers to overflow parking areas such as public school grounds, barangay lots and public-market car parks within a few minutes' walk. A regulated parking fee usually applies. Do not park on the main road shoulder directly in front of The Mansion entrance or near fire hydrants, as towing and ticketing are enforced."
+      },
+      {
+        "icon": "food",
+        "title": "Food & Drink",
+        "text": "Within Wright Park itself you will usually find mobile vendors selling snacks, bottled water, hot drinks, grilled corn and similar items. For sit-down meals, the surrounding Leonard Wood Road, Session Road and Mines View areas contain many places by type: local Kankana-ey and Ibaloi restaurants, casual eateries, Chinese-Filipino diners, Western-style cafés, coffee shops and bakeries. In season, vendors outside the park also sell fresh strawberries, peanut brittle, ube jam and other Baguio specialties. Choose restaurants that look clean and busy with locals, check prices on the menu before ordering, and stick to bottled or boiled water when drinking."
+      },
+      {
+        "icon": "hotel",
+        "title": "Accommodation",
+        "text": "Baguio has a wide range of accommodation by type to suit most budgets: backpacker dormitories and hostels near Session Road, small family-run guesthouses and pension houses in residential barangays, mid-range hotels and serviced apartments in the central tourist belt, and upscale hotels and mountain resorts on the edges of the city or in nearby Tuba. Popular areas to stay include the Session Road and Burnham Park area for convenience, the Mines View and Wright Park area for quiet pine-clad views, and Camp John Hay for resort-style amenities. Compare recent reviews and check the cancellation policy before booking; rates double or triple during Panagbenga, Holy Week and December."
+      },
+      {
+        "icon": "shop",
+        "title": "Shops & Convenience Stores",
+        "text": "Essential everyday items are widely available around Baguio. Sari-sari stores (small neighbourhood kiosks) sell bottled water, snacks, phone-load cards and basic toiletries on most residential streets. Larger supermarkets and department stores are clustered near Session Road, Magsaysay Avenue and the malls. For souvenirs, public markets and souvenir shops sell handwoven textiles, silver jewellery, woodcarvings, coffee beans and strawberry products. Agree on a price where haggling is expected, and choose goods based on your actual needs rather than impulse."
+      },
+      {
+        "icon": "fuel",
+        "title": "Fuel Stations & EV Charging",
+        "text": "Petrol stations (gas stations) offering gasoline, diesel and basic automotive services are distributed along major roads such as Marcos Highway, Loakan Road and Magsaysay Avenue. Fill up before entering the narrower mountain roads if you are driving to Sagada, Banaue or other Cordillera destinations. Electric vehicle charging points, where available, are typically found at larger mall car parks, some modern hotels and select petrol station chains in the city centre. Coverage remains limited outside urban Baguio, so plan the full route with a map application before setting off."
+      },
+      {
+        "icon": "park",
+        "title": "First Aid & Health",
+        "text": "Basic first-aid posts and security booths are normally staffed at the main entrance of Wright Park. Baguio also has several hospitals and clinics of different types: government-run district hospitals, private multi-specialty hospitals and neighbourhood clinics. Pharmacies (botika) are widespread; many are open late or 24 hours along Session Road and major avenues. If you have a chronic condition, bring an adequate supply of medication from home, as specific brands may not be available locally."
+      }
+    ]
+  },
+  "safety": {
+    "eyebrow": "Visitor Tips",
+    "title": "Visitor Notice & Responsible Tourism",
+    "items": [
+      "Keep valuables close and avoid displaying expensive cameras, phones or jewellery in crowded areas",
+      "Follow all park signage, especially around the Pool of Pines where drowning risks and slippery algae-covered stonework exist",
+      "Do not litter; use the designated waste bins or carry your rubbish back to your hotel to protect the pine forest and the Pool of Pines ecosystem",
+      "Respect Igorot and local Cordillera culture; ask first before photographing people, and avoid culturally sensitive subjects such as sacred groves and burial sites",
+      "Horseback riding is an activity with inherent risks — always wear footwear with a solid sole, hold the reins correctly, and follow the guide's instructions before mounting",
+      "Keep to marked trails; unmarked paths may lead to private property, steep embankments or erosion-prone areas",
+      "Baguio temperatures can swing sharply; carry a jacket, a light raincoat and layered clothing year-round",
+      "Support local communities by patronising registered cooperatives, licensed guides and locally-owned restaurants rather than unregulated informal services when possible"
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Where exactly is Wright Park located?",
+        "a": "Along Leonard Wood Road in central Baguio City, Benguet province, Philippines. It sits directly opposite the main gate of The Mansion, the official summer residence of the Philippine President, about 2–3 km northwest of Session Road."
+      },
+      {
+        "q": "Is there an entrance fee to enter Wright Park?",
+        "a": "Entry to the public grounds and the Pool of Pines promenade is generally free of charge. Separate fees usually apply for horseback riding, paid parking and certain temporary events or attractions. Rates are posted on-site and may be adjusted by the city government from time to time."
+      },
+      {
+        "q": "Can we ride horses at Wright Park?",
+        "a": "Yes. Horseback and pony riding are one of the park's long-standing attractions. Horses are hired per hour or per round, with guides provided for children and beginners. Always negotiate or confirm the total rate, the duration and whether a guide fee is included before starting the ride."
+      },
+      {
+        "q": "Is Wright Park suitable for senior citizens and families with babies?",
+        "a": "Generally yes. The main promenade is flat, paved and has benches, and there is a dedicated drop-off and parking zone near the entrance. The deeper pine trails, however, are unpaved and sloped in places. A light jacket is recommended as a precaution for infants and elderly visitors, even on sunny days."
+      },
+      {
+        "q": "What are the best hours to visit?",
+        "a": "Weekday mornings (06:00–09:00) are ideal if you want minimal crowds, cool air and good photographic light. Afternoons around sunset are popular with locals, but the park is significantly busier on weekends, during school holidays and around Panagbenga and Holy Week."
+      },
+      {
+        "q": "Can we bring food and have a picnic inside Wright Park?",
+        "a": "Yes. Picnicking is allowed in the designated groves and lawns. Avoid the immediate edge of the Pool of Pines and the horse bridle path, and never leave food scraps or single-use plastic behind — take all waste away with you or place it in the bins provided."
+      },
+      {
+        "q": "Are pets allowed?",
+        "a": "Policies may vary by season and event. In general, leashed and well-behaved pets are permitted on the main promenade, but some parts of the bridle path and event grounds may be restricted for safety and hygiene reasons. Clean up after your pet and always ask a guard if you are in doubt."
+      },
+      {
+        "q": "How long should we budget for a visit?",
+        "a": "Most visitors spend between one and two hours walking the Pool of Pines, sitting in the pine grove and perhaps taking a short horse ride. If you combine Wright Park with The Mansion, the Botanical Garden and Mines View Park on the same day, allow at least four to five hours, not including lunch and travel time between sites."
+      },
+      {
+        "q": "Is photography allowed? Can I take drone shots?",
+        "a": "Casual photography for personal use is allowed in the public areas. Drones, however, are subject to Civil Aviation Authority of the Philippines (CAAP) rules and to separate restrictions over The Mansion, which is a secured presidential facility. Drone flights over or near The Mansion are generally prohibited without prior written clearance."
+      },
+      {
+        "q": "What else is within walking distance of Wright Park?",
+        "a": "The Mansion (directly across the road), Baguio Botanical Garden (about 10–15 minutes on foot), Teachers' Camp, Bell Church and the ridge trails leading towards Mines View Park are all within easy walking distance. Good Shepherd Convent and its strawberry and ube products shop are a further 15–20 minutes on foot or a short jeepney ride away."
+      }
+    ]
+  },
+  "map": {
+    "eyebrow": "Location & Map",
+    "title": "Find Wright Park on the Map",
+    "subtitle": "The park lies on Leonard Wood Road in central Baguio, opposite The Mansion and close to the Botanical Garden, Mines View Park and Teachers' Camp.",
+    "addressLabel": "Address",
+    "addressValue": "Leonard Wood Road, Baguio City, Benguet, Philippines 2600",
+    "hoursLabel": "Visiting Hours",
+    "hoursValue": "Public park — usually open from early morning to early evening; confirm on-site as hours may change for events, holidays or maintenance",
+    "openLabel": "Open in Google Maps"
+  },
+  "nearby": {
+    "eyebrow": "Nearby Places",
+    "title": "Attractions Near Wright Park",
+    "subtitle": "Wright Park sits at the heart of Baguio's heritage and nature corridor. The following landmarks are reachable on foot or a short jeepney or taxi ride. Opening hours and ticket prices are indicative — please confirm with each site before visiting.",
+    "spots": [
+      {
+        "icon": "building",
+        "name": "The Mansion",
+        "distance": "Directly across Leonard Wood Road (2–3 min walk)",
+        "desc": "The official summer residence of the President of the Philippines, built during the American colonial era. Its elaborate main gate and landscaped front gardens are the most photographed side, and the public museum inside is open on selected days for guided visits."
+      },
+      {
+        "icon": "leaf",
+        "name": "Baguio Botanical Garden",
+        "distance": "About 5–10 min walk",
+        "desc": "A sprawling terraced garden showcasing Cordillera huts, sculpture trails and themed plant areas including a sunflower garden, orchidarium and pine grove. Also contains a Japanese-inspired tunnel and friendship gardens with international themes."
+      },
+      {
+        "icon": "view",
+        "name": "Mines View Park",
+        "distance": "About 10–15 min walk / short jeepney ride",
+        "desc": "A hilltop observation deck with panoramic views over the former gold and copper mining towns of Benguet. Souvenir stalls line the access ramp, and visitors can try on traditional Cordillera woven attire for photos."
+      },
+      {
+        "icon": "park",
+        "name": "Burnham Park",
+        "distance": "About 20–30 min walk / short jeepney ride",
+        "desc": "Baguio's central urban park, named after city planner Daniel H. Burnham. It features a boating lagoon, rose garden, skating rink, orchidarium and public picnic clusters — the most convenient green space if you are staying in the Session Road area."
+      },
+      {
+        "icon": "star",
+        "name": "Camp John Hay",
+        "distance": "About 10 min by car or taxi",
+        "desc": "A former American military rest and recreation facility now developed as a mixed leisure estate, with pine-lined walking trails, hotels, restaurants, an eco-trail and the historic Bell House museum."
+      },
+      {
+        "icon": "shop",
+        "name": "Session Road & Central Market",
+        "distance": "About 15–25 min walk / short jeepney ride",
+        "desc": "Baguio's historic main street, lined with cafés, bookshops, clothing stores and the Cathedral at its upper end. The nearby Maharlika (Public) Market sells fresh Benguet vegetables, cut flowers, coffee beans and local handicrafts at non-tourist prices."
+      }
+    ],
+    "route": {
+      "title": "Full-day Baguio Highlands Route",
+      "intro": "A relaxed one-day itinerary starting from Wright Park and covering the best-known heritage and nature spots of central Baguio, ideal for first-time visitors with limited time.",
+      "steps": [
+        { "place": "Wright Park (07:30)", "note": "Walk the Pool of Pines promenade in the mist; coffee or hot chocolate from a nearby café afterwards.", "time": "~1 hr" },
+        { "place": "The Mansion & Museum", "note": "Cross the road to visit the grounds, photograph the main gate and, if open, tour the small museum inside.", "time": "~45 min" },
+        { "place": "Botanical Garden", "note": "Walk uphill through the terraced gardens and Cordillera hut exhibit, leaving via the north exit towards Mines View.", "time": "~1 hr" },
+        { "place": "Mines View Park", "note": "Enjoy the panorama, then walk down to the souvenir lane and stop for grilled corn or strawberry taho.", "time": "~45 min" },
+        { "place": "Lunch at a local restaurant", "note": "Choose a type of restaurant in the Mines View or Session Road area — pinakbet, dinengdeng, bagnet and strawberry-themed desserts are regional specialties.", "time": "~1 hr" },
+        { "place": "Good Shepherd / souvenir run", "note": "Walk or ride to the convent area for ube jam, strawberry jam, peanut brittle and other pasalubong (take-home gifts).", "time": "~45 min" },
+        { "place": "Burnham Park & Session Road (late afternoon)", "note": "Rent a boat on the Burnham lagoon, wander the rose garden, then walk Session Road for dinner and a final coffee before heading back.", "time": "~2 hr" }
+      ],
+      "note": "Timings include walking between sites but not extended shopping. Adjust according to weather, your own pace and Panagbenga or holiday crowds. Carry a light jacket and an umbrella year-round."
+    }
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "Moments at Wright Park",
+    "subtitle": "The Pool of Pines, the pine forest, the bridle path and Baguio's distinctive highland light. All images are used for reference only and remain the copyright of their original photographers.",
+    "viewMaps": "View Wright Park on Google Maps",
+    "creditNote": "All images © their original photographers. Linked for reference and educational illustration only.",
+    "photos": [
+      { "file": "wright-park-1.jpg", "alt": "The Pool of Pines lined with mature Benguet pine trees at Wright Park, Baguio", "caption": "The Pool of Pines at daybreak" },
+      { "file": "wright-park-2.jpg", "alt": "Mist drifting through the pine forest of Wright Park in the cool season", "caption": "Misty morning among the pines" },
+      { "file": "wright-park-3.jpg", "alt": "Horseback riders and their guide on the bridle path of Wright Park", "caption": "The bridle path and pony rides" },
+      { "file": "wright-park-4.jpg", "alt": "The main promenade with benches and pine trees at Wright Park", "caption": "Main promenade along the pool" },
+      { "file": "wright-park-5.jpg", "alt": "Framed view of The Mansion gate from across Leonard Wood Road", "caption": "The Mansion opposite the park" },
+      { "file": "wright-park-6.jpg", "alt": "Picnic grove with families resting under the pine canopy", "caption": "Picnic groves and pine shade" },
+      { "file": "wright-park-7.jpg", "alt": "Golden hour light casting long shadows on the Pool of Pines", "caption": "Golden hour over the Pool of Pines" },
+      { "file": "wright-park-8.jpg", "alt": "Water lilies and koi fish in the Pool of Pines during the wet season", "caption": "Water lilies in the wet season" },
+      { "file": "wright-park-9.jpg", "alt": "Baguio Botanical Garden terraces, a short walk from Wright Park", "caption": "Nearby Botanical Garden terraces" },
+      { "file": "wright-park-10.jpg", "alt": "Mines View Park observation deck looking over the Benguet mountains", "caption": "Mines View Park panorama" },
+      { "file": "wright-park-11.jpg", "alt": "Panagbenga Flower Festival floats on Session Road in Baguio", "caption": "Panagbenga season in the city" },
+      { "file": "wright-park-12.jpg", "alt": "Aerial view of Baguio City showing the pine-clad plateau around Wright Park", "caption": "Baguio, the City of Pines" },
+      { "file": "wright-park-13.jpg", "alt": "Traditional Ifugao hut in the Baguio Botanical Garden near Wright Park", "caption": "Cordillera heritage displays nearby" },
+      { "file": "wright-park-14.jpg", "alt": "Baguio pine cones and needles collected along the Wright Park forest trail", "caption": "Pine forest textures of Benguet" },
+      { "file": "wright-park-15.jpg", "alt": "Strawberry jam, ube halaya and peanut brittle, the classic Baguio pasalubong", "caption": "Cordillera food souvenirs" },
+      { "file": "wright-park-16.jpg", "alt": "Handwoven Igorot textiles and silver jewellery at the Baguio public market", "caption": "Local handicrafts and weaving" },
+      { "file": "wright-park-17.jpg", "alt": "Baguio Cathedral and Session Road skyline viewed from the hillside", "caption": "Baguio cityscape and skyline" },
+      { "file": "wright-park-18.jpg", "alt": "Ibaloi traditional ceremony with tapuy rice wine, a glimpse of Cordillera culture", "caption": "Cultural heritage of the Cordilleras" }
+    ]
+  },
+  "footer": {
+    "siteName": "Wright Park Guide",
+    "tagline": "Independent non-profit visitor information",
+    "rights": "An independent non-profit visitor information project. Not affiliated with any government agency or official organisation. Contains no commercial recommendations.",
+    "missionTitle": "About this site",
+    "missionText": "This is an independent, non-profit visitor information project with no affiliation to any government body or official organisation. Attraction information is cross-checked against public sources from Baguio City Hall, the Baguio City Tourism Office and the Department of Tourism of the Philippines. It contains no commercial recommendations, paid rankings or sponsored promotions.",
+    "exploreTitle": "Explore",
+    "resourcesTitle": "Public Resources",
+    "resources": [
+      { "label": "Baguio City Hall", "url": "https://www.baguio.gov.ph" },
+      { "label": "Baguio City Tourism Office", "url": "https://www.baguio.gov.ph/tourism" },
+      { "label": "Department of Tourism PH", "url": "https://www.tourism.gov.ph" }
+    ],
+    "visitTitle": "Visit",
+    "addressLabel": "Address",
+    "addressValue": "Leonard Wood Road, Baguio City, Benguet, Philippines",
+    "mapsLabel": "Open in Google Maps",
+    "disclaimer": "All images shown are the property of and copyrighted by their original photographers. If any copyright issue arises, please contact the site administrator and the material will be reviewed or removed promptly.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookie": "Cookie Settings"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: August 2026",
+      "sections": [
+        {
+          "h": "Information we collect",
+          "p": "We collect only the minimum data necessary to operate this website and improve your browsing experience. This may include:",
+          "li": [
+            "Basic browsing data such as IP address, browser type, referring pages and pages visited, collected in aggregated form by standard web-server and analytics tools",
+            "Cookies and similar local-storage technologies used to remember your language preference and, where enabled, to collect anonymous usage statistics",
+            "Any information you voluntarily provide when contacting the site administrator, such as an email address or a submitted message"
+          ]
+        },
+        {
+          "h": "How we use your information",
+          "p": "Collected information is used for the following limited purposes:",
+          "li": [
+            "To maintain and improve website content, layout and multilingual navigation",
+            "To analyse aggregated traffic patterns so that we can understand which pages and sections are most useful to visitors",
+            "To reply to legitimate enquiries submitted via the contact channels",
+            "To comply with applicable legal obligations and to prevent abuse of the website infrastructure"
+          ]
+        },
+        {
+          "h": "Third-party services",
+          "p": "This website may embed third-party services including Google Maps (for location maps and the embedded map widget), Google Analytics or a similar privacy-conscious analytics service, and static image-hosting platforms. Each of these services operates under its own privacy policy and independently of this project. We recommend reviewing the privacy policies of Google LLC and any embedded services for more detail on their practices."
+        },
+        {
+          "h": "Cookies and local storage",
+          "p": "We use cookies only where necessary for core functionality (such as remembering your language preference) and, with your consent, for analytics. You can change or withdraw your preferences at any time using the Cookie Settings page linked in the footer of every page. Disabling non-essential cookies will not prevent normal use of the site.",
+          "li": []
+        },
+        {
+          "h": "Data retention",
+          "p": "Aggregated log data is retained for a short period of time only, typically between one and three months, after which it is either fully anonymised or deleted. Any personal correspondence sent to the site administrator is kept only for as long as reasonably necessary to respond to the enquiry and to maintain a record of the communication for accountability purposes.",
+          "li": []
+        },
+        {
+          "h": "Your rights",
+          "p": "Where applicable laws such as the EU General Data Protection Regulation (GDPR), the Philippines Data Privacy Act of 2012 (Republic Act No. 10173) and similar regional legislation grant you rights over personal data, you may:",
+          "li": [
+            "Request access to any personal data that may be held about you",
+            "Request correction of incomplete or inaccurate data",
+            "Request deletion of personal data, subject to any legal retention obligations",
+            "Object to or restrict certain types of processing",
+            "Lodge a complaint with a supervisory authority if you believe your rights have been violated"
+          ]
+        },
+        {
+          "h": "Children's privacy",
+          "p": "This website is designed for a general audience and does not knowingly collect personal information from children below the age of thirteen without verifiable parental or guardian consent. If you believe that information from a child has been collected inappropriately, please contact the administrator and the material will be removed without delay.",
+          "li": []
+        },
+        {
+          "h": "Changes to this policy",
+          "p": "This Privacy Policy may be revised from time to time as the website evolves or as new legal requirements apply. The date of the most recent update is always shown at the top of the page, and material changes will be noted clearly.",
+          "li": []
+        },
+        {
+          "h": "Contact",
+          "p": "For privacy-related enquiries, or to exercise any of the rights listed above, please contact the site administrator using the contact method published on the main site footer. We endeavour to respond to legitimate requests within a reasonable period, typically no later than thirty calendar days.",
+          "li": []
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated: August 2026",
+      "sections": [
+        {
+          "h": "Acceptance of terms",
+          "p": "By accessing and using this website, you acknowledge that you have read, understood and agreed to be bound by these Terms of Service. If you do not agree with any part of these terms, you should discontinue use of the site immediately."
+        },
+        {
+          "h": "Nature of the website",
+          "p": "This is an independent, non-profit, third-party visitor-information project. It is NOT affiliated with Baguio City Hall, the Baguio City Tourism Office, the Philippine Department of Tourism, the management of Wright Park, the Office of the President of the Philippines or any other government or commercial body. All information is provided for general educational and reference purposes only."
+        },
+        {
+          "h": "Accuracy and currency of information",
+          "p": "Every reasonable effort is made to keep the content on this site accurate and up to date. However, entrance fees, operating hours, transport routes, government policies and local regulations change regularly, and errors or omissions may occur despite our best efforts. It is your responsibility to verify critical information — including but not limited to opening hours, ticket prices, road conditions, weather alerts and health requirements — with the official operators before travelling."
+        },
+        {
+          "h": "No commercial recommendations",
+          "p": "In line with this project's non-profit mission, no restaurant, hotel, tour operator, transport company or other commercial establishment is specifically recommended. All references to goods and services are described by type only (for example: 'petrol stations', 'mid-range hotels', 'local restaurants'). Any resemblance to a real named venue is incidental and does not constitute a paid endorsement or sponsorship."
+        },
+        {
+          "h": "Intellectual property",
+          "p": "The original editorial text, page layout and design of this website are the intellectual property of the project team unless otherwise noted. Photographs are the copyright of their respective original photographers and are used on this site either with permission, under an open licence or as fair-use educational illustration. If you believe that your copyrighted material has been used without proper authorisation, please contact the administrator so that the matter can be investigated promptly and, if needed, the content removed."
+        },
+        {
+          "h": "Use of Google Maps and third-party content",
+          "p": "Map data, embedded map widgets and location links on this site are provided by Google Maps under Google's Terms of Service and Privacy Policy. Your use of these embedded widgets is subject to Google's terms in addition to these Terms of Service."
+        },
+        {
+          "h": "Prohibited uses",
+          "p": "You agree not to use this website or its content for any of the following purposes:",
+          "li": [
+            "To scrape, harvest or republish large portions of the content on another website, in a commercial publication or in a generative-AI training set without prior written permission",
+            "To misrepresent the origin of the content or to claim authorship of material authored by others",
+            "To use the site to transmit malware, phishing material, spam or any form of unlawful communication",
+            "To use any automated tool to place excessive load on the hosting infrastructure or to attempt to bypass access controls"
+          ]
+        },
+        {
+          "h": "Limitation of liability",
+          "p": "This website is provided on an 'as is' and 'as available' basis, without warranties of any kind, either express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose and non-infringement. Under no circumstances shall the project team, its volunteers or its hosting providers be liable for any direct, indirect, incidental, special, consequential or punitive damages arising out of or in any way connected with the use of this website, including travel decisions, bookings, itineraries, accidents or losses incurred while visiting Wright Park or Baguio City."
+        },
+        {
+          "h": "Indemnification",
+          "p": "You agree to indemnify and hold harmless the project team, its contributors and its service providers from any claim or demand, including reasonable legal fees, made by any third party due to or arising out of your use of the website, your violation of these Terms of Service, or your violation of any rights of another person or legal entity."
+        },
+        {
+          "h": "Applicable law and disputes",
+          "p": "These Terms of Service shall be governed by and construed in accordance with the laws of the Republic of the Philippines, without regard to its conflict-of-law principles. Any dispute arising from these terms shall, where possible, first be resolved through good-faith negotiation, failing which it shall be submitted to the exclusive jurisdiction of the competent courts of Baguio City, Philippines."
+        },
+        {
+          "h": "Revisions",
+          "p": "The project team reserves the right to revise these Terms of Service at any time without prior notice, effective immediately upon posting on this page. The date of the most recent update is always shown at the top of the policy. Continued use of the website after a revision is posted constitutes your acceptance of the revised terms."
+        }
+      ]
+    },
+    "cookie": {
+      "title": "Cookie Settings",
+      "lastUpdated": "Last updated: August 2026",
+      "sections": [
+        {
+          "h": "About cookies on this site",
+          "p": "We use cookies and similar lightweight storage technologies to improve your experience and to understand, in aggregate form, how visitors use the site. You can configure and save your preferences below. Refreshing this page will reload your current settings from the browser. For a fuller explanation of how data is used, please see the full Privacy Policy."
+        },
+        {
+          "h": "Essential cookies",
+          "p": "These cookies are strictly necessary for the basic operation of the website and cannot be switched off. They are used solely to remember your language preference (Tagalog or English) and basic accessibility settings. No personal information is stored in these cookies beyond a minimal anonymous identifier. If you set your browser to block them, some parts of the site may not display correctly.",
+          "cookies": [
+            { "name": "Language preference", "desc": "Remembers whether you are viewing the site in Tagalog or English.", "active": true, "onLabel": "Active (required)", "offLabel": "Inactive" },
+            { "name": "Session state", "desc": "Maintains continuity between page loads and prevents broken navigation.", "active": true, "onLabel": "Active (required)", "offLabel": "Inactive" }
+          ]
+        },
+        {
+          "h": "Analytics cookies",
+          "p": "With your consent, we use analytics tools to collect aggregated and fully anonymised information about how visitors interact with the website — for example, which pages are most visited, which browser languages are used and the rough regional distribution of visitors. This data helps us improve content quality and fix broken links. No personally identifiable information is deliberately stored.",
+          "cookies": [
+            { "name": "Site usage analytics", "desc": "Collects anonymous page-view and interaction data for web-analytics reports.", "active": true, "onLabel": "Active", "offLabel": "Inactive" },
+            { "name": "Performance diagnostics", "desc": "Helps detect page-loading and rendering problems across different devices.", "active": true, "onLabel": "Active", "offLabel": "Inactive" }
+          ]
+        },
+        {
+          "h": "Preference cookies",
+          "p": "Optional preference cookies allow the website to remember small usability settings between visits, such as high-contrast mode (when implemented) and whether you have already seen or closed a non-critical informational banner. Disabling these simply means the settings will not persist between sessions.",
+          "cookies": [
+            { "name": "UI preferences", "desc": "Stores display-related preferences such as theme or banner-dismissal state.", "active": true, "onLabel": "Active", "offLabel": "Inactive" },
+            { "name": "Accessibility settings", "desc": "Saves any accessibility-related toggles you may enable.", "active": true, "onLabel": "Active", "offLabel": "Inactive" }
+          ]
+        },
+        {
+          "h": "Marketing cookies",
+          "p": "This is an independent non-profit project and does not use advertising networks, behavioural ad targeting or marketing cookies. The category below is kept for transparency and is disabled by default. It will remain inactive unless a future, clearly-notified change to the website policy introduces any such functionality.",
+          "cookies": [
+            { "name": "Third-party advertising", "desc": "Not used on this site — kept for transparency and future-proofing.", "active": false, "onLabel": "Active", "offLabel": "Inactive (default)" },
+            { "name": "Social media tracking", "desc": "Not used on this site — kept for transparency and future-proofing.", "active": false, "onLabel": "Active", "offLabel": "Inactive (default)" }
+          ]
+        },
+        {
+          "h": "Managing cookies in your browser",
+          "p": "In addition to the controls on this page, you can usually configure cookies directly in your browser settings. Most modern browsers let you block third-party cookies, delete existing cookies and set granular per-site rules. Please refer to your browser's help centre for instructions specific to the version you are using. Note that deleting all cookies from your browser will also remove the essential language-preference cookie, and the site will default back to English on your next visit until you switch languages again.",
+          "cookies": []
+        },
+        {
+          "h": "Consent management",
+          "p": "You can return to this Cookie Settings page at any time via the link in the footer, review your preferences, and save a new choice. Disabling non-essential cookies may slightly reduce our ability to detect broken pages and popular content, but it will not materially affect the core experience of using the website.",
+          "actions": [
+            { "label": "Save preferences", "primary": true },
+            { "label": "Accept all recommended", "primary": false },
+            { "label": "Reject all non-essential", "primary": false }
+          ]
+        }
+      ]
+    }
+  }
+}

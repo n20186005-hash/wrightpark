@@ -1,0 +1,118 @@
+---
+import Icon from './Icon.astro';
+import { mapsUrl } from '../config';
+import { languagesList, languages } from '../i18n/ui';
+
+interface Props {
+  lang: string;
+  messages: any;
+}
+const { lang, messages } = Astro.props;
+
+const nav = [
+  { id: 'intro', label: messages.header.intro },
+  { id: 'history', label: messages.header.history },
+  { id: 'architecture', label: messages.header.architecture },
+  { id: 'guide', label: messages.header.guide },
+  { id: 'best-time', label: messages.header.bestTime },
+  { id: 'transport', label: messages.header.transport },
+  { id: 'facilities', label: messages.header.facilities },
+  { id: 'nearby', label: messages.header.nearby },
+  { id: 'safety', label: messages.header.safety },
+  { id: 'faq', label: messages.header.faq },
+  { id: 'map', label: messages.header.map },
+  { id: 'gallery', label: messages.header.gallery },
+];
+---
+
+<header class="sticky top-0 z-50 border-b border-gold/30 bg-cream/90 backdrop-blur">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
+    <a href={`/${lang}`} class="flex items-center gap-2 font-serif text-lg font-semibold text-green-deep">
+      <Icon name="park" class="w-6 h-6 text-gold-deep" />
+      <span>{messages.header.siteName}</span>
+    </a>
+
+    <nav aria-label="Primary" class="hidden items-center gap-1 lg:flex">
+      {
+        nav.map((item) => (
+          <a
+            href={`/${lang}#${item.id}`}
+            class="rounded-md px-3 py-2 text-sm font-medium text-charcoal/80 transition hover:bg-sand hover:text-green-deep"
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <div class="flex items-center gap-2">
+      <a
+        href={mapsUrl}
+        target="_blank"
+        rel="noopener"
+        class="hidden items-center gap-1 rounded-full bg-green-deep px-4 py-2 text-sm font-medium text-white transition hover:bg-green md:inline-flex"
+      >
+        <Icon name="map" class="w-4 h-4" />
+        {messages.header.tagline}
+      </a>
+
+      <label class="sr-only" for="lang-switch">{messages.header.selectLanguage}</label>
+      <select
+        id="lang-switch"
+        aria-label={messages.header.selectLanguage}
+        onchange="window.location.href='/' + this.value"
+        class="rounded-full border border-gold/40 bg-white px-3 py-2 text-sm font-medium text-charcoal"
+      >
+        {
+          languagesList.map((l) => (
+            <option value={l} selected={l === lang}>{languages[l]}</option>
+          ))
+        }
+      </select>
+
+      <button
+        id="menu-toggle"
+        type="button"
+        aria-label="Menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        class="rounded-md p-2 text-green-deep lg:hidden"
+      >
+        <Icon name="menu" class="w-6 h-6" />
+      </button>
+    </div>
+  </div>
+
+  <div id="mobile-menu" class="hidden border-t border-gold/20 bg-cream lg:hidden">
+    <nav aria-label="Mobile" class="mx-auto flex max-w-6xl flex-col px-4 py-3">
+      {
+        nav.map((item) => (
+          <a
+            href={`/${lang}#${item.id}`}
+            class="rounded-md px-3 py-2 text-sm font-medium text-charcoal/80 transition hover:bg-sand hover:text-green-deep"
+          >
+            {item.label}
+          </a>
+        ))
+      }
+      <a
+        href={mapsUrl}
+        target="_blank"
+        rel="noopener"
+        class="mt-2 inline-flex items-center gap-1 rounded-full bg-green-deep px-4 py-2 text-sm font-medium text-white"
+      >
+        <Icon name="map" class="w-4 h-4" />
+        {messages.common.maps}
+      </a>
+    </nav>
+  </div>
+
+  <script>
+    const btn = document.getElementById('menu-toggle');
+    const menu = document.getElementById('mobile-menu');
+    btn?.addEventListener('click', () => {
+      const open = menu?.classList.toggle('hidden') === false;
+      btn.setAttribute('aria-expanded', String(open));
+    });
+  </script>
+</header>

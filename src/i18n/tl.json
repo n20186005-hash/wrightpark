@@ -1,0 +1,721 @@
+{
+  "meta": {
+    "title": "Wright Park Baguio — Kumpletong Gabay sa Bisita (Luneta ng mga Pino)",
+    "description": "Independiyenteng gabay na hindi pang-komersyal para sa Wright Park (Luneta ng mga Pino) sa Lungsod ng Baguio, Pilipinas. Kasaysayan, alamat, transportasyon, pasilidad, pagsakay sa kabayo at impormasyon sa paglalakbay para sa Lungsod ng mga Pino.",
+    "ogTitle": "Wright Park — Gabay sa Luneta ng mga Pino",
+    "ogDescription": "Kasaysayan, alamat, transportasyon, pasilidad at mga tip sa paglalakbay para sa Wright Park sa Baguio, ang Summer Capital ng Pilipinas."
+  },
+  "header": {
+    "siteName": "Wright Park",
+    "tagline": "Lungsod ng Baguio · Pilipinas",
+    "intro": "Pangkalahatang-ideya",
+    "history": "Kasaysayan at Alamat",
+    "architecture": "Kalikasan at mga Katangian",
+    "guide": "Gabay sa Bisita",
+    "nearby": "Mga Kalapit na Lugar",
+    "bestTime": "Pinakamagandang Oras",
+    "transport": "Pagpunta Rito",
+    "facilities": "Mga Pasilidad",
+    "safety": "Mga Paalala sa Bisita",
+    "faq": "Mga Madalas Itanong",
+    "map": "Lokasyon at Mapa",
+    "gallery": "Galerya",
+    "selectLanguage": "Wika",
+    "skipToContent": "Laktawan patungo sa pangunahing nilalaman"
+  },
+  "common": {
+    "maps": "Tingnan ang Mapa",
+    "photoCredit": "Pagtangkilik ng larawan",
+    "readMore": "Magbasa pa",
+    "onSiteConfirm": "Maaaring magbago ang oras at bayad — kumpirmahin muna sa lugar bago bumisita"
+  },
+  "hero": {
+    "localName": "Luneta ng mga Pino",
+    "title": "Wright Park",
+    "subtitle": "Ang makasaysayang parkeng puno ng pino sa Baguio, tahanan ng tanyag na Luneta ng mga Pino at daanan patungo sa pamana ng kabundukan ng Summer Capital.",
+    "rating": "4.6",
+    "reviews": "12,800",
+    "reviewsSuffix": "publikong pagsusuri",
+    "ctaMaps": "Tingnan ang Mapa",
+    "ctaExplore": "Simulan ang Paggalugad",
+    "facts": [
+      { "k": "Uri", "v": "Parkeng Kagubatan sa Lungsod" },
+      { "k": "Lokasyon", "v": "Lungsod ng Baguio, Benguet" },
+      { "k": "Taas ng Lupa", "v": "~1,400 m ASL" },
+      { "k": "Itinatag", "v": "Unang Bahagi ng 1900s" },
+      { "k": "Rating", "v": "4.6 / 5" },
+      { "k": "Rehiyon", "v": "Rehiyong Administratibo ng Cordillera" }
+    ],
+    "heroAlt": "Wright Park Baguio, kasama ang Luneta ng mga Pino na sumasalamin sa matatayog na punong pino ng Benguet, na napapalibutan ng gumugulong na kagubatan sa kabundukan"
+  },
+  "info": {
+    "eyebrow": "Sa Isang Sulyap",
+    "title": "Impormasyon ng Bisita",
+    "subtitle": "Mahahalagang katotohanan para sa pagpaplano ng iyong pagbisita sa Wright Park, Baguio.",
+    "facts": [
+      { "k": "Opisyal na Pangalan", "v": "Wright Park (Luneta ng mga Pino)", "icon": "park" },
+      { "k": "Pangalan sa Tagalog", "v": "Luneta ng mga Pino", "icon": "city" },
+      { "k": "Uri", "v": "Publikong Parkeng Kagubatan sa Lungsod", "icon": "tree" },
+      { "k": "Tirahan", "v": "Leonard Wood Road, Lungsod ng Baguio", "icon": "pin" },
+      { "k": "Plus Code", "v": "6CWV+427 Baguio", "icon": "pin" },
+      { "k": "Rating", "v": "4.6 / 5 (≈12,800 pagsusuri)", "icon": "star" },
+      { "k": "Altitud", "v": "Tinatayang 1,400 metro sa ibabaw ng antas ng dagat", "icon": "city" },
+      { "k": "Lalawigan", "v": "Benguet, Rehiyon ng Cordillera", "icon": "park" }
+    ]
+  },
+  "intro": {
+    "eyebrow": "Panimula",
+    "title": "Tungkol sa Wright Park",
+    "description": "Ang Wright Park ay isang makasaysayang parkeng kagubatan sa Lungsod ng Baguio, ang summer capital ng Pilipinas. Matatagpuan sa humigit-kumulang 1,400 metro sa ibabaw ng antas ng dagat, ang parke ay pinakakilala sa mahaba nitong sumasalamin na lawa — ang Luneta ng mga Pino — na napapalibutan ng mga hanay ng matatandang punong pino ng Benguet (Pinus kesiya). Ang lugar ay nasa kahabaan ng Leonard Wood Road, sa tapat mismo ng The Mansion, ang opisyal na summer residence ng Pangulo ng Pilipinas, at isa ito sa pinakamadalas kunan ng larawan at pinakabisitang pampublikong lugar sa lungsod. Ang mga lokal at bisita ay pumupunta sa Wright Park upang maglakad-lakad sa pagitan ng mga pino, sumakay sa kabayo, huminga ng malamig na hangin sa kabundukan, mag-piknik sa ilalim ng mga puno at gamitin itong basehan sa paggalugad ng iba pang mga makasaysayang tanawin sa Baguio.",
+    "whyTitle": "Bakit dapat bisitahin ang Wright Park",
+    "why": "Kung ikaw ay unang beses bibisita sa Baguio, dapat ang Wright Park ay nasa itaas ng iyong listahan. Kakaunti ang mga lugar na nakukuha ang tunay na diwa ng Lungsod ng mga Pino gaya nito: ang malutong na hangin sa kabundukan, ang tuwid na hanay ng mga pino, ang tahimik na sumasalamin na lawa, ang tunog ng mga kuko ng kabayo sa landas ng pagsakay at, sa tapat mismo ng kalsada, ang mga hardin ng pangulo sa The Mansion. Ito ay sabay na isang makasaysayang lugar na binalangkas noong panahon ng kolonyal na Amerikano, isang gumaganang lugar ng pagsakay sa kabayo para sa mga lokal na may-ari ng kabayo, at isang tahimik na luntiang pahingahan na maikling sakay lamang mula sa maingay na Session Road. Ang paglalakad dito sa umaga bago dumating ang maraming tao, na sinusundan ng almusal sa isang kalapit na kainan, ay nananatiling isa sa mga klasikong karanasan sa Baguio.",
+    "highlights": {
+      "title": "Ano ang makikita mo",
+      "items": [
+        "Ang Luneta ng mga Pino — isang mahabang sumasalamin na lawa na napapalibutan ng mga matatandang punong pino",
+        "May lilim na mga landas sa kagubatan ng pino at mga damuhan para sa paglalakad at pagpipiknik",
+        "Pagsakay sa kabayo at pagpapatakbo ng mga pony sa landas ng pagsakay sa parke",
+        "Direktang tanawin ng The Mansion (Summer Residence ng Pangulo ng Pilipinas) sa tapat ng Leonard Wood Road",
+        "Isang panimulang punto para sa mga rutang paglalakad kabilang ang Mines View, Botanical Garden at mga bakuran ng The Mansion"
+      ]
+    }
+  },
+  "history": {
+    "eyebrow": "Kasaysayan at Alamat",
+    "title": "Mula sa Amerikanong Hill Station hanggang sa Parke ng Lungsod",
+    "subtitle": "Paano naging Summer Capital ang isang maliit na nayon sa kabundukan, at paano nabuo ang Wright Park kasabay ng kasaysayan ng Baguio bago at pagkatapos ng kolonisasyon.",
+    "sections": [
+      {
+        "era": "Bago ang Kolonisasyon",
+        "heading": "Ang lupang ninuno ng mga Igorot sa kabundukan",
+        "body": "Matapos pang umiral ang Baguio bilang lungsod, ang lugar ay bahagi ng lupang ninuno ng mga sambayanang Ibaloi at Kankana-ey ng mga Bundok ng Cordillera. Ang katamtamang klima, mga kagubatan ng pino at lupang mayaman sa mineral ay sumuporta sa pagtatanim, paggawa ng ginto at pakikipagkalakalan sa mga mababang lugar. Ang mga pangalan ng lugar tulad ng 'Kafagway' — ang pangalang Ibaloi para sa palanggana ng Baguio — ay nauna pa sa anumang kolonyal na pagsisiyasat at naaalala pa rin ng mga nakatatanda at nakasulat sa mga pag-aaral ng Cordillera. Ang Wright Park mismo ay nasa isang tagaytay na dating ginamit bilang pastulan at daanan sa pagitan ng mga nayon sa kabundukan."
+      },
+      {
+        "era": "1900s",
+        "heading": "Ang Baguio bilang Summer Capital ng mga Amerikano",
+        "body": "Matapos itatag ng Estados Unidos ang kolonyal na pamumuno sa Pilipinas sa simula ng ika-20 siglo, naghanap ang mga Amerikanong tagaplano ng malamig na pahingahan mula sa mainit na klima ng Maynila. Ang talampas ng Baguio, sinuri ng arkitekto at tagaplano ng lungsod na si Daniel H. Burnham noong 1904, ang piniling lugar para sa isang nakaplano na hill station. Ang Wright Park ay binalangkas pagkatapos nito bilang bahagi ng mas malawak na pangarap ng isang lungsod ng hardin na may malalawak na daan, mga sumasalamin na lawa at mga boulevard na puno ng pino. Si Gobernador-Heneral Luke Edward Wright, kung kanino ipinangalan ang parke, ay may mahalagang papel sa pag-apruba ng mga unang pagpapabuti na ito."
+      },
+      {
+        "era": "1908",
+        "heading": "Itinayo ang Luneta ng mga Pino",
+        "body": "Tungkol noong 1908, itinayo ang mahabang sumasalamin na lawa na ngayon ay tanyag na katangian ng parke. Idisenyo ito ng mga tagaplano bilang isang malawak na tanawin: kapag nakatayo sa isang dulo, titingin ang bisita sa mahabang tubig na napapalibutan sa magkabilang panig ng magkakatulad na hanay ng mga bagong tanim na punong pino ng Benguet. Sa sumunod na siglo, ang mga punlang iyon ay tumubo bilang ang matayog na bubong na pumapalibot sa lawa ngayon, na nagbigay sa lugar ng mapagmahal na palayaw — ang Luneta ng mga Pino."
+      },
+      {
+        "era": "Panahong Amerikano",
+        "heading": "Ang The Mansion at ang Landas ng Kabayo",
+        "body": "Sa tapat ng Leonard Wood Road, itinayo ang The Mansion bilang opisyal na summer residence ng Amerikanong Gobernador-Heneral, at kalaunan ng Pangulo ng malayang Pilipinas. Ang Wright Park, na nasa tapat mismo, ay naging planadong harapan ng paninirahang ito ng estado. Isang landas ng pagsakay sa kabayo ang idinagdag upang ang mga opisyal ng kolonyal at kanilang mga panauhin ay makasakay sa kabayo sa kagubatan ng pino. Ang pagsakay sa kabayo ay nanatiling tuloy-tuloy na tradisyon sa Wright Park magmula noon, na pinamamahalaan sa mga nakaraang dekada ng isang kooperatiba ng mga lokal na may-ari ng kabayo mula sa mga kalapit na komunidad ng Cordillera."
+      },
+      {
+        "era": "Ikalawang Digmaang Pandaigdig at Pagpapatayo muli",
+        "heading": "Pinsala ng digmaan at ang lungsod pagkatapos ng digmaan",
+        "body": "Malubhang naapektuhan ang Baguio noong Ikalawang Digmaang Pandaigdig. Maraming gusali at puno ang nawala sa pambobomba at labanan noong 1945, at ang ilang bahagi ng Wright Park ay nasira o ginamit bilang mga lugar ng pagtitipon ng mga puwersa. Gayunpaman, ang Luneta ng mga Pino ay nakaligtas sa digmaan nang halos buo, at ang muling pagtatayo ng lungsod noong mga taong 1950 at 1960 ay nagpabalik at nagpalawak ng mga hardin at daanan ng parke. Ang patuloy na katanyagan ng Baguio bilang destinasyon ng tag-init ay tiniyak na ang Wright Park ay nanatiling nasa gitna ng pampublikong buhay ng lungsod."
+      },
+      {
+        "era": "1990",
+        "heading": "Ang lindol sa Luzon noong 1990 at katatagan",
+        "body": "Ang lindol sa Luzon na may lakas na 7.7 noong ika-16 ng Hulyo 1990 ay nagpabagsak sa malalaking bahagi ng Baguio. Ang Wright Park din ay nakaranas ng pinsala kabilang ang mga gumuho na pader na nagpapanatili ng lupa, mga natumbang puno at pagbitak ng lupa. Sa mga taong sumunod, ang parke ay muling inayos sa tulong ng pamahalaan ng lungsod, mga pangkat ng boluntaryo at mga donasyon. Ngayon, ang mga bisitang naglalakad sa mga bakuran ay makakakita ng mga puno ng iba't ibang edad: ang ilan ay ang orihinal na mga pino na may isang daang taon na; ang iba ay itinanim noong muling pagbangon pagkatapos ng lindol, isang tahimik na paalala ng katatagan ng lungsod."
+      },
+      {
+        "era": "Ngayon",
+        "heading": "Ang Wright Park sa ika-21 siglo",
+        "body": "Ang Wright Park ay nananatiling isa sa mga pinakabisitang luntiang lugar sa Hilagang Luzon. Sa mga katapusan ng linggo at sa panahon ng Panagbenga Flower Festival noong Abril at Mayo, ang parke ay napupuno ng mga pamilya, mag-aaral, magkasintahan at mga pangkat ng turista, ngunit posible pa ring makahanap ng mga tahimik na sulok sa mga umaga ng araw ng trabaho. Ang Pamahalaan ng Lungsod ng Baguio, sa pakikipagtulungan sa Kagawaran ng Kapaligiran at Likas na Yaman (DENR) at mga lokal na kooperatiba ng komunidad, ay namamahala ng mga pagtatanim ng puno, mga programa sa pamamahala ng basura at mga inisyatiba sa pangangalaga ng pamana upang panatilihing buhay ang parke para sa susunod na isang daang taon."
+      }
+    ],
+    "legend": {
+      "eyebrow": "Alamat at Lokal na Alaala",
+      "title": "Mga Kuwento ng mga Pino",
+      "intro": "Ang Wright Park at ang talampas ng Baguio ay may mga antas ng pasalitang kasaysayan mula sa mga komunidad ng Igorot sa Cordillera at mula sa mga nanirahang Tagalog at Ilokano mula sa mababang lupain na kalaunan ay nanirahan sa lungsod. Nasa ibaba ang mga kuwentong bayan at mga temang pangkulturang kaugnay ng lugar, na pinagsama-sama mula sa mga pampublikong sanggunian para sa pangkalahatang kaalaman. Ang mga pasalitang bersyon ay magkakaiba ayon sa komunidad.",
+      "stories": [
+        {
+          "title": "Ang Diwa ng Puting Pino",
+          "body": "Ang ilang matatandang Ibaloi ay nagsasalaysay tungkol sa isang diwa ng kagubatan, na madalas inilalarawan bilang isang matangkad na pigura sa maputing balabal, na nagbabantay sa mga pinakamatandang pino ng talampas ng Baguio. Sinasabi ng mga lokal na pinoprotektahan ng diwa ang mga manlalakbay na may paggalang sa kagubatan, ngunit maaaring gabayan ang mga nagkakalat o pumipinsala sa mga puno na paikot-ikot sa parehong landas hanggang sa madaling-araw. Ang kuwentong ito ay bahagi ng mas malawak na larawan ng etika sa kapaligiran ng Cordillera, kung saan ang kagubatan ay hindi lamang isang yaman kundi isang buhay na kamag-anak."
+        },
+        {
+          "title": "Ang Tunog ng Kuko ng Kabayo",
+          "body": "Ang mga lokal na residente at mga guwardiya kung minsan ay nagsasalaysay na sa mga malamig at maulang gabi, ang tunog ng mga kuko ng kabayo ay maririnig sa landas ng pagsakay kahit walang nakasakay. Iniuugnay ng kuwento ang tunog sa multo ng isang tagapag-alaga ng kabayo noong panahon ng kolonyal na nag-aalaga ng mga kabayo ng Gobernador-Heneral at tumangging umalis sa kanyang tungkulin pagkatapos mamatay. Itinuturing ng mga lokal ang kuwento bilang nakakatuwa kaysa nakakatakot, na sinasabing ang diwa ay nagbabantay lamang sa parkeng kanyang minahal."
+        },
+        {
+          "title": "Ang Lawang Sumasalamin sa Bansa",
+          "body": "Isang mas bagong kaisipang bayan ang nagsasabing ang Luneta ng mga Pino ay sumasalamin hindi lamang sa langit at mga pino kundi pati na rin sa kalagayan ng bansa. Itinuturo ng mga tagapagsulong ang kalagayan ng lawa sa mga taon ng krisis — malabo, barado ng mga dahon, o kahit bahagyang pinatuyo — at ang kalagayan nito sa mga mas pag-asa panahon kung kailan namumukadkad ang mga liryo at malinaw na umaagos ang tubig. Maniwala man o hindi bilang isang talinghaga, ang pagpapanatili ng lawa ay tunay na naging maliit ngunit malawak na binabantayan na sukatan ng pagmamalaki ng mamamayan sa Baguio."
+        },
+        {
+          "title": "Ang Panagbenga at ang mga Bulaklak ng Pebrero",
+          "body": "Ang Panagbenga Festival (tinatawag ding Baguio Flower Festival) ay nagaganap taon-taon tuwing Pebrero at Marso. Bagama't ang malalaking parada ay dumadaan sa Session Road at Burnham Park, ang Wright Park ay madalas pinipiling lugar para sa pagkuha ng larawan at tahimik na pahingahan bago o pagkatapos ng mga kaganapan. Sinasabi ng mga lokal na ang mga pino sa paligid ng lawa ay tila mas luntian sa panahon ng Panagbenga, na tila nakasuot ng magagandang damit para sa pinakamalaking pagdiriwang ng lungsod."
+        }
+      ],
+      "note": "Ang mga salaysay sa itaas ay pinagsama-sama mula sa mga pampublikong sanggunian at pasalitang kasaysayan ng komunidad para sa pangkalahatang layuning pang-edukasyon. Ang mga ito ay hindi opisyal na makasaysayang konklusyon. Para sa napatunayang kasaysayan, mangyaring sumangguni sa mga publikasyon ng Pambansang Komisyon sa Kasaysayan ng Pilipinas, Lungsod ng Baguio at Kagawaran ng Turismo ng Pilipinas."
+    }
+  },
+  "architecture": {
+    "eyebrow": "Kalikasan at mga Katangian",
+    "title": "Mga Pangunahing Tampok ng Wright Park",
+    "subtitle": "Mula sa Luneta ng mga Pino hanggang sa landas ng kabayo at kagubatan ng pino — narito ang mga tanyag na katangiang makikita mo sa karaniwang paglalakad.",
+    "items": [
+      {
+        "icon": "building",
+        "name": "Ang Luneta ng mga Pino",
+        "tagalog": "Luneta ng mga Pino",
+        "desc": "Ang tanyag na mahabang sumasalamin na lawa ng parke, na may linya sa magkabilang panig ng mga matatandang punong pino ng Benguet. Ang lawa ay pinakamagandang kunan ng larawan sa madaling araw kapag ang ibabaw nito ay tahimik at ang mga pino ay sumasalamin nang walang mga alon. Ang mga liryo sa tubig at paminsang-minsang mga koi ay nagbibigay ng kulay sa panahon ng tag-ulan."
+      },
+      {
+        "icon": "star",
+        "name": "Kagubatan ng mga Pino",
+        "tagalog": "Lipunang mga Pino",
+        "desc": "Ang mga matatandang pino ng Benguet (Pinus kesiya), ang ilan ay may mahigit isang daang taon na, ang sumasakop sa karamihan ng mga dalisdis ng parke. Ang kanilang mga karayom ay bumabalot sa lupa bilang malambot na alpombra at ang kanilang bubong ay nagpapalamig sa hangin ng ilang digri sa paligid ng lungsod. Ang kagubatan ay tahanan ng mga ibon tulad ng Philippine bulbul at long-tailed shrike, at kung minsan ay ng mga ardilyang kumukuha ng buto ng pino."
+      },
+      {
+        "icon": "view",
+        "name": "Ang Landas ng Kabayo",
+        "tagalog": "Landas ng Kabayo",
+        "desc": "Isang malawak at dahan-dahang nakahilig na landas na graba at lupa na nakalaan para sa pagsakay sa kabayo. Ang mga pony at kabayo, karamihan ay mula sa kabundukan ng Benguet at Mountain Province, ay maaaring upahan ayon sa oras o ayon sa ikot. Ang mga pagsakay ay karaniwang umiikot sa kagubatan ng pino at pabalik, kasama ang mga gabay na kasama ng mga nagsisimula at bata."
+      },
+      {
+        "icon": "park",
+        "name": "Mga Damuhan at Piknik",
+        "tagalog": "Pook Piknik at mga Damuhan",
+        "desc": "Ang mga bukas na damuhan at itinalagang lugar ng piknik ay nakakalat sa mga daanan. Ang mga pamilya ay madalas na naglalagay ng banig at dalang mga ihawan sa katapusan ng linggo, bagama't ang mga bukas na apoy ay napapailalim sa mga regulasyon ng lungsod. Hinihikayat ang mga bisita na magdala ng mga magagamit muli na lalagyan at dalhin ang lahat ng basura pauwi upang mapanatiling malinis ang kagubatan."
+      },
+      {
+        "icon": "leaf",
+        "name": "Daanan na may mga Puno",
+        "tagalog": "Daanang May mga Puno",
+        "desc": "Ang pangunahing promenad na dumadaloy sa kahabaan ng lawa ay paborito para sa paglalakad, pagkuha ng larawan at pagmamasid sa mga tao. Ang mga upuang kahoy na nakakalat sa daan ay magandang lugar na maupo, makinig sa hangin sa mga pino at panoorin ang mga kabayong dumadaan. Ang daan ay nagbibigay din ng direktang nakasentro na tanawin ng pangunahing tarangkahan ng The Mansion sa tapat ng kalsada."
+      },
+      {
+        "icon": "moon",
+        "name": "Pagsikat ng Araw at Hamog",
+        "tagalog": "Bukang-liwayway at Hamog",
+        "desc": "Ang malamig na klima ng kabundukan ng Baguio ay nangangahulugang ang hamog ay madalas na dumadaloy sa parke sa madaling araw, na nagpapalambot sa mga hugis ng mga pino at ginagawang parang larawan ang Luneta ng mga Pino. Ang pagbisita sa pagsikat ng araw, bagama't malamig, ay nagbibigay ng gantimpala sa mga maagang gumising na may pinaka-kapansin-pansing liwanag at pinakakaunting tao sa parke."
+      }
+    ],
+    "note": "Ang pagpasok sa mga pampublikong lugar ng Wright Park ay karaniwang walang bayad. Ang pagsakay sa kabayo, paradahan ng sasakyan, at ilang espasyo ng kaganapan ay maaaring may magkahiwalay na bayad na itinakda ng lungsod o ng mga lokal na kooperatiba. Mangyaring kumpirmahin ang mga rate at oras ng pagpapatakbo sa lugar bago gumawa ng plano."
+  },
+  "guide": {
+    "eyebrow": "Gabay sa Bisita",
+    "title": "Paano Galugarin ang Wright Park",
+    "subtitle": "Mga iminumungkahing rutang paglalakad na pinagsasama ang parke at mga kalapit na tanawin tulad ng The Mansion, Botanical Garden at Mines View Park.",
+    "route": {
+      "title": "Klasikong Paglalakad sa Pamana ng Baguio",
+      "steps": [
+        "Wright Park (Luneta ng mga Pino at kagubatan ng pino)",
+        "The Mansion (Summer Residence ng Pangulo, sa tapat ng kalsada)",
+        "Baguio Botanical Garden (hilagang-kanluran sa pamamagitan ng daanan)",
+        "Mines View Park (paglalakad sa tagaytay, tanawin ng lungsod at pagmimina)",
+        "Good Shepherd Convent at lugar ng strawberry (meryenda at mga pasalubong)"
+      ]
+    },
+    "tips": {
+      "title": "Mainam para sa",
+      "items": [
+        "Mga pamilyang may mga anak (pagsakay sa pony, malalawak na daanan)",
+        "Mga litratista, pintor at mga plein-air artist",
+        "Mga matatandang manlalakbay (halos patag na promenad, mga upuang kahoy)",
+        "Mga nagsisimulang sumakay sa kabayo at sa mga pony",
+        "Mga manlalakbay sa kasaysayan at ekolohiya ng kabundukan"
+      ]
+    }
+  },
+  "bestTime": {
+    "eyebrow": "Pinakamagandang Oras na Bisitahin",
+    "title": "Kailan Dapat Bisitahin ang Wright Park",
+    "subtitle": "Ang Baguio ay may katamtamang klima ng kabundukan sa buong taon. Ang mga umaga at gabi ay karaniwang pinakakumportable, at ang hamog ay karaniwan sa malamig na panahon.",
+    "day": [
+      { "label": "Umaga (06:00–09:00)", "tone": "morning", "score": "Pinakamahusay sa kabuuan", "text": "Pinakamalamig na temperatura, kaunting tao at madalas na malambot na hamog sa ibabaw ng Luneta ng mga Pino. Ang liwanag ay mainam para sa pagkuha ng larawan, at ang mga nagjo-jogging at naglalakad ng aso ay nakikibahagi sa mga daanan kasama ang mga maagang turista." },
+      { "label": "Tanghalian (10:00–14:00)", "tone": "afternoon", "score": "Abala ngunit kayang-kaya", "text": "Ang mga pangkat ng turista at pamilya sa katapusan ng linggo ay karaniwang dumarating pagkatapos ng almusal. Ang bubong ng mga pino ay nagpapanatiling may lilim ang paglalakad, ngunit ang paradahan malapit sa pangunahing pasukan ay maaaring puno. Ang mga araw ng trabaho ay kapansin-pansing mas tahimik." },
+      { "label": "Hapon (15:00–18:00)", "tone": "afternoon", "score": "Gintong oras", "text": "Ang mainit na liwanag ng hapon at mahabang anino ay ginagawang lalong kaakit-akit para sa mga larawan ang kagubatan ng pino at ang Luneta ng mga Pino. Ang pagsakay sa kabayo ay sikat sa oras na ito." },
+      { "label": "Gabi (mula 18:00)", "tone": "evening", "score": "Kapansin-pansin", "text": "Ang temperatura ay mabilis na bumababa at maaaring bumalik ang hamog. Ang parke ay nananatiling bukas, ngunit ang ilang bahagi ay hindi gaanong naiilawan. Pinapayuhan ang mga bisita na manatili sa pangunahing promenad at umalis bago ang oras ng pagsasara ng parke kung nananatili sa sentro ng lungsod." }
+    ],
+    "season": {
+      "title": "Ayon sa Panahon",
+      "items": [
+        { "k": "Malamig at Tuyo (Nob–Peb)", "v": "Pinakasikat. Ang gabi ay maaaring kasinglamig ng 10–15 °C; maulang umaga. Asahan ang mas maraming tao sa panahon ng Panagbenga (Peb–Mar) at Semana Santa." },
+        { "k": "Mainit at Tuyo (Mar–May)", "v": "Mas malamig pa rin kaysa sa Maynila (humigit-kumulang 18–26 °C). Mga festival ng bulaklak at daloy ng turista sa bakasyon ng paaralan. Magpareserba nang maaga ng tirahan." },
+        { "k": "Tag-ulan (Hul–Okt)", "v": "Ang mga bagyo sa hapon ay karaniwan, ngunit ang ulan ay karaniwang mabilis na humihinto. Mas kaunting turista, mas luntiang mga pino, at mga liryo sa tubig sa Luneta ng mga Pino. Magandang halaga para sa mga manlalakbay na may limitadong badyet." }
+      ]
+    },
+    "note": "Ang Baguio ay mas malamig kaysa sa karamihan ng Pilipinas, ngunit ang pagkakalantad sa ultraviolet sa 1,400 m ay mataas pa rin. Magdala ng magaan na dyaket, kapote, saradong sapatos at sumbrero. Magsuot ng maraming patong ng damit, dahil ang temperatura ay maaaring magbago ng 10 °C sa pagitan ng tanghalian at gabi."
+  },
+  "transport": {
+    "eyebrow": "Pagpunta Rito",
+    "title": "Paano Pumunta sa Wright Park",
+    "overview": "Ang Wright Park ay nasa gitna ng Lungsod ng Baguio, humigit-kumulang 5–10 minuto sa pamamagitan ng sasakyan mula sa Session Road at Burnham Park, at mga 20–30 minuto mula sa Paliparan ng Loakan depende sa trapiko. Nasa ibaba ang mga hakbang-hakbang na opsyon para sa pinakakaraniwang panimulang punto.",
+    "modes": [
+      {
+        "icon": "plane",
+        "title": "Mula sa Paliparan ng Loakan (Baguio, BAG)",
+        "description": "Ang Paliparan ng Loakan ay ang tanging komersyal na paliparan ng Baguio, na matatagpuan sa silangang gilid ng lungsod. Ang Wright Park ay humigit-kumulang 7 km sa timog-kanluran ng paliparan, mga 20–30 minuto sa pamamagitan ng kalsada depende sa panahon at trapiko.",
+        "details": [
+          "Matapos lumabas ng bulwagan ng pagdating, hanapin ang lisensyadong pila ng taksi malapit sa pangunahing gilid; gumamit lamang ng malinaw na may markang sasakyan na may opisyal na metro o resibo ng napagkasunduang bayad",
+          "Bilang kahalili, gumamit ng ride-hailing app kung mayroon kang mobile data: itakda ang destinasyon sa 'Wright Park, Leonard Wood Road, Lungsod ng Baguio' at kumpirmahin ang pagkakakilanlan ng drayber bago sumakay",
+          "Ang mga pampublikong jeepney ay tumatakbo rin mula sa paligid ng paliparan patungo sa sentro ng lungsod: bumaba sa hintuan malapit sa Session Road o Burnham Park, pagkatapos ay sumakay ng konektadong jeepney o taksi para sa natitirang distansya",
+          "Maghanda ng maliliit na perang papel sa Philippine pesos; maraming lokal na jeepney at mas maliliit na taksi ang hindi nagtatago ng maraming sukli",
+          "Kung darating ka sa panahon ng hamog o bagyo, maglaan ng dagdag na oras ng paglalakbay — ang ilang kalsada ay maaaring pansamantalang isara para sa kaligtasan at ang kakayahang makakita sa paliparan ay maaaring magpahinto sa transportasyon sa lupa",
+          "Ang pinakadirektang ruta ay karaniwang dumadaan sa Loakan Road, pagkatapos ay kanan patungong Leonard Wood Road malapit sa Camp John Hay; ang pangunahing pasukan ng Wright Park ay nasa iyong kaliwa matapos ang tarangkahan ng The Mansion"
+        ]
+      },
+      {
+        "icon": "plane",
+        "title": "Mula sa Paliparan ng Ninoy Aquino (Maynila, MNL)",
+        "description": "Karamihan sa mga internasyonal na manlalakbay at maraming lokal na manlalakbay ay darating muna sa Maynila. Ang Wright Park ay humigit-kumulang 250 km sa hilaga ng Maynila, na maaaring marating sa pamamagitan ng kombinasyon ng lokal na paglipad o ng bus/van sa lupa.",
+        "details": [
+          "Opsyon A (pinakamabilis): Lumipad mula sa Terminal ng NAIA patungong Paliparan ng Loakan sa Baguio gamit ang isang lokal na eroplano; ang mga paglipad ay tumatagal ng humigit-kumulang 45–60 minuto, pagkatapos ay sundin ang mga hakbang mula sa paliparan patungong parke sa itaas",
+          "Opsyon B (badyet at magandang tanawin): Sumakay ng air-conditioned na bus mula sa isang terminal ng bus sa Metro Manila (hal., Cubao o Pasay) na patungong Baguio; karamihan sa mga bus ay tumatakbo magdamag o madaling araw at tumatagal ng 5–7 oras depende sa trapiko sa Tarlac at Pangasinan",
+          "Opsyon C (pribado): Umupahan ng pribadong sasakyan o van mula sa paliparan; ang pagmamaneho ay tumatagal ng mga 5–6 oras sa pamamagitan ng North Luzon Expressway (NLEX) at Subic-Clark-Tarlac Expressway (SCTEX) bago umakyat sa Marcos Highway patungong Baguio",
+          "Kung maglalakbay sa pamamagitan ng bus, bilhin ang iyong tiket nang maaga sa online o sa terminal, lalo na sa panahon ng Panagbenga, Semana Santa at Disyembre; ang mga sikat na bus ay nabebenta nang ilang araw bago",
+          "Kapag nakarating sa terminal ng bus ng Lungsod ng Baguio (Dangwa o iba pang malalaking terminal), sumakay ng taksi, jeepney o ride-hailing na sasakyan patungong Wright Park; ang biyahe ay karaniwang tumatagal ng 10–20 minuto depende sa iyong terminal",
+          "Ang ilang bus ay ibinababa ang mga pasahero sa isang istasyon ng gasolina o mall sa kahabaan ng Marcos Highway bago pumasok sa sentro ng lungsod; kumpirmahin sa konduktor kung dapat kang bumaba doon o magpatuloy hanggang sa huling terminal"
+        ]
+      },
+      {
+        "icon": "walk",
+        "title": "Paglalakad mula sa Sentro ng Lungsod",
+        "description": "Ang Wright Park ay nasa layong maaaring lakarin mula sa Session Road at lugar ng Burnham Park para sa mga manlalakbay na nasisiyahan sa mabilis na pag-akyat na paglalakad sa mga nakahilig na kalye ng Baguio.",
+        "details": [
+          "Magsimula sa itaas ng Session Road malapit sa SM Baguio o sa Katedral ng Baguio at pumunta sa hilagang-kanluran patungong Governor Pack Road",
+          "Magpatuloy sa kahabaan ng Governor Pack Road lampas sa pagliko ng Baguio Botanical Garden; ang paglalakad ay paakyat sa ilang bahagi kaya ayusin ang bilis at huminto para sa tubig sa mga sari-sari store sa kahabaan ng ruta",
+          "Bilang kahalili, dumaan sa mas tahimik na daanan lampas sa Teachers' Camp at tumawid patungong Leonard Wood Road, na dadaan sa pasukan ng Botanical Garden bago makarating sa Wright Park",
+          "Ang kabuuang distansya mula sa Session Road ay humigit-kumulang 2.5–3.5 km depende sa iyong panimulang punto, at karamihan sa mga bisita ay natatapos ito sa loob ng 40–60 minuto na may maliliit na paghinto",
+          "Mag-ingat sa mga makitid na bangketa, lalo na malapit sa Botanical Garden at The Mansion, dahil ang ilang kalsada ay walang nakalaang daanan ng mga naglalakad"
+        ]
+      },
+      {
+        "icon": "bus",
+        "title": "Jeepney at Pampublikong Transportasyon",
+        "description": "Ang mga tanyag na jeepney ng Baguio at mga makabagong pampublikong sasakyan (PUV) ay nagsisilbi sa karamihan ng mga ruta sa paligid ng lungsod at mga kalapit na barangay. Ang mga pamasahe ay mababa at ang mga ruta ay kilala ng mga lokal.",
+        "details": [
+          "Mula sa sentro ng lungsod, hanapin ang mga jeepney na may mga markang gaya ng 'Mines View / Wright Park', 'The Mansion / Loop' o katulad na mga numero ng ruta at kulay na code",
+          "Hilingin sa drayber o konduktor na ipaalam sa iyo kapag nakarating na ang jeepney sa hintuan ng Wright Park; karamihan ay ibinababa ka nang direkta sa pangunahing pasukan sa kahabaan ng Leonard Wood Road",
+          "Ang mga pamasahe sa jeepney ay itinakda ng Land Transportation Franchising and Regulatory Board (LTFRB); tingnan ang nakapaskil na fare matrix sa loob ng jeepney o magtanong sa lokal kung magkano ang karaniwang bayad",
+          "Kung hindi ka sigurado sa ruta, humingi ng tulong sa ibang pasahero o tindero — ang mga lokal sa Baguio ay karaniwang masayang tumutulong sa mga turista na may direksyon",
+          "Ang mga oras ng rurok (07:00–09:00 at 17:00–19:00) ay nangangahulugang nakatayo lamang sa ilang ruta, kaya maglakbay sa labas ng mga oras na iyon kung ang mga bagahe o kakayahang kumilos ay isang alalahanin"
+        ]
+      },
+      {
+        "icon": "taxi",
+        "title": "Taksi at Ride-hailing",
+        "description": "Ang mga metered na taksi at app-based na ride-hailing na serbisyo ay malawak na magagamit sa Baguio, kadalasan ang pinakamadaling opsyon para sa mga pamilya, mga manlalakbay na maraming bagahe at mga araw ng tag-ulan.",
+        "details": [
+          "Gumamit lamang ng mga lisensyadong metered na taksi o in-book na ride-hailing na sasakyan na may malinaw na larawan ng drayber at sasakyan na ipinapakita sa app; igiit na gamitin ang metro, o makipagkasundo muna sa kabuuang halaga bago simulan ang biyahe kung ang metro ay hindi gumagana",
+          "Itakda nang malinaw ang iyong destinasyon bilang 'pangunahing pasukan ng Wright Park, Leonard Wood Road, sa tapat ng The Mansion' upang maiwasan ang drayber na dalhin ka sa mas maliliit na gilid na tarangkahan",
+          "Ang mga pamasahe mula sa Burnham Park o Session Road ay karaniwang maikli, sa loob ng pinakamababang metered na saklaw ng lungsod; mula sa Paliparan ng Loakan o mula sa mga terminal ng bus, asahan ang karaniwang pamasahe sa lungsod depende sa distansya at trapiko",
+          "Maghanda ng maliliit na perang papel para sa pamasahe at tip; ang mga drayber ay madalas na may limitadong sukli, lalo na sa simula ng araw",
+          "Sa panahon ng Panagbenga, Semana Santa at Disyembre, ang pangangailangan ay tumataas, kaya mag-book ng mga sasakyan nang maaga at maglaan ng dagdag na oras para sa trapiko sa paligid ng parke at Session Road"
+        ]
+      },
+      {
+        "icon": "car",
+        "title": "Pagmamaneho at Paradahan",
+        "description": "Maraming bisita sa Baguio ang nagmamaneho ng sariling sasakyan o nagrenta mula sa Maynila. Ang pagmamaneho sa kabundukan ay nangangailangan ng pag-iingat, lalo na sa panahon ng hamog at ulan, at ang paradahan malapit sa parke ay limitado sa mga abalang araw.",
+        "details": [
+          "Mula sa Maynila, dumaan sa NLEX pahilaga, kumonekta sa SCTEX, pagkatapos ay lumabas patungong Marcos Highway o Kennon Road; ang Marcos Highway ay mas malawak at ang ginustong ruta sa buong taon, habang ang Kennon ay isang makitid na madalang na highway na paminsan-minsang isinasara para sa pagkukumpuni",
+          "Magmaneho nang dahan-dahan sa mga hindi nakikitang liko at gumamit ng mas mababang mga gears sa pagbaba upang maiwasan ang sobrang pag-init ng preno; maging handa para sa mga mabagal na trak at paminsan-minsang kumpol ng hamog na nagbabawas ng kakayahang makakita ng ilang metro lamang",
+          "Sa parke, hanapin ang itinalagang pampublikong lugar ng paradahan malapit sa pangunahing lawa; sa mga abalang katapusan ng linggo, ang lungsod ay maaaring magbukas ng labis na paradahan sa mga damuhan ng kalapit na paaralan o mga lote ng barangay, na may marka ng mga traffic marshal",
+          "Huwag kailanman iparada ang sasakyan sa gilid ng kalsada ng Leonard Wood Road nang direkta sa harap ng tarangkahan ng The Mansion, dahil ang paghila ng sasakyan ay mahigpit na ipinapatupad ng pulisya ng trapiko ng lungsod",
+          "Tingnan ang ulat ng panahon bago magmaneho; ang panahon ng bagyo (Hul–Okt) ay maaaring magdala ng pagguho ng lupa at pansamantalang pagsasara ng kalsada sa mga rutang Kennon at Aspiras-Palispis"
+        ]
+      }
+    ]
+  },
+  "facilities": {
+    "eyebrow": "Mga Pasilidad",
+    "title": "Mga Pasilidad ng Bisita at mga Kalapit na Serbisyo",
+    "subtitle": "Gabay batay lamang sa uri — walang partikular na pangalan ng negosyo ang inirerekomenda. Laging kumpirmahin ang mga rate, oras ng pagbubukas at kakayahang maabot bago bumisita.",
+    "cards": [
+      {
+        "icon": "wc",
+        "title": "Mga Palikuran / Banyo",
+        "text": "Ang mga pampublikong palikuran ay magagamit malapit sa pangunahing pasukan, mga lugar ng piknik at lugar ng pagsakay sa kabayo ng Wright Park, ang ilan ay may maliit na bayad sa pagpapanatili. Ang mga karagdagang palikuran ay matatagpuan sa lugar ng bisita ng The Mansion sa tapat ng kalsada, sa Baguio Botanical Garden at sa mga pampublikong gusali o complex ng palengke na maikling lakad o sakay ng jeepney ang layo. Ang pagdadala ng sariling toilet paper at maliit na pakete ng hand sanitiser ay lubos na inirerekomenda, dahil ang mga suplay sa mga pampublikong pasilidad ay hindi laging pare-pareho."
+      },
+      {
+        "icon": "access",
+        "title": "Kakayahang Maaabot",
+        "text": "Ang pangunahing promenad sa kahabaan ng Luneta ng mga Pino ay may medyo patag na simento at karaniwang magagamit para sa mga karwahe ng sanggol at pangunahing mga wheelchair. Gayunpaman, ang mga gilid na daanan at mas malalim na bahagi ng kagubatan ng pino ay kinabibilangan ng hindi sementadong graba, mga hakbang at katamtamang mga dalisdis na maaaring mahirap para sa mga bisitang may limitadong kakayahang kumilos. Ang mga punto ng pagbaba at mga nakalaang paradahan para sa may kapansanan ay karaniwang magagamit malapit sa pangunahing pasukan. Ang mga bisitang may partikular na pangangailangan sa paggalaw ay pinapayuhan na tumawag muna sa opisina ng turismo ng lungsod at bumisita sa mga tahimik na oras ng umaga."
+      },
+      {
+        "icon": "parking",
+        "title": "Paradahan",
+        "text": "Ang itinalagang on-site na paradahan ay ibinibigay sa Wright Park, ngunit ang kapasidad nito ay limitado at mabilis na napupuno sa mga katapusan ng linggo, sa panahon ng Panagbenga at sa mga panahon ng pista. Kapag puno na ang on-site na paradahan, ang mga marshal ng lungsod ay karaniwang itinuturo ang mga drayber patungo sa mga labis na lugar ng paradahan tulad ng bakuran ng pampublikong paaralan, mga lote ng barangay at mga paradahan ng pampublikong palengke sa loob ng ilang minutong paglalakad. Karaniwang may itinatakdang bayad sa paradahan. Huwag iparada ang sasakyan sa gilid ng pangunahing kalsada nang direkta sa harap ng pasukan ng The Mansion o malapit sa mga fire hydrant, dahil ang paghila ng sasakyan at pagbibigay ng tiket ay ipinapatupad."
+      },
+      {
+        "icon": "food",
+        "title": "Pagkain at Inumin",
+        "text": "Sa loob mismo ng Wright Park ay karaniwang makakakita ng mga gumagalaw na tindero na nagbebenta ng meryenda, de-boteng tubig, mainit na inumin, inihaw na mais at mga katulad na bagay. Para sa mga maupong pagkain, ang paligid na Leonard Wood Road, Session Road at mga lugar ng Mines View ay naglalaman ng maraming lugar ayon sa uri: mga lokal na restawran ng Kankana-ey at Ibaloi, mga kaswal na kainan, mga restawran ng Tsino-Pilipino, mga Kanluraning istilong café, mga tindahan ng kape at mga panaderya. Sa panahon, ang mga tindero sa labas ng parke ay nagbebenta rin ng sariwang strawberry, peanut brittle, ube jam at iba pang mga espesyalidad ng Baguio. Pumili ng mga restawran na mukhang malinis at maraming lokal na kumakain, tingnan ang presyo sa menu bago mag-order, at manatili sa de-boteng o pinakuluang tubig kapag umiinom."
+      },
+      {
+        "icon": "hotel",
+        "title": "Tirahan",
+        "text": "Ang Baguio ay may malawak na uri ng tirahan ayon sa uri upang umangkop sa karamihan ng mga badyet: mga dormitoryo at hostel ng backpacker malapit sa Session Road, maliliit na pansamantalang bahay at pension house na pinapatakbo ng pamilya sa mga tirahang barangay, mga mid-range na hotel at serviced apartment sa gitnang sinturon ng turista, at mga de-kalidad na hotel at mountain resort sa mga gilid ng lungsod o sa kalapit na Tuba. Ang mga sikat na lugar na manatili ay kinabibilangan ng Session Road at lugar ng Burnham Park para sa kaginhawaan, lugar ng Mines View at Wright Park para sa tahimik na tanawing puno ng pino, at Camp John Hay para sa mga amenity na istilong resort. Ihambing ang mga kamakailang pagsusuri at tingnan ang patakaran sa pagkansela bago mag-book; ang mga rate ay nagdodoble o nagtetriple sa panahon ng Panagbenga, Semana Santa at Disyembre."
+      },
+      {
+        "icon": "shop",
+        "title": "Mga Tindahan at Convenience Store",
+        "text": "Ang mga pangunahing pang-araw-araw na gamit ay malawak na magagamit sa paligid ng Baguio. Ang mga sari-sari store (maliliit na kiosk sa kapitbahayan) ay nagbebenta ng de-boteng tubig, meryenda, mga card ng load ng telepono at mga pangunahing gamit sa banyo sa karamihan ng mga tirahang kalye. Ang mas malalaking supermarket at department store ay naka-grupo malapit sa Session Road, Magsaysay Avenue at ang mga mall. Para sa mga pasalubong, ang mga pampublikong palengke at tindahan ng souvenir ay nagbebenta ng mga hinabing telang kamay, alahas na pilak, mga inukit na kahoy, butil ng kape at mga produktong strawberry. Sumang-ayon sa presyo kung saan inaasahan ang pakikipagtawaran, at pumili ng mga produkto batay sa iyong tunay na pangangailangan sa halip na padalos-dalos na pagbili."
+      },
+      {
+        "icon": "fuel",
+        "title": "Mga Istasyon ng Gasolina at Pagcha-charge ng EV",
+        "text": "Ang mga istasyon ng gasolina na nag-aalok ng gasolina, diesel at pangunahing serbisyo ng sasakyan ay nakakalat sa mga pangunahing kalsada tulad ng Marcos Highway, Loakan Road at Magsaysay Avenue. Magpuno ng gasolina bago pumasok sa mga mas makitid na kalsada ng kabundukan kung nagmamaneho ka patungong Sagada, Banaue o iba pang mga destinasyon ng Cordillera. Ang mga punto ng pagcha-charge ng de-kuryenteng sasakyan, kung saan magagamit, ay karaniwang matatagpuan sa mga mas malalaking paradahan ng mall, ilang makabagong hotel at pinipiling kadena ng istasyon ng gasolina sa gitna ng lungsod. Ang saklaw ay nananatiling limitado sa labas ng lungsod ng Baguio, kaya planuhin ang buong ruta gamit ang isang mapa na aplikasyon bago umalis."
+      },
+      {
+        "icon": "park",
+        "title": "Pangunang Lunas at Kalusugan",
+        "text": "Ang mga pangunahing post ng pangunang lunas at booth ng seguridad ay karaniwang may tauhan sa pangunahing pasukan ng Wright Park. Ang Baguio ay mayroon ding ilang ospital at klinika ng iba't ibang uri: mga ospital ng distrito na pinapatakbo ng gobyerno, mga pribadong multi-specialty na ospital at mga klinika sa kapitbahayan. Ang mga botika (botika) ay malawak; marami ang bukas nang huli o 24 oras sa kahabaan ng Session Road at mga pangunahing avenue. Kung mayroon kang talamak na kondisyon, magdala ng sapat na suplay ng gamot mula sa bahay, dahil ang mga partikular na tatak ay maaaring hindi magagamit nang lokal."
+      }
+    ]
+  },
+  "safety": {
+    "eyebrow": "Mga Paalala sa Bisita",
+    "title": "Paunawa sa Bisita at Responsableng Turismo",
+    "items": [
+      "Panatilihing malapit ang mga mahahalagang gamit at iwasang ipakita ang mga mamahaling camera, telepono o alahas sa mga mataong lugar",
+      "Sundin ang lahat ng marka ng parke, lalo na sa paligid ng Luneta ng mga Pino kung saan may panganib na malunod at madulas na bato na may lumot",
+      "Huwag magkakalat; gamitin ang mga itinalagang basurahan o dalhin ang iyong basura pabalik sa iyong hotel upang protektahan ang kagubatan ng pino at ang ekosistema ng Luneta ng mga Pino",
+      "Igalang ang kultura ng Igorot at lokal na Cordillera; magtanong muna bago kunan ng larawan ang mga tao, at iwasan ang mga kulturang sensitibong paksa tulad ng mga sagradong kakahuyan at lugar ng paglilibing",
+      "Ang pagsakay sa kabayo ay isang aktibidad na may likas na panganib — laging magsuot ng sapatos na may matigas na talampakan, hawakan nang tama ang mga reyno, at sundin ang mga tagubilin ng gabay bago sumakay",
+      "Manatili sa mga may markang landas; ang mga walang markang daanan ay maaaring humantong sa pribadong ari-arian, matatarik na dalisdis o mga lugar na madaling mapinsala ng lupa",
+      "Ang temperatura ng Baguio ay maaaring mabilis na magbago; magdala ng dyaket, magaan na kapote at maraming patong ng damit sa buong taon",
+      "Suportahan ang mga lokal na komunidad sa pamamagitan ng pagtangkilik sa mga rehistradong kooperatiba, lisensyadong gabay at mga restawrang pag-aari ng lokal sa halip na mga hindi reguladong impormal na serbisyo hangga't maaari"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Mga Madalas Itanong",
+    "title": "Mga Madalas Itanong",
+    "items": [
+      {
+        "q": "Saan eksaktong matatagpuan ang Wright Park?",
+        "a": "Sa kahabaan ng Leonard Wood Road sa gitna ng Lungsod ng Baguio, lalawigan ng Benguet, Pilipinas. Ito ay nasa tapat mismo ng pangunahing tarangkahan ng The Mansion, ang opisyal na summer residence ng Pangulo ng Pilipinas, mga 2–3 km sa hilagang-kanluran ng Session Road."
+      },
+      {
+        "q": "May bayad ba ang pagpasok sa Wright Park?",
+        "a": "Ang pagpasok sa mga pampublikong bakuran at sa promenad ng Luneta ng mga Pino ay karaniwang walang bayad. Ang mga hiwalay na bayad ay karaniwang inilalapat para sa pagsakay sa kabayo, bayad na paradahan at ilang pansamantalang kaganapan o atraksyon. Ang mga rate ay nakapaskil sa lugar at maaaring isaayos ng pamahalaan ng lungsod paminsan-minsan."
+      },
+      {
+        "q": "Maaari ba kaming sumakay ng kabayo sa Wright Park?",
+        "a": "Oo. Ang pagsakay sa kabayo at pony ay isa sa mga matagal nang atraksyon ng parke. Ang mga kabayo ay inuupahan ayon sa oras o ayon sa ikot, kasama ang mga gabay para sa mga bata at nagsisimula. Laging makipagkasundo o kumpirmahin ang kabuuang rate, ang tagal at kung may kasamang bayad sa gabay bago simulan ang pagsakay."
+      },
+      {
+        "q": "Angkop ba ang Wright Park para sa mga nakatatanda at pamilyang may mga sanggol?",
+        "a": "Sa pangkalahatan, oo. Ang pangunahing promenad ay patag, sementado at may mga upuang kahoy, at mayroong nakalaang punto ng pagbaba at lugar ng paradahan malapit sa pasukan. Gayunpaman, ang mas malalim na mga landas ng pino ay hindi sementado at nakahilig sa ilang lugar. Ang magaan na dyaket ay inirerekomenda bilang pag-iingat para sa mga sanggol at matatandang bisita, kahit sa maaraw na araw."
+      },
+      {
+        "q": "Ano ang pinakamagandang oras na bumisita?",
+        "a": "Ang mga umaga ng araw ng trabaho (06:00–09:00) ay mainam kung nais mo ang kaunting tao, malamig na hangin at magandang liwanag para sa pagkuha ng larawan. Ang mga hapon sa paligid ng paglubog ng araw ay sikat sa mga lokal, ngunit ang parke ay lalong abala sa mga katapusan ng linggo, sa bakasyon ng paaralan at sa paligid ng Panagbenga at Semana Santa."
+      },
+      {
+        "q": "Maaari ba kaming magdala ng pagkain at mag-piknik sa loob ng Wright Park?",
+        "a": "Oo. Ang pagpipiknik ay pinahihintulutan sa mga itinalagang kakahuyan at damuhan. Iwasan ang agarang gilid ng Luneta ng mga Pino at ang landas ng pagsakay sa kabayo, at huwag kailanman mag-iwan ng tira-tirang pagkain o plastik na isang beses lang ginagamit — dalhin ang lahat ng basura pauwi o ilagay ito sa mga ibinigay na basurahan."
+      },
+      {
+        "q": "Pinapayagan ba ang mga alagang hayop?",
+        "a": "Ang mga patakaran ay maaaring mag-iba ayon sa panahon at kaganapan. Sa pangkalahatan, ang mga nakatali at maayos na asal na alagang hayop ay pinahihintulutan sa pangunahing promenad, ngunit ang ilang bahagi ng landas ng pagsakay at lugar ng kaganapan ay maaaring limitado para sa kaligtasan at kalinisan. Linisin pagkatapos ng iyong alagang hayop at laging magtanong sa guwardiya kung may pag-aalinlangan ka."
+      },
+      {
+        "q": "Gaano katagal dapat ilaan para sa pagbisita?",
+        "a": "Karamihan sa mga bisita ay gumugugol ng isa hanggang dalawang oras sa paglalakad sa Luneta ng mga Pino, pag-upo sa kakahuyan ng pino at marahil ay maikling pagsakay sa kabayo. Kung pagsasamahin mo ang Wright Park at ang The Mansion, Botanical Garden at Mines View Park sa parehong araw, maglaan ng hindi bababa sa apat hanggang limang oras, hindi kasama ang tanghalian at oras ng paglalakbay sa pagitan ng mga lugar."
+      },
+      {
+        "q": "Pinapayagan ba ang pagkuha ng larawan? Maaari ba akong kumuha ng drone shots?",
+        "a": "Ang kaswal na pagkuha ng larawan para sa personal na paggamit ay pinahihintulutan sa mga pampublikong lugar. Gayunpaman, ang mga drone ay napapailalim sa mga tuntunin ng Civil Aviation Authority of the Philippines (CAAP) at sa magkakahiwalay na mga paghihigpit sa ibabaw ng The Mansion, na isang ligtas na pasilidad ng pangulo. Ang mga paglipad ng drone sa ibabaw o malapit sa The Mansion ay karaniwang ipinagbabawal nang walang naunang nakasulat na pahintulot."
+      },
+      {
+        "q": "Ano pa ang nasa distansyang maaaring lakarin mula sa Wright Park?",
+        "a": "Ang The Mansion (direkta sa tapat ng kalsada), Baguio Botanical Garden (mga 10–15 minuto sa paglalakad), Teachers' Camp, Bell Church at ang mga landas sa tagaytay patungong Mines View Park ay lahat nasa madaling distansya ng paglalakad. Ang Good Shepherd Convent at ang tindahan ng mga produktong strawberry at ube nito ay karagdagang 15–20 minuto sa paglalakad o maikling sakay ng jeepney ang layo."
+      }
+    ]
+  },
+  "map": {
+    "eyebrow": "Lokasyon at Mapa",
+    "title": "Hanapin ang Wright Park sa Mapa",
+    "subtitle": "Ang parke ay nasa Leonard Wood Road sa gitna ng Baguio, sa tapat ng The Mansion at malapit sa Botanical Garden, Mines View Park at Teachers' Camp.",
+    "addressLabel": "Tirahan",
+    "addressValue": "Leonard Wood Road, Lungsod ng Baguio, Benguet, Pilipinas 2600",
+    "hoursLabel": "Oras ng Pagbisita",
+    "hoursValue": "Pampublikong parke — karaniwang bukas mula madaling araw hanggang maagang gabi; kumpirmahin sa lugar dahil ang oras ay maaaring magbago para sa mga kaganapan, pista o pagpapanatili",
+    "openLabel": "Buksan sa Google Maps"
+  },
+  "nearby": {
+    "eyebrow": "Mga Kalapit na Lugar",
+    "title": "Mga Atraksyong Malapit sa Wright Park",
+    "subtitle": "Ang Wright Park ay nasa gitna ng koridor ng pamana at kalikasan ng Baguio. Ang mga sumusunod na tanawin ay maaaring marating sa paglalakad o maikling sakay ng jeepney o taksi. Ang oras ng pagbubukas at presyo ng tiket ay nagpapahiwatig lamang — mangyaring kumpirmahin sa bawat lugar bago bumisita.",
+    "spots": [
+      {
+        "icon": "building",
+        "name": "Ang The Mansion",
+        "distance": "Direkta sa tapat ng Leonard Wood Road (2–3 minutong lakad)",
+        "desc": "Ang opisyal na summer residence ng Pangulo ng Pilipinas, na itinayo noong panahon ng kolonyal na Amerikano. Ang detalyadong pangunahing tarangkahan at mga planadong harapang hardin nito ang pinakamadalas kunan ng larawan, at ang pampublikong museo sa loob ay bukas sa mga piling araw para sa mga gabay na pagbisita."
+      },
+      {
+        "icon": "leaf",
+        "name": "Baguio Botanical Garden",
+        "distance": "Mga 5–10 minutong lakad",
+        "desc": "Isang malawak na hagdan-hagdan na hardin na nagpapakita ng mga dampa ng Cordillera, mga landas ng iskultura at mga temang lugar ng halaman kabilang ang hardin ng sunflower, orchidarium at kakahuyan ng pino. Naglalaman din ito ng isang lagusan na istilong Hapon at mga hardin ng pagkakaibigan na may mga temang internasyonal."
+      },
+      {
+        "icon": "view",
+        "name": "Mines View Park",
+        "distance": "Mga 10–15 minutong lakad / maikling sakay ng jeepney",
+        "desc": "Isang deck ng pagmamasid sa tuktok ng burol na may malawak na tanawin sa ibabaw ng mga dating bayan ng pagmimina ng ginto at tanso sa Benguet. Ang mga tindahan ng souvenir ay nakapila sa daanan ng pagpasok, at ang mga bisita ay maaaring subukan ang tradisyunal na hinabing kasuotan ng Cordillera para sa mga larawan."
+      },
+      {
+        "icon": "park",
+        "name": "Burnham Park",
+        "distance": "Mga 20–30 minutong lakad / maikling sakay ng jeepney",
+        "desc": "Ang gitnang parkeng urban ng Baguio, na ipinangalan sa tagaplano ng lungsod na si Daniel H. Burnham. Nagtatampok ito ng lawa ng bangka, hardin ng rosas, skating rink, orchidarium at mga pangkat ng piknik sa publiko — ang pinakamadaling luntiang lugar kung nananatili ka sa lugar ng Session Road."
+      },
+      {
+        "icon": "star",
+        "name": "Camp John Hay",
+        "distance": "Mga 10 minuto sa pamamagitan ng sasakyan o taksi",
+        "desc": "Isang dating pasilidad ng pahinga at paglilibang ng militar na Amerikano na ngayon ay binuo bilang isang pinagsamang ari-arian ng paglilibang, na may mga landas ng paglalakad na may mga pino, mga hotel, restawran, isang eco-trail at ang makasaysayang museo ng Bell House."
+      },
+      {
+        "icon": "shop",
+        "name": "Session Road at Central Market",
+        "distance": "Mga 15–25 minutong lakad / maikling sakay ng jeepney",
+        "desc": "Ang makasaysayang pangunahing kalye ng Baguio, na may mga café, tindahan ng libro, tindahan ng damit at ang Katedral sa itaas na dulo nito. Ang kalapit na Maharlika (Pampublikong) Palengke ay nagbebenta ng sariwang gulay ng Benguet, mga pinutol na bulaklak, butil ng kape at mga lokal na handicraft sa mga presyong hindi panturista."
+      }
+    ],
+    "route": {
+      "title": "Buong Araw na Ruta ng Kabundukan ng Baguio",
+      "intro": "Isang nakakaaliw na isang araw na itinerary na nagsisimula sa Wright Park at sumasaklaw sa pinakakilalang mga makasaysayang at likas na lugar ng gitnang Baguio, mainam para sa mga unang beses na bibisita na may limitadong oras.",
+      "steps": [
+        { "place": "Wright Park (07:30)", "note": "Maglakad sa promenad ng Luneta ng mga Pino sa gitna ng hamog; kape o mainit na tsokolate mula sa isang kalapit na café pagkatapos.", "time": "~1 oras" },
+        { "place": "The Mansion at Museo", "note": "Tumawid ng kalsada upang bisitahin ang mga bakuran, kunan ng larawan ang pangunahing tarangkahan at, kung bukas, libutin ang maliit na museo sa loob.", "time": "~45 min" },
+        { "place": "Botanical Garden", "note": "Maglakad paakyat sa mga hagdan-hagdan na hardin at eksibit ng dampa ng Cordillera, aalis sa hilagang labasan patungong Mines View.", "time": "~1 oras" },
+        { "place": "Mines View Park", "note": "Tamasahin ang malawak na tanawin, pagkatapos ay maglakad pababa sa linya ng souvenir at huminto para sa inihaw na mais o strawberry taho.", "time": "~45 min" },
+        { "place": "Tanghalian sa lokal na restawran", "note": "Pumili ng uri ng restawran sa lugar ng Mines View o Session Road — ang pinakbet, dinengdeng, bagnet at mga panghimagas na may temang strawberry ay mga rehiyonal na espesyalidad.", "time": "~1 oras" },
+        { "place": "Good Shepherd / pagbili ng pasalubong", "note": "Maglakad o sumakay patungo sa lugar ng kumbento para sa ube jam, strawberry jam, peanut brittle at iba pang pasalubong (mga regalong pauwi).", "time": "~45 min" },
+        { "place": "Burnham Park at Session Road (huling bahagi ng hapon)", "note": "Umupa ng bangka sa lagoon ng Burnham, libutin ang hardin ng rosas, pagkatapos ay maglakad sa Session Road para sa hapunan at huling kape bago bumalik.", "time": "~2 oras" }
+      ],
+      "note": "Ang mga oras ay kinabibilangan ng paglalakad sa pagitan ng mga lugar ngunit hindi kasama ang mahabang pamimili. Ayusin ayon sa panahon, sa iyong sariling bilis at sa mga tao ng Panagbenga o pista. Magdala ng magaan na dyaket at payong sa buong taon."
+    }
+  },
+  "gallery": {
+    "eyebrow": "Galerya",
+    "title": "Mga Sandali sa Wright Park",
+    "subtitle": "Ang Luneta ng mga Pino, ang kagubatan ng pino, ang landas ng kabayo at ang natatanging liwanag ng kabundukan ng Baguio. Lahat ng larawan ay ginagamit lamang para sa sanggunian at nananatiling karapatang-ari ng kanilang mga orihinal na litratista.",
+    "viewMaps": "Tingnan ang Wright Park sa Google Maps",
+    "creditNote": "Lahat ng larawan © ng kanilang mga orihinal na litratista. Nakaugnay lamang para sa sanggunian at pang-edukasyon na paglalarawan.",
+    "photos": [
+      { "file": "wright-park-1.jpg", "alt": "Ang Luneta ng mga Pino na may linya ng mga matatandang punong pino ng Benguet sa Wright Park, Baguio", "caption": "Ang Luneta ng mga Pino sa bukang-liwayway" },
+      { "file": "wright-park-2.jpg", "alt": "Ang hamog na dumadaloy sa kagubatan ng pino ng Wright Park sa malamig na panahon", "caption": "Maulang na umaga sa gitna ng mga pino" },
+      { "file": "wright-park-3.jpg", "alt": "Ang mga nakasakay sa kabayo at kanilang gabay sa landas ng pagsakay ng Wright Park", "caption": "Ang landas ng kabayo at pagsakay sa pony" },
+      { "file": "wright-park-4.jpg", "alt": "Ang pangunahing promenad na may mga upuang kahoy at punong pino sa Wright Park", "caption": "Pangunahing promenad sa kahabaan ng lawa" },
+      { "file": "wright-park-5.jpg", "alt": "Nakasentro na tanawin ng tarangkahan ng The Mansion mula sa tapat ng Leonard Wood Road", "caption": "Ang The Mansion sa tapat ng parke" },
+      { "file": "wright-park-6.jpg", "alt": "Ang lugar ng piknik kasama ang mga pamilyang nagpapahinga sa ilalim ng bubong ng pino", "caption": "Mga lugar ng piknik at lilim ng pino" },
+      { "file": "wright-park-7.jpg", "alt": "Ang liwanag ng gintong oras na naghahagis ng mahabang anino sa Luneta ng mga Pino", "caption": "Gintong oras sa ibabaw ng Luneta ng mga Pino" },
+      { "file": "wright-park-8.jpg", "alt": "Ang mga liryo sa tubig at isdang koi sa Luneta ng mga Pino sa panahon ng tag-ulan", "caption": "Mga liryo sa tubig sa panahon ng tag-ulan" },
+      { "file": "wright-park-9.jpg", "alt": "Ang mga hagdan-hagdan ng Baguio Botanical Garden, maikling lakad mula sa Wright Park", "caption": "Mga kalapit na hagdan ng Botanical Garden" },
+      { "file": "wright-park-10.jpg", "alt": "Ang deck ng pagmamasid ng Mines View Park na nakatingin sa mga bundok ng Benguet", "caption": "Malawak na tanawin ng Mines View Park" },
+      { "file": "wright-park-11.jpg", "alt": "Ang mga float ng Panagbenga Flower Festival sa Session Road sa Baguio", "caption": "Panahon ng Panagbenga sa lungsod" },
+      { "file": "wright-park-12.jpg", "alt": "Tanawin mula sa himpapawid ng Lungsod ng Baguio na nagpapakita ng talampas na puno ng pino sa paligid ng Wright Park", "caption": "Ang Baguio, ang Lungsod ng mga Pino" },
+      { "file": "wright-park-13.jpg", "alt": "Tradisyunal na dampa ng Ifugao sa Baguio Botanical Garden malapit sa Wright Park", "caption": "Mga pagpapakita ng pamana ng Cordillera sa malapit" },
+      { "file": "wright-park-14.jpg", "alt": "Mga bunga at karayom ng pino ng Baguio na nakolekta sa kahabaan ng landas ng kagubatan ng Wright Park", "caption": "Mga tekstura ng kagubatan ng pino ng Benguet" },
+      { "file": "wright-park-15.jpg", "alt": "Jam ng strawberry, ube halaya at peanut brittle, ang klasikong pasalubong ng Baguio", "caption": "Mga pagkaing pasalubong mula sa Cordillera" },
+      { "file": "wright-park-16.jpg", "alt": "Mga hinabing telang Igorot at alahas na pilak sa pampublikong palengke ng Baguio", "caption": "Mga lokal na handicraft at paghahabi" },
+      { "file": "wright-park-17.jpg", "alt": "Katedral ng Baguio at tanawin ng Session Road na tinitingnan mula sa gilid ng burol", "caption": "Tanawin at skyline ng lungsod ng Baguio" },
+      { "file": "wright-park-18.jpg", "alt": "Tradisyunal na seremonya ng mga Ibaloi kasama ang tapuy na alak ng bigas, isang sulyap sa kultura ng Cordillera", "caption": "Pamanang pangkultura ng mga Cordillera" }
+    ]
+  },
+  "footer": {
+    "siteName": "Gabay sa Wright Park",
+    "tagline": "Independiyenteng impormasyon ng bisita na hindi pang-komersyal",
+    "rights": "Isang independiyenteng proyekto ng impormasyon ng bisita na hindi pang-komersyal. Walang kaugnayan sa anumang ahensya ng gobyerno o opisyal na organisasyon. Walang mga komersyal na rekomendasyon ang nilalaman nito.",
+    "missionTitle": "Tungkol sa site na ito",
+    "missionText": "Ito ay isang independiyenteng, hindi pang-komersyal na proyekto ng impormasyon ng bisita na walang kaugnayan sa anumang katawan ng gobyerno o opisyal na organisasyon. Ang impormasyon ng atraksyon ay sinuri laban sa mga pampublikong sanggunian mula sa Lungsod ng Baguio, Opisina ng Turismo ng Lungsod ng Baguio at Kagawaran ng Turismo ng Pilipinas. Wala itong mga komersyal na rekomendasyon, bayad na ranggo o itinataguyod na promosyon.",
+    "exploreTitle": "Galugarin",
+    "resourcesTitle": "Mga Pampublikong Sanggunian",
+    "resources": [
+      { "label": "Lungsod ng Baguio", "url": "https://www.baguio.gov.ph" },
+      { "label": "Opisina ng Turismo ng Lungsod ng Baguio", "url": "https://www.baguio.gov.ph/tourism" },
+      { "label": "Kagawaran ng Turismo ng Pilipinas", "url": "https://www.tourism.gov.ph" }
+    ],
+    "visitTitle": "Bisitahin",
+    "addressLabel": "Tirahan",
+    "addressValue": "Leonard Wood Road, Lungsod ng Baguio, Benguet, Pilipinas",
+    "mapsLabel": "Buksan sa Google Maps",
+    "disclaimer": "Lahat ng larawang ipinapakita ay pagmamay-ari at may karapatang-ari ng kanilang mga orihinal na litratista. Kung may anumang isyu sa karapatang-ari na lumitaw, mangyaring makipag-ugnayan sa tagapangasiwa ng site at ang materyal ay susuriin o aalisin agad.",
+    "privacy": "Patakaran sa Privacy",
+    "terms": "Mga Tuntunin ng Serbisyo",
+    "cookie": "Mga Setting ng Cookie"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Patakaran sa Privacy",
+      "lastUpdated": "Huling na-update: Agosto 2026",
+      "sections": [
+        {
+          "h": "Impormasyong kinokolekta namin",
+          "p": "Kinokolekta lamang namin ang pinakamababang datos na kinakailangan upang patakbuhin ang website na ito at pagbutihin ang iyong karanasan sa pagba-browse. Maaari itong magsama ng:",
+          "li": [
+            "Pangunahing datos ng pagba-browse gaya ng IP address, uri ng browser, mga pahinang tumukoy at mga pahinang binisita, na kinokolekta sa pinagsama-samang anyo ng mga karaniwang tool ng web-server at analytics",
+            "Mga cookie at katulad na teknolohiya ng lokal na imbakan na ginagamit upang alalahanin ang iyong kagustuhan sa wika at, kung pinayagan, upang mangolekta ng mga hindi nagpapakilalang istatistika ng paggamit",
+            "Anumang impormasyong kusang ibinibigay mo kapag nakikipag-ugnayan sa tagapangasiwa ng site, gaya ng email address o isinumiteng mensahe"
+          ]
+        },
+        {
+          "h": "Paano namin ginagamit ang iyong impormasyon",
+          "p": "Ang nakolektang impormasyon ay ginagamit para sa mga sumusunod na limitadong layunin:",
+          "li": [
+            "Upang mapanatili at pagbutihin ang nilalaman, layout at maramihang wika na pag-navigate ng website",
+            "Upang suriin ang pinagsama-samang mga pattern ng trapiko upang maunawaan namin kung aling mga pahina at seksyon ang pinakamahalaga sa mga bisita",
+            "Upang tumugon sa mga lehitimong tanong na isinumite sa pamamagitan ng mga channel ng pakikipag-ugnayan",
+            "Upang sumunod sa mga naaangkop na legal na obligasyon at upang maiwasan ang pag-abuso sa imprastraktura ng website"
+          ]
+        },
+        {
+          "h": "Mga serbisyo ng third-party",
+          "p": "Ang website na ito ay maaaring mag-embed ng mga serbisyo ng third-party kabilang ang Google Maps (para sa mga mapa ng lokasyon at naka-embed na widget ng mapa), Google Analytics o katulad na serbisyo ng analytics na may kamalayan sa privacy, at mga static na platform ng pagho-host ng larawan. Ang bawat isa sa mga serbisyong ito ay nagpapatakbo sa ilalim ng sarili nitong patakaran sa privacy at independiyente sa proyektong ito. Inirerekomenda naming suriin ang mga patakaran sa privacy ng Google LLC at anumang naka-embed na serbisyo para sa mas detalyadong impormasyon tungkol sa kanilang mga gawi."
+        },
+        {
+          "h": "Mga cookie at lokal na imbakan",
+          "p": "Gumagamit kami ng mga cookie lamang kung kinakailangan para sa pangunahing paggana (gaya ng pag-alala sa iyong kagustuhan sa wika) at, sa iyong pahintulot, para sa analytics. Maaari mong baguhin o bawiin ang iyong mga kagustuhan anumang oras gamit ang pahina ng Mga Setting ng Cookie na naka-link sa footer ng bawat pahina. Ang pag-off sa mga hindi mahahalagang cookie ay hindi pipigil sa karaniwang paggamit ng site.",
+          "li": []
+        },
+        {
+          "h": "Pagpapanatili ng datos",
+          "p": "Ang pinagsama-samang datos ng log ay pinapanatili lamang sa maikling panahon, karaniwang sa pagitan ng isa at tatlong buwan, pagkatapos nito ay maaari itong ganap na gawing hindi nagpapakilala o tanggalin. Anumang personal na pakikipag-ugnayan na ipinadala sa tagapangasiwa ng site ay pinapanatili lamang hangga't makatwirang kinakailangan upang tumugon sa tanong at upang mapanatili ang talaan ng komunikasyon para sa mga layunin ng pananagutan.",
+          "li": []
+        },
+        {
+          "h": "Ang iyong mga karapatan",
+          "p": "Kung saan ang mga naaangkop na batas gaya ng EU General Data Protection Regulation (GDPR), ang Philippine Data Privacy Act of 2012 (Republic Act No. 10173) at katulad na rehiyonal na batas ay nagbibigay sa iyo ng mga karapatan sa personal na datos, maaari mong:",
+          "li": [
+            "Humiling ng pag-access sa anumang personal na datos na maaaring hawak tungkol sa iyo",
+            "Humiling ng pagwawasto sa hindi kumpleto o hindi tumpak na datos",
+            "Humiling ng pagtanggal ng personal na datos, na napapailalim sa anumang legal na obligasyon sa pagpapanatili",
+            "Tutol o limitahan ang ilang uri ng pagproseso",
+            "Magsumite ng reklamo sa isang awtoridad na nangangasiwa kung naniniwala kang nilabag ang iyong mga karapatan"
+          ]
+        },
+        {
+          "h": "Privacy ng mga bata",
+          "p": "Ang website na ito ay idinisenyo para sa pangkalahatang madla at hindi sinasadyang nangongolekta ng personal na impormasyon mula sa mga batang wala pang labintatlong taong gulang nang walang napatunayang pahintulot ng magulang o tagapangalaga. Kung naniniwala kang ang impormasyon mula sa isang bata ay nakolekta nang hindi nararapat, mangyaring makipag-ugnayan sa tagapangasiwa at ang materyal ay aalisin agad.",
+          "li": []
+        },
+        {
+          "h": "Mga pagbabago sa patakarang ito",
+          "p": "Ang Patakaran sa Privacy na ito ay maaaring baguhin paminsan-minsan habang nagbabago ang website o habang naglalapat ng mga bagong legal na kinakailangan. Ang petsa ng pinakahuling pag-update ay laging ipinapakita sa itaas ng pahina, at ang mga materyal na pagbabago ay malinaw na ipapahiwatig.",
+          "li": []
+        },
+        {
+          "h": "Pakikipag-ugnayan",
+          "p": "Para sa mga tanong na may kaugnayan sa privacy, o upang gamitin ang alinman sa mga karapatang nakalista sa itaas, mangyaring makipag-ugnayan sa tagapangasiwa ng site gamit ang paraan ng pakikipag-ugnayan na inilathala sa footer ng pangunahing site. Sinisikap naming tumugon sa mga lehitimong kahilingan sa loob ng makatwirang panahon, karaniwang hindi lalampas sa tatlumpung araw ng kalendaryo.",
+          "li": []
+        }
+      ]
+    },
+    "terms": {
+      "title": "Mga Tuntunin ng Serbisyo",
+      "lastUpdated": "Huling na-update: Agosto 2026",
+      "sections": [
+        {
+          "h": "Pagtanggap sa mga tuntunin",
+          "p": "Sa pamamagitan ng pag-access at paggamit ng website na ito, kinikilala mo na nabasa mo, nauunawaan at sumang-ayon na itali ka sa mga Tuntunin ng Serbisyong ito. Kung hindi ka sumasang-ayon sa anumang bahagi ng mga tuntuning ito, dapat mong ihinto agad ang paggamit ng site."
+        },
+        {
+          "h": "Kalikasan ng website",
+          "p": "Ito ay isang independiyenteng, hindi pang-komersyal, third-party na proyekto ng impormasyon ng bisita. HINDI ito kaugnay ng Lungsod ng Baguio, Opisina ng Turismo ng Lungsod ng Baguio, Kagawaran ng Turismo ng Pilipinas, pamamahala ng Wright Park, Opisina ng Pangulo ng Pilipinas o anumang iba pang katawan ng gobyerno o komersyal. Lahat ng impormasyon ay ibinibigay lamang para sa pangkalahatang layuning pang-edukasyon at sanggunian."
+        },
+        {
+          "h": "Katumpakan at pagiging bago ng impormasyon",
+          "p": "Ang bawat makatwirang pagsisikap ay ginagawa upang panatilihing tumpak at napapanahon ang nilalaman sa site na ito. Gayunpaman, ang mga bayad sa pagpasok, oras ng pagpapatakbo, mga ruta ng transportasyon, mga patakaran ng gobyerno at lokal na mga regulasyon ay regular na nagbabago, at ang mga pagkakamali o pagkukulang ay maaaring mangyari sa kabila ng aming pinakamahusay na pagsisikap. Ito ang iyong responsibilidad na kumpirmahin ang kritikal na impormasyon — kabilang ngunit hindi limitado sa oras ng pagbubukas, presyo ng tiket, kondisyon ng kalsada, mga babala sa panahon at mga kinakailangan sa kalusugan — sa mga opisyal na operator bago maglakbay."
+        },
+        {
+          "h": "Walang komersyal na rekomendasyon",
+          "p": "Alinsunod sa hindi pang-komersyal na misyon ng proyektong ito, walang restawran, hotel, operator ng paglilibot, kumpanya ng transportasyon o iba pang komersyal na establisyimento ang partikular na inirerekomenda. Lahat ng sanggunian sa mga produkto at serbisyo ay inilalarawan lamang ayon sa uri (halimbawa: 'mga istasyon ng gasolina', 'mid-range na hotel', 'mga lokal na restawran'). Anumang pagkakahawig sa isang tunay na pinangalanang lugar ay hindi sinasadya at hindi bumubuo ng bayad na pag-endorso o pagtataguyod."
+        },
+        {
+          "h": "Pagmamay-ari ng intelektwal na ari-arian",
+          "p": "Ang orihinal na editoryal na teksto, layout ng pahina at disenyo ng website na ito ang intelektwal na ari-arian ng pangkat ng proyekto maliban kung kung hindi man nabanggit. Ang mga larawan ay karapatang-ari ng kani-kanilang mga orihinal na litratista at ginagamit sa site na ito alinman sa pahintulot, sa ilalim ng bukas na lisensya o bilang patas na paggamit na pang-edukasyon na paglalarawan. Kung naniniwala kang ang iyong may karapatang-ari na materyal ay ginamit nang walang wastong pahintulot, mangyaring makipag-ugnayan sa tagapangasiwa upang ang usapin ay masuri agad at, kung kinakailangan, ang nilalaman ay alisin."
+        },
+        {
+          "h": "Paggamit ng Google Maps at nilalaman ng third-party",
+          "p": "Ang datos ng mapa, mga naka-embed na widget ng mapa at mga link ng lokasyon sa site na ito ay ibinibigay ng Google Maps sa ilalim ng mga Tuntunin ng Serbisyo at Patakaran sa Privacy ng Google. Ang iyong paggamit sa mga naka-embed na widget na ito ay napapailalim sa mga tuntunin ng Google bilang karagdagan sa mga Tuntunin ng Serbisyong ito."
+        },
+        {
+          "h": "Mga ipinagbabawal na paggamit",
+          "p": "Sumasang-ayon kang huwag gamitin ang website na ito o ang nilalaman nito para sa alinman sa mga sumusunod na layunin:",
+          "li": [
+            "Upang i-scrape, anihin o muling ilathala ang malalaking bahagi ng nilalaman sa ibang website, sa isang komersyal na publikasyon o sa isang generative-AI training set nang walang naunang nakasulat na pahintulot",
+            "Upang maling ipakita ang pinagmulan ng nilalaman o angkinin ang pagiging may-akda ng materyal na isinulat ng iba",
+            "Upang gamitin ang site upang magpadala ng malware, phishing na materyal, spam o anumang anyo ng ilegal na komunikasyon",
+            "Upang gamitin ang anumang awtomatikong tool upang maglagay ng labis na karga sa imprastraktura ng pagho-host o subukang lampasan ang mga kontrol sa pag-access"
+          ]
+        },
+        {
+          "h": "Limitasyon ng pananagutan",
+          "p": "Ang website na ito ay ibinibigay sa batayan na 'kung ano ang narito' at 'kung available', nang walang anumang mga garantiya, maaaring hayag o ipinahiwatig, kabilang ang ngunit hindi limitado sa mga ipinahiwatig na garantiya ng kakayahang ibenta, kagustuhan para sa isang partikular na layunin at hindi paglabag. Sa anumang pagkakataon ang pangkat ng proyekto, ang mga boluntaryo nito o ang mga provider ng pagho-host nito ay mananagot para sa anumang direkta, hindi direkta, hindi sinasadya, espesyal, bunga o maparusang pinsala na nagmumula sa o sa anumang paraan na may kaugnayan sa paggamit ng website na ito, kabilang ang mga desisyon sa paglalakbay, pag-book, mga itinerary, aksidente o pagkalugi na natamo habang bumibisita sa Wright Park o Lungsod ng Baguio."
+        },
+        {
+          "h": "Pagbayad-pinsala",
+          "p": "Sumasang-ayon kang bayaran at panatilihing walang pananagutan ang pangkat ng proyekto, ang mga nag-ambag nito at ang mga provider ng serbisyo nito mula sa anumang paghahabol o hiling, kabilang ang makatwirang bayad sa abogado, na ginawa ng sinumang third-party dahil sa o nagmumula sa iyong paggamit ng website, ang iyong paglabag sa mga Tuntunin ng Serbisyong ito, o ang iyong paglabag sa anumang karapatan ng ibang tao o ligal na entidad."
+        },
+        {
+          "h": "Maangkop na batas at mga pagtatalo",
+          "p": "Ang mga Tuntunin ng Serbisyong ito ay mapapamahalaan at bibigyang-kahulugan alinsunod sa mga batas ng Republika ng Pilipinas, nang walang pagsasaalang-alang sa mga prinsipyo nito ng tunggalian ng batas. Anumang pagtatalo na nagmumula sa mga tuntuning ito ay, kung maaari, munang lutasin sa pamamagitan ng mabuting pakikipagkasundo, at kung hindi, isusumite sa eksklusibong hurisdiksyon ng mga may kakayahang hukuman ng Lungsod ng Baguio, Pilipinas."
+        },
+        {
+          "h": "Mga pagbabago",
+          "p": "Ang pangkat ng proyekto ay naglalaan ng karapatang baguhin ang mga Tuntunin ng Serbisyong ito anumang oras nang walang paunang abiso, na epektibo agad pagkatapos i-post sa pahinang ito. Ang petsa ng pinakahuling pag-update ay laging ipinapakita sa itaas ng patakaran. Ang patuloy na paggamit ng website pagkatapos ng pag-post ng pagbabago ay bumubuo ng iyong pagtanggap sa binagong mga tuntunin."
+        }
+      ]
+    },
+    "cookie": {
+      "title": "Mga Setting ng Cookie",
+      "lastUpdated": "Huling na-update: Agosto 2026",
+      "sections": [
+        {
+          "h": "Tungkol sa mga cookie sa site na ito",
+          "p": "Gumagamit kami ng mga cookie at katulad na magagaan na teknolohiya ng imbakan upang pagbutihin ang iyong karanasan at upang maunawaan, sa pinagsama-samang anyo, kung paano ginagamit ng mga bisita ang site. Maaari mong i-configure at i-save ang iyong mga kagustuhan sa ibaba. Ang pag-refresh ng pahinang ito ay muling maglo-load ng iyong kasalukuyang mga setting mula sa browser. Para sa mas buong paliwanag kung paano ginagamit ang datos, mangyaring tingnan ang buong Patakaran sa Privacy."
+        },
+        {
+          "h": "Mga mahahalagang cookie",
+          "p": "Ang mga cookie na ito ay mahigpit na kinakailangan para sa pangunahing paggana ng website at hindi maaaring i-off. Ginagamit lamang ang mga ito upang alalahanin ang iyong kagustuhan sa wika (Tagalog o Ingles) at mga pangunahing setting ng kakayahang maabot. Walang personal na impormasyon ang nakaimbak sa mga cookie na ito lampas sa isang minimal na hindi nagpapakilalang identifier. Kung itatakda mo ang iyong browser na harangan ang mga ito, ang ilang bahagi ng site ay maaaring hindi maipakita nang tama.",
+          "cookies": [
+            { "name": "Kagustuhan sa wika", "desc": "Naaalala kung tinitingnan mo ang site sa Tagalog o Ingles.", "active": true, "onLabel": "Aktibo (kinakailangan)", "offLabel": "Hindi Aktibo" },
+            { "name": "Estado ng sesyon", "desc": "Nagpapanatili ng pagpapatuloy sa pagitan ng mga pag-load ng pahina at pinipigilan ang sirang pag-navigate.", "active": true, "onLabel": "Aktibo (kinakailangan)", "offLabel": "Hindi Aktibo" }
+          ]
+        },
+        {
+          "h": "Mga cookie ng analytics",
+          "p": "Sa iyong pahintulot, gumagamit kami ng mga tool ng analytics upang mangolekta ng pinagsama-sama at ganap na hindi nagpapakilalang impormasyon tungkol sa kung paano nakikipag-ugnayan ang mga bisita sa website — halimbawa, kung aling mga pahina ang pinakabinibisita, kung anong mga wika ng browser ang ginagamit at ang magaspang na rehiyonal na distribusyon ng mga bisita. Ang datos na ito ay tumutulong sa amin na pagbutihin ang kalidad ng nilalaman at ayusin ang mga sirang link. Walang personal na impormasyong nagpapakilala sa sinuman ang sadyang iniimbak.",
+          "cookies": [
+            { "name": "Analytics ng paggamit ng site", "desc": "Nangongolekta ng mga anonymous na datos ng page-view at pakikipag-ugnayan para sa mga ulat ng web-analytics.", "active": true, "onLabel": "Aktibo", "offLabel": "Hindi Aktibo" },
+            { "name": "Pagsusuri ng pagganap", "desc": "Tumutulong na makita ang mga problema sa paglo-load ng pahina at pag-render sa iba't ibang device.", "active": true, "onLabel": "Aktibo", "offLabel": "Hindi Aktibo" }
+          ]
+        },
+        {
+          "h": "Mga cookie ng kagustuhan",
+          "p": "Ang mga opsyonal na cookie ng kagustuhan ay nagpapahintulot sa website na alalahanin ang maliliit na setting ng kakayahang magamit sa pagitan ng mga pagbisita, gaya ng high-contrast mode (kapag naipatupad) at kung nakita mo na o isinara mo na ang isang hindi kritikal na banner ng impormasyon. Ang pag-off sa mga ito ay nangangahulugan lamang na ang mga setting ay hindi mananatili sa pagitan ng mga sesyon.",
+          "cookies": [
+            { "name": "Mga kagustuhan sa UI", "desc": "Nag-iimbak ng mga kagustuhan sa pagpapakita gaya ng tema o estado ng pag-dismiss ng banner.", "active": true, "onLabel": "Aktibo", "offLabel": "Hindi Aktibo" },
+            { "name": "Mga setting ng kakayahang maabot", "desc": "Nagse-save ng anumang toggle na may kaugnayan sa accessibility na maaari mong i-enable.", "active": true, "onLabel": "Aktibo", "offLabel": "Hindi Aktibo" }
+          ]
+        },
+        {
+          "h": "Mga cookie ng marketing",
+          "p": "Ito ay isang independiyenteng proyekto na hindi pang-komersyal at hindi gumagamit ng mga network ng advertising, behavioural ad targeting o mga cookie ng marketing. Ang kategorya sa ibaba ay pinapanatili para sa transparency at naka-off bilang default. Mananatili itong hindi aktibo maliban kung isang hinaharap, malinaw na naabisuhan na pagbabago sa patakaran ng website ay magpapakilala ng anumang ganitong functionality.",
+          "cookies": [
+            { "name": "Third-party na advertising", "desc": "Hindi ginagamit sa site na ito — pinapanatili para sa transparency at paghahanda sa hinaharap.", "active": false, "onLabel": "Aktibo", "offLabel": "Hindi Aktibo (default)" },
+            { "name": "Pagsubaybay sa social media", "desc": "Hindi ginagamit sa site na ito — pinapanatili para sa transparency at paghahanda sa hinaharap.", "active": false, "onLabel": "Aktibo", "offLabel": "Hindi Aktibo (default)" }
+          ]
+        },
+        {
+          "h": "Pamamahala ng mga cookie sa iyong browser",
+          "p": "Bilang karagdagan sa mga kontrol sa pahinang ito, karaniwan mong maaaring i-configure ang mga cookie nang direkta sa mga setting ng iyong browser. Karamihan sa mga makabagong browser ay nagpapahintulot sa iyo na harangan ang mga third-party cookie, tanggalin ang mga kasalukuyang cookie at magtakda ng detalyadong panuntunan sa bawat site. Mangyaring sumangguni sa help center ng iyong browser para sa mga tagubilin na partikular sa bersyong ginagamit mo. Tandaan na ang pagtanggal ng lahat ng cookie mula sa iyong browser ay mag-aalis din ng mahahalagang cookie ng kagustuhan sa wika, at ang site ay babalik sa Ingles sa iyong susunod na pagbisita hanggang sa muling kang lumipat ng wika.",
+          "cookies": []
+        },
+        {
+          "h": "Pamamahala ng pahintulot",
+          "p": "Maaari kang bumalik sa pahina ng Mga Setting ng Cookie anumang oras sa pamamagitan ng link sa footer, suriin ang iyong mga kagustuhan, at mag-save ng bagong pinili. Ang pag-off sa mga hindi mahahalagang cookie ay maaaring bahagyang bawasan ang aming kakayahang makakita ng mga sirang pahina at tanyag na nilalaman, ngunit hindi nito materyal na maapektuhan ang pangunahing karanasan ng paggamit ng website.",
+          "actions": [
+            { "label": "I-save ang mga kagustuhan", "primary": true },
+            { "label": "Tanggapin ang lahat ng inirerekomenda", "primary": false },
+            { "label": "Tanggihan ang lahat ng hindi mahalaga", "primary": false }
+          ]
+        }
+      ]
+    }
+  }
+}

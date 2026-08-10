@@ -1,0 +1,40 @@
+---
+import Icon from './Icon.astro';
+
+interface Props {
+  lang: string;
+  messages: any;
+}
+const { messages } = Astro.props;
+const arch = messages.architecture;
+const items = arch.items ?? [];
+---
+
+<section id="architecture" class="scroll-mt-20 bg-sand/60 py-16 md:py-24">
+  <div class="mx-auto max-w-6xl px-4">
+    <p class="section-eyebrow">{arch.eyebrow}</p>
+    <h2 class="mt-2 font-serif text-3xl font-bold text-green-deep md:text-4xl">{arch.title}</h2>
+    <p class="mt-3 max-w-2xl text-charcoal/70">{arch.subtitle}</p>
+
+    <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        items.map((it: any) => (
+          <article class="glass-card overflow-hidden rounded-2xl">
+            <div class="flex items-center gap-3 bg-green-deep/5 px-5 py-4">
+              <span class="rounded-full bg-gold/20 p-2 text-gold-deep">
+                <Icon name={it.icon ?? 'building'} class="w-6 h-6" />
+              </span>
+              <h3 class="font-serif text-lg font-semibold text-green-deep">{it.name}</h3>
+            </div>
+            <div class="px-5 py-4">
+              <p class="text-xs uppercase tracking-wide text-charcoal/50">{it.tagalog ?? it.khmer}</p>
+              <p class="mt-2 text-sm leading-relaxed text-charcoal/75">{it.desc}</p>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+
+    <p class="mt-6 text-xs leading-relaxed text-charcoal/55">{arch.note}</p>
+  </div>
+</section>

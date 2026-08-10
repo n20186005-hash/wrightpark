@@ -1,0 +1,70 @@
+---
+import Icon from './Icon.astro';
+import { mapsUrl } from '../config';
+
+interface Props {
+  lang: string;
+  messages: any;
+}
+const { messages } = Astro.props;
+const hero = messages.hero;
+const facts = hero.facts ?? [];
+---
+
+<section class="relative overflow-hidden">
+  <div class="absolute inset-0">
+    <img
+      src="/gallery/wright-park-1.jpg"
+      alt={hero.heroAlt}
+      class="h-full w-full object-cover"
+      fetchpriority="high"
+    />
+    <div class="absolute inset-0 bg-gradient-to-b from-green-deep/80 via-green-deep/55 to-charcoal/80"></div>
+  </div>
+
+  <div class="relative mx-auto max-w-6xl px-4 py-24 md:py-32">
+    <div class="max-w-2xl text-white">
+      <p class="mb-3 text-sm font-medium tracking-wide text-gold">{hero.localName}</p>
+      <h1 class="font-serif text-4xl font-bold leading-tight md:text-6xl">{hero.title}</h1>
+      <p class="mt-5 text-base leading-relaxed text-white/90 md:text-lg">{hero.subtitle}</p>
+
+      <div class="mt-6 flex items-center gap-4 text-sm">
+        <span class="inline-flex items-center gap-1 rounded-full bg-white/15 px-3 py-1.5 backdrop-blur">
+          <Icon name="star" class="w-4 h-4 text-gold" />
+          <strong>{hero.rating}</strong>/5
+        </span>
+        <span class="text-white/85">{hero.reviews} {hero.reviewsSuffix}</span>
+      </div>
+
+      <div class="mt-7 flex flex-wrap gap-3">
+        <a
+          href={mapsUrl}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-2 rounded-full bg-gold px-6 py-3 font-semibold text-charcoal shadow-lg transition hover:bg-gold-deep hover:text-white"
+        >
+          <Icon name="map" class="w-5 h-5" />
+          {hero.ctaMaps}
+        </a>
+        <a
+          href={`#intro`}
+          class="inline-flex items-center gap-2 rounded-full border border-white/40 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
+        >
+          <Icon name="arrow" class="w-5 h-5" />
+          {hero.ctaExplore}
+        </a>
+      </div>
+
+      <dl class="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        {
+          facts.map((f: any) => (
+            <div class="glass-card rounded-xl px-3 py-3 text-center">
+              <dt class="text-[0.7rem] uppercase tracking-wide text-charcoal/60">{f.k}</dt>
+              <dd class="mt-1 text-sm font-semibold text-green-deep">{f.v}</dd>
+            </div>
+          ))
+        }
+      </dl>
+    </div>
+  </div>
+</section>

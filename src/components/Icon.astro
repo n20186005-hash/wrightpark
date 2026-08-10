@@ -1,0 +1,65 @@
+---
+interface Props {
+  name: string;
+  class?: string;
+  size?: number;
+}
+const { name, class: className = 'w-6 h-6', size = 24 } = Astro.props;
+
+const paths: Record<string, string> = {
+  park: '<path d="M12 3C9.5 6 9 8 12 10c3-2 3.5-4 0-7z"/><path d="M12 10c-2.5 1.2-3.5 4-1 8 .8-3 1-5 1-8zm0 0c2.5 1.2 3.5 4 1 8-.8-3-1-5-1-8z"/>',
+  tree: '<path d="M12 2 6 11h3l-4 6h5v5h4v-5h5l-4-6h3z"/>',
+  pin: '<path d="M12 21s7-6.4 7-11a7 7 0 1 0-14 0c0 4.6 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/>',
+  star: '<path d="M12 3l2.7 5.9 6.3.7-4.7 4.3 1.3 6.2L12 17l-5.6 3.1 1.3-6.2L3 9.6l6.3-.7z"/>',
+  city: '<path d="M3 21h18"/><path d="M4 21V7l5-3v17"/><path d="M13 21V9l7-4v16"/><path d="M7 9h0M7 13h0M7 17h0M16 11h0M16 15h0"/>',
+  wc: '<circle cx="12" cy="5" r="2.4"/><path d="M9 8h6l-1.2 6H10.2z"/><path d="M8.5 21l1.8-4M15.5 21l-1.8-4"/>',
+  access: '<circle cx="10" cy="5" r="2"/><path d="M10 8v3l3 4"/><path d="M10 11h4a3 3 0 0 1 0 6"/><path d="M15 17a4 4 0 1 0 .1 0"/>',
+  parking: '<rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 16V8h3a3 3 0 0 1 0 6H9"/>',
+  food: '<path d="M5 3v8a2 2 0 0 0 4 0V3M7 11v10"/><path d="M16 3c-1.6 0-2.2 2-2.2 4s.6 4 2.2 4v9"/>',
+  hotel: '<path d="M3 21V8l9-5 9 5v13"/><path d="M3 12h18"/><path d="M7 15h3M7 18h3M14 15h3M14 18h3"/>',
+  shop: '<path d="M4 9h16l-1 11H5z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/>',
+  fuel: '<path d="M5 21V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v16"/><path d="M5 13h8"/><path d="M15 8l3 3v6a2 2 0 0 0 4 0V9l-4-4"/>',
+  bus: '<rect x="4" y="4" width="16" height="13" rx="2"/><path d="M4 11h16"/><circle cx="8" cy="20" r="1.6"/><circle cx="16" cy="20" r="1.6"/>',
+  car: '<path d="M3 14h18v3H3z"/><path d="M5 14V8l2-3h10l2 3v6"/><circle cx="7.5" cy="17.5" r="1.6"/><circle cx="16.5" cy="17.5" r="1.6"/>',
+  walk: '<circle cx="13" cy="4" r="1.8"/><path d="M13 7l-2 4 1 5M11 11l-3 1M12 16l2 4M14 20l2-3"/>',
+  plane: '<path d="M2 12l20-7-7 20-3.5-7L2 12z"/><path d="M9.5 15.5L16 9"/>',
+  taxi: '<path d="M4 13l2-5a2 2 0 0 1 2-1h8a2 2 0 0 1 2 1l2 5v6H4z"/><path d="M4 13h16"/><circle cx="8" cy="19" r="1.4"/><circle cx="16" cy="19" r="1.4"/>',
+  camera: '<path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.2"/>',
+  sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"/>',
+  view: '<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  ticket: '<path d="M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4z"/><path d="M14 6v12"/>',
+  users: '<circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M16 6.5a3 3 0 0 1 0 5.5M16.5 20a6 6 0 0 0-1.5-4"/>',
+  shield: '<path d="M12 3l7 4v6c0 4-3 6.5-7 8-4-1.5-7-4-7-8V7z"/><path d="M9 12l2 2 4-4"/>',
+  map: '<path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/>',
+  globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/>',
+  arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>',
+  chevron: '<path d="M6 9l6 6 6-6"/>',
+  menu: '<path d="M4 7h16M4 12h16M4 17h16"/>',
+  close: '<path d="M6 6l12 12M18 6L6 18"/>',
+  info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h0"/>',
+  leaf: '<path d="M5 19C5 9 12 5 19 5c0 10-7 14-14 14z"/><path d="M5 19c4-6 8-8 11-9"/>',
+  moon: '<path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"/>',
+  photo: '<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M3 17l5-4 4 3 3-2 6 5"/>',
+  building: '<path d="M3 21h18"/><path d="M5 21V5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v16"/><path d="M14 21V9h4a1 1 0 0 1 1 1v11"/><path d="M8 8h0M8 12h0M8 16h0M12 8h0M12 12h0M12 16h0"/>',
+  route: '<circle cx="6" cy="18" r="3"/><circle cx="18" cy="6" r="3"/><path d="M9 18h6a3 3 0 0 0 3-3V9"/>',
+};
+
+const inner = paths[name] ?? paths.info;
+---
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.7"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class={className}
+  aria-hidden="true"
+  focusable="false"
+  set:html={inner}
+/>

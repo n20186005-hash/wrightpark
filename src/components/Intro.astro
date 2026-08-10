@@ -1,0 +1,42 @@
+---
+interface Props {
+  lang: string;
+  messages: any;
+}
+const { messages } = Astro.props;
+const intro = messages.intro;
+const highlights = intro.highlights?.items ?? [];
+---
+
+<section id="intro" class="scroll-mt-20 bg-sand/60 py-16 md:py-24">
+  <div class="mx-auto grid max-w-6xl items-start gap-10 px-4 md:grid-cols-5">
+    <div class="md:col-span-3">
+      <p class="section-eyebrow">{intro.eyebrow}</p>
+      <h2 class="mt-2 font-serif text-3xl font-bold text-green-deep md:text-4xl">{intro.title}</h2>
+      <p class="mt-5 text-base leading-relaxed text-charcoal/80">{intro.description}</p>
+      {
+        intro.why && (
+          <div class="mt-6 rounded-2xl border-l-4 border-gold bg-sand/60 p-5">
+            <h3 class="font-serif text-lg font-semibold text-green-deep">{intro.whyTitle}</h3>
+            <p class="mt-2 text-sm leading-relaxed text-charcoal/75">{intro.why}</p>
+          </div>
+        )
+      }
+    </div>
+    <div class="md:col-span-2">
+      <div class="glass-card rounded-2xl p-6">
+        <h3 class="font-serif text-lg font-semibold text-green-deep">{intro.highlights.title}</h3>
+        <ul class="mt-4 space-y-3">
+          {
+            highlights.map((item: string) => (
+              <li class="flex items-start gap-3 text-sm text-charcoal/80">
+                <span class="mt-1 h-2 w-2 shrink-0 rounded-full bg-gold-deep"></span>
+                <span>{item}</span>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

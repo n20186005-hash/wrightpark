@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import LegalPage from '../../components/LegalPage.astro';
+import { ui } from '../../i18n/ui';
+
+export function getStaticPaths() {
+  return (['tl', 'en'] as const).map((lang) => ({
+    params: { lang },
+    props: { lang },
+  }));
+}
+
+const { lang } = Astro.props;
+const messages = ui[lang];
+---
+
+<BaseLayout lang={lang} messages={messages} path="terms-of-service">
+  <LegalPage lang={lang} messages={messages} kind="terms" />
+</BaseLayout>
