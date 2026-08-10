@@ -1,0 +1,26 @@
+# wrangler.toml — Cloudflare Workers 部署配置
+# 适用：Astro 纯静态站点（构建输出 ./dist），使用 Workers Static Assets 托管
+# 说明：本项目是静态生成（无 SSR），所以不需要 @astrojs/cloudflare 适配器，
+#       也不需要自定义 Worker 入口，直接把 dist/ 作为静态资源即可。
+
+name = "wright-park"
+
+# 可选：指定 Cloudflare 账户 ID（留空则使用当前 wrangler login 的账户）
+# account_id = "your-cloudflare-account-id"
+
+# 兼容性日期：固定为部署时的稳定版本（更新 wrangler 时可酌情前移）
+compatibility_date = "2025-07-28"
+
+# 静态资源托管：把 Astro 构建产物作为站点资源
+# directory 必须与 astro.config 的构建输出目录（dist）一致
+# 纯静态 assets-only Worker 不能再声明 asset binding，否则 wrangler deploy 会报错
+[assets]
+directory = "./dist"
+# 若日后需要 404 自定义页，取消下一行注释（需先生成 dist/404.html）
+# not_found = "./dist/404.html"
+
+# 注意：siteConfig.baseUrl / 域名的解析发生在 astro build 阶段（见 src/config.ts 的
+# resolveBaseUrl，已回退 wrightpark.org）。因此正式域名应通过「构建前」的环境变量
+# CURRENT_SITE_DOMAIN 注入，而不是这里。[vars] 只在运行时 Worker 脚本里可读，
+# 静态托管用不到，故不在此配置。
+# 构建时设置方式见 package.json 的 deploy 脚本。
