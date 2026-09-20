@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Wright Park Baguio — Complete Visitor Guide (Pool of Pines)",
-    "description": "Independent non-profit guide to Wright Park (Pool of Pines) in Baguio City, Philippines. History, legends, transport, facilities, horse riding and travel information for the City of Pines.",
-    "ogTitle": "Wright Park — Pool of Pines Visitor Guide",
-    "ogDescription": "History, folklore, transport, facilities and travel tips for Wright Park in Baguio, the Summer Capital of the Philippines."
+    "title": "Wright Park (Baguio City) - Visitor Guide & Location",
+    "description": "Discover Wright Park (Pool of Pines), the iconic landmark in Baguio City, Benguet, Philippines. View location map, opening details, nearby The Mansion, and travel tips.",
+    "ogTitle": "Wright Park - Baguio City Travel Guide",
+    "ogDescription": "Independent visitor guide to Wright Park (Pool of Pines) in Baguio City, Benguet, Philippines."
   },
   "header": {
     "siteName": "Wright Park",
@@ -20,6 +20,8 @@
     "faq": "FAQ",
     "map": "Location & Map",
     "gallery": "Gallery",
+    "reviews": "Google Reviews",
+    "sources": "Sources",
     "selectLanguage": "Language",
     "skipToContent": "Skip to main content"
   },
@@ -31,11 +33,16 @@
   },
   "hero": {
     "localName": "Luneta ng mga Pino",
-    "title": "Wright Park",
+    "title": "Wright Park (Pool of Pines)",
+    "cityLine": "Baguio City, Benguet, Philippines",
+    "breadcrumb": ["Wright Park (Pool of Pines)", "Baguio City", "Benguet", "Philippines"],
     "subtitle": "Baguio's century-old pine-clad park, home to the iconic Pool of Pines and a gateway to the Summer Capital's highland heritage.",
-    "rating": "4.6",
-    "reviews": "12,800",
-    "reviewsSuffix": "public reviews",
+    "rating": "4.4",
+    "reviews": "8,075",
+    "reviewsSuffix": "Google Maps user reviews",
+    "ratingSourcePrefix": "Rating & review count synced from Google Maps user reviews",
+    "ratingSourceDate": "September 2026",
+    "ratingSourceLink": "View all Google Maps reviews",
     "ctaMaps": "View Map",
     "ctaExplore": "Start Exploring",
     "facts": [
@@ -43,10 +50,10 @@
       { "k": "Location", "v": "Baguio City, Benguet" },
       { "k": "Elevation", "v": "~1,400 m ASL" },
       { "k": "Established", "v": "Early 1900s" },
-      { "k": "Rating", "v": "4.6 / 5" },
+      { "k": "Rating", "v": "4.4 / 5" },
       { "k": "Region", "v": "Cordillera Administrative Region" }
     ],
-    "heroAlt": "Wright Park Baguio, with the Pool of Pines reflecting towering Benguet pine trees, surrounded by rolling highland forest"
+    "heroAlt": "Wright Park (Pool of Pines) - Main view in Baguio City, Philippines"
   },
   "info": {
     "eyebrow": "At a Glance",
@@ -56,16 +63,19 @@
       { "k": "Official Name", "v": "Wright Park (Pool of Pines)", "icon": "park" },
       { "k": "Tagalog Name", "v": "Luneta ng mga Pino", "icon": "city" },
       { "k": "Type", "v": "Public Urban Forest Park", "icon": "tree" },
-      { "k": "Address", "v": "Leonard Wood Road, Baguio City", "icon": "pin" },
-      { "k": "Plus Code", "v": "6CWV+427 Baguio", "icon": "pin" },
-      { "k": "Rating", "v": "4.6 / 5 (≈12,800 reviews)", "icon": "star" },
+      { "k": "Address", "v": "The Mansion, Romulo Dr, Baguio City, Benguet", "icon": "pin" },
+      { "k": "Plus Code", "v": "CJ88+7V Baguio", "icon": "pin" },
+      { "k": "Postal Code", "v": "2600", "icon": "pin" },
+      { "k": "Rating", "v": "4.4 / 5 (≈8,075 Google Maps reviews)", "icon": "star" },
       { "k": "Altitude", "v": "Approx. 1,400 metres above sea level", "icon": "city" },
       { "k": "Province", "v": "Benguet, Cordillera Region", "icon": "park" }
     ]
   },
   "intro": {
     "eyebrow": "Introduction",
-    "title": "About Wright Park",
+    "title": "About Wright Park (Pool of Pines)",
+    "lead": "Welcome to <strong>Wright Park (Pool of Pines)</strong>, widely recognized as the central <strong>Pool of Pines</strong>. Located in the heart of <strong>Baguio City</strong>, <strong>Benguet</strong>, <strong>Philippines</strong>, this destination serves as a primary hub for travelers visiting the region.",
+    "clusterNote": "When visiting <strong>Wright Park (Pool of Pines)</strong>, visitors can easily explore surrounding historical landmarks and points of interest, including <strong>The Mansion</strong> and <strong>Baguio Botanical Garden</strong>.",
     "description": "Wright Park is a historic forested urban park in Baguio City, the summer capital of the Philippines. Perched at roughly 1,400 metres above sea level, the park is best known for its elongated reflecting pool — the Pool of Pines — framed by rows of mature Benguet pine trees (Pinus kesiya). The site lies along Leonard Wood Road, directly opposite The Mansion, the official summer residence of the President of the Philippines, and forms one of the city's most photographed and most visited public spaces. Locals and visitors come to Wright Park to stroll among the pines, go horseback riding, breathe the cool highland air, picnic under the canopy and use it as a base for exploring Baguio's other heritage attractions.",
     "whyTitle": "Why visit Wright Park",
     "why": "If you are visiting Baguio for the first time, Wright Park should be near the top of your itinerary. Few single locations capture the essence of the City of Pines as well: the crisp mountain air, the straight colonnades of pine, the still reflecting pool, the clip-clop of horses along the bridle path and, directly across the road, the presidential gardens of The Mansion. It is simultaneously a historic site laid out during the American colonial period, a working equestrian space for local pony owners, and a quiet green retreat only a short ride from the bustle of Session Road. A morning walk here before the crowds arrive, followed by breakfast in a nearby café, remains one of the classic Baguio experiences.",
@@ -82,8 +92,8 @@
   },
   "history": {
     "eyebrow": "History & Folklore",
-    "title": "From American Hill Station to City Park",
-    "subtitle": "How a small mountain outpost became the Summer Capital, and how Wright Park took shape alongside Baguio's colonial and post-colonial history.",
+    "title": "History & Significance of Wright Park",
+    "subtitle": "From American Hill Station to City Park — how a small mountain outpost became the Summer Capital, and how Wright Park took shape alongside Baguio's colonial and post-colonial history.",
     "sections": [
       {
         "era": "Pre-colonial",
@@ -420,23 +430,90 @@
       {
         "q": "What else is within walking distance of Wright Park?",
         "a": "The Mansion (directly across the road), Baguio Botanical Garden (about 10–15 minutes on foot), Teachers' Camp, Bell Church and the ridge trails leading towards Mines View Park are all within easy walking distance. Good Shepherd Convent and its strawberry and ube products shop are a further 15–20 minutes on foot or a short jeepney ride away."
+      },
+      {
+        "q": "Is Wright Park the same place as the Pool of Pines?",
+        "a": "Yes. Wright Park is the official name of the park, while the Pool of Pines (Luneta ng mga Pino in Tagalog) is the popular name taken from its long reflecting pool bordered by mature Benguet pines. Both names refer to the same public park on Romulo Drive / Leonard Wood Road in Baguio City, Benguet, Philippines."
+      },
+      {
+        "q": "What is Wright Park's Google Maps rating?",
+        "a": "As of September 2026, Wright Park holds a 4.4 out of 5 rating based on roughly 8,075 Google Maps user reviews. Ratings and review counts change continuously — please check the Google Maps listing for the live figure. Copyright of the reviews belongs to their original authors and Google Maps."
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Google Maps Rating",
+    "title": "What Visitors Say About Wright Park",
+    "subtitle": "Wright Park (Pool of Pines) is rated 4.4 out of 5 by Google Maps users. The summary below is compiled from publicly visible Google Maps user reviews — full review texts remain on Google Maps.",
+    "ratingLabel": "Google Maps rating",
+    "outOf": "out of 5",
+    "countLabel": "Google Maps user reviews",
+    "sourceTitle": "Review source",
+    "sourceNote": "Synced from Google Maps user reviews, sync date September 2026; copyright belongs to the original authors and Google Maps.",
+    "cta": "View all reviews on Google Maps",
+    "themesTitle": "Themes most often mentioned by reviewers",
+    "themesNote": "Summarised from publicly visible Google Maps user reviews. These are aggregated themes, not verbatim quotations, and no individual review text is reproduced on this page.",
+    "themes": [
+      { "icon": "tree", "label": "The Pool of Pines & the pine canopy", "note": "Reviewers most often describe the reflecting pool, the rows of mature Benguet pines and the cool shade they provide." },
+      { "icon": "view", "label": "Horseback riding along the bridle path", "note": "Pony and horse rides are repeatedly mentioned as the activity visitors plan for, especially for children." },
+      { "icon": "users", "label": "Family-friendly and walkable", "note": "The level promenade, benches and open lawns are frequently cited as suitable for families, seniors and slow walks." },
+      { "icon": "sun", "label": "Cool highland climate", "note": "Baguio's cool air, morning mist and golden-hour light are common themes in visitor impressions." },
+      { "icon": "info", "label": "Crowds at peak hours", "note": "Reviews regularly note that weekends, holidays and Panagbenga season are much busier than weekday mornings." }
+    ],
+    "disclaimer": "Ratings and review counts shown on this page are synchronised from the Google Maps listing of Wright Park and are displayed for reference only. They are not reproduced inside this site's structured data (JSON-LD). Google Maps is a trademark of Google LLC; this site is not affiliated with Google."
+  },
+  "sources": {
+    "eyebrow": "Sources",
+    "title": "Data Sources & References",
+    "intro": "This independent, non-profit visitor guide compiles information from publicly available sources. Where third-party content such as Google Maps ratings and reviews is displayed, the source and sync date are stated below.",
+    "reviewRowLabel": "Reviews",
+    "syncedLabel": "Synced September 2026",
+    "sourceNoteLabel": "Source note",
+    "sourceNote": "Synced from Google Maps user reviews, sync date September 2026; copyright belongs to the original authors and Google Maps.",
+    "linkLabel": "View all Google Maps reviews",
+    "items": [
+      {
+        "label": "Google Maps — Wright Park listing (rating & user reviews)",
+        "meta": "Reviews · Synced September 2026",
+        "note": "Synced from Google Maps user reviews, sync date September 2026; copyright belongs to the original authors and Google Maps.",
+        "url": "https://maps.app.goo.gl/SZpr74QGHKPqBvu5A"
+      },
+      {
+        "label": "Department of Tourism — Republic of the Philippines",
+        "meta": "Official tourism portal",
+        "note": "National tourism announcements, travel advisories and destination standards.",
+        "url": "https://www.tourism.gov.ph"
+      },
+      {
+        "label": "Baguio City Government",
+        "meta": "Local government",
+        "note": "City ordinances, park management and public advisories for Baguio City, Benguet.",
+        "url": "https://www.baguio.gov.ph"
+      },
+      {
+        "label": "Baguio City Tourism Office",
+        "meta": "Local tourism office",
+        "note": "Visitor information, local events and seasonal travel guidance for the City of Pines.",
+        "url": "https://www.baguio.gov.ph/tourism"
       }
     ]
   },
   "map": {
     "eyebrow": "Location & Map",
-    "title": "Find Wright Park on the Map",
-    "subtitle": "The park lies on Leonard Wood Road in central Baguio, opposite The Mansion and close to the Botanical Garden, Mines View Park and Teachers' Camp.",
+    "title": "Location & How to Visit Wright Park in Baguio City",
+    "subtitle": "Find Wright Park on the Map — the park lies on Romulo Drive / Leonard Wood Road in central Baguio, opposite The Mansion and close to the Botanical Garden, Mines View Park and Teachers' Camp.",
     "addressLabel": "Address",
-    "addressValue": "Leonard Wood Road, Baguio City, Benguet, Philippines 2600",
+    "addressValue": "The Mansion, Romulo Dr, Baguio City, Benguet, Philippines 2600",
     "hoursLabel": "Visiting Hours",
     "hoursValue": "Public park — usually open from early morning to early evening; confirm on-site as hours may change for events, holidays or maintenance",
-    "openLabel": "Open in Google Maps"
+    "openLabel": "Open in Google Maps",
+    "govtLinkIntro": "For official updates and regional tourism information, visit",
+    "govtLinkLabel": "Philippines / Benguet Official Tourism Portal"
   },
   "nearby": {
     "eyebrow": "Nearby Places",
-    "title": "Attractions Near Wright Park",
-    "subtitle": "Wright Park sits at the heart of Baguio's heritage and nature corridor. The following landmarks are reachable on foot or a short jeepney or taxi ride. Opening hours and ticket prices are indicative — please confirm with each site before visiting.",
+    "title": "Landmarks & Attractions Around Wright Park",
+    "subtitle": "Attractions Near Wright Park — Wright Park sits at the heart of Baguio's heritage and nature corridor. The following landmarks are reachable on foot or a short jeepney or taxi ride. Opening hours and ticket prices are indicative — please confirm with each site before visiting.",
     "spots": [
       {
         "icon": "building",
@@ -501,12 +578,12 @@
       { "file": "wright-park-2.jpg", "alt": "Mist drifting through the pine forest of Wright Park in the cool season", "caption": "Misty morning among the pines" },
       { "file": "wright-park-3.jpg", "alt": "Horseback riders and their guide on the bridle path of Wright Park", "caption": "The bridle path and pony rides" },
       { "file": "wright-park-4.jpg", "alt": "The main promenade with benches and pine trees at Wright Park", "caption": "Main promenade along the pool" },
-      { "file": "wright-park-5.jpg", "alt": "Framed view of The Mansion gate from across Leonard Wood Road", "caption": "The Mansion opposite the park" },
+      { "file": "wright-park-5.jpg", "alt": "The Mansion near Wright Park (Pool of Pines), Baguio City", "caption": "The Mansion opposite the park" },
       { "file": "wright-park-6.jpg", "alt": "Picnic grove with families resting under the pine canopy", "caption": "Picnic groves and pine shade" },
       { "file": "wright-park-7.jpg", "alt": "Golden hour light casting long shadows on the Pool of Pines", "caption": "Golden hour over the Pool of Pines" },
       { "file": "wright-park-8.jpg", "alt": "Water lilies and koi fish in the Pool of Pines during the wet season", "caption": "Water lilies in the wet season" },
-      { "file": "wright-park-9.jpg", "alt": "Baguio Botanical Garden terraces, a short walk from Wright Park", "caption": "Nearby Botanical Garden terraces" },
-      { "file": "wright-park-10.jpg", "alt": "Mines View Park observation deck looking over the Benguet mountains", "caption": "Mines View Park panorama" },
+      { "file": "wright-park-9.jpg", "alt": "Baguio Botanical Garden near Wright Park (Pool of Pines), Baguio City", "caption": "Nearby Botanical Garden terraces" },
+      { "file": "wright-park-10.jpg", "alt": "Mines View Park near Wright Park (Pool of Pines), Baguio City", "caption": "Mines View Park panorama" },
       { "file": "wright-park-11.jpg", "alt": "Panagbenga Flower Festival floats on Session Road in Baguio", "caption": "Panagbenga season in the city" },
       { "file": "wright-park-12.jpg", "alt": "Aerial view of Baguio City showing the pine-clad plateau around Wright Park", "caption": "Baguio, the City of Pines" },
       { "file": "wright-park-13.jpg", "alt": "Traditional Ifugao hut in the Baguio Botanical Garden near Wright Park", "caption": "Cordillera heritage displays nearby" },
@@ -528,12 +605,14 @@
     "resources": [
       { "label": "Baguio City Hall", "url": "https://www.baguio.gov.ph" },
       { "label": "Baguio City Tourism Office", "url": "https://www.baguio.gov.ph/tourism" },
-      { "label": "Department of Tourism PH", "url": "https://www.tourism.gov.ph" }
+      { "label": "Department of Tourism PH", "url": "https://www.tourism.gov.ph" },
+      { "label": "Google Maps — Wright Park reviews", "url": "https://maps.app.goo.gl/SZpr74QGHKPqBvu5A" }
     ],
     "visitTitle": "Visit",
     "addressLabel": "Address",
-    "addressValue": "Leonard Wood Road, Baguio City, Benguet, Philippines",
+    "addressValue": "The Mansion, Romulo Dr, Baguio City, Benguet, Philippines 2600",
     "mapsLabel": "Open in Google Maps",
+    "reviewSource": "Ratings & reviews · Synced September 2026 · Synced from Google Maps user reviews; copyright belongs to the original authors and Google Maps.",
     "disclaimer": "All images shown are the property of and copyrighted by their original photographers. If any copyright issue arises, please contact the site administrator and the material will be reviewed or removed promptly.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",

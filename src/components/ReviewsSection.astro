@@ -1,0 +1,90 @@
+---
+import Icon from './Icon.astro';
+import { attraction, mapsUrl } from '../config';
+
+interface Props {
+  lang: string;
+  messages: any;
+}
+const { lang, messages } = Astro.props;
+const reviews = messages.reviews;
+const themes = reviews?.themes ?? [];
+
+const rating = Number(attraction.rating ?? 0);
+const pct = Math.max(0, Math.min(100, (rating / Number(attraction.ratingMax ?? 5)) * 100));
+const stars = [0, 1, 2, 3, 4];
+---
+
+<section id="reviews" class="scroll-mt-20 bg-cream py-16 md:py-24">
+  <div class="mx-auto max-w-6xl px-4">
+    <p class="section-eyebrow">{reviews.eyebrow}</p>
+    <h2 class="mt-2 font-serif text-3xl font-bold text-green-deep md:text-4xl">{reviews.title}</h2>
+    <p class="mt-3 max-w-3xl text-charcoal/70">{reviews.subtitle}</p>
+
+    <div class="mt-8 grid gap-6 lg:grid-cols-5">
+      <div class="glass-card rounded-2xl p-6 lg:col-span-2">
+        <p class="text-xs uppercase tracking-wide text-charcoal/55">{reviews.ratingLabel}</p>
+
+        <div class="mt-2 flex items-end gap-3">
+          <span class="font-serif text-5xl font-bold text-green-deep">{attraction.rating}</span>
+          <span class="pb-1 text-sm text-charcoal/60">{reviews.outOf}</span>
+        </div>
+
+        <div class="relative mt-2 inline-flex text-charcoal/25" aria-hidden="true">
+          {
+            stars.map(() => (
+              <Icon name="star" class="h-5 w-5 fill-current" />
+            ))
+          }
+          <div class="absolute inset-y-0 left-0 overflow-hidden text-gold" style={`width:${pct}%`}>
+            <div class="flex">
+              {stars.map(() => <Icon name="star" class="h-5 w-5 fill-current" />)}
+            </div>
+          </div>
+        </div>
+
+        <p class="mt-3 text-sm font-semibold text-charcoal">
+          {attraction.ratingCountLabel[lang] ?? attraction.ratingCountLabel.en}
+          {' '}{reviews.countLabel}
+        </p>
+
+        <div class="mt-5 rounded-xl border border-gold/30 bg-sand/60 p-4">
+          <h3 class="text-xs font-semibold uppercase tracking-wide text-green-deep">{reviews.sourceTitle}</h3>
+          <p class="mt-2 text-xs leading-relaxed text-charcoal/75">{reviews.sourceNote}</p>
+        </div>
+
+        <a
+          href={mapsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mt-5 inline-flex items-center gap-2 rounded-full bg-gold px-5 py-2.5 text-sm font-semibold text-charcoal transition hover:bg-gold-deep hover:text-white"
+        >
+          <Icon name="star" class="w-4 h-4" />
+          {reviews.cta}
+        </a>
+      </div>
+
+      <div class="glass-card rounded-2xl p-6 lg:col-span-3">
+        <h3 class="font-serif text-lg font-semibold text-green-deep">{reviews.themesTitle}</h3>
+        <ul class="mt-4 space-y-3">
+          {
+            themes.map((t: any) => (
+              <li class="flex items-start gap-3">
+                <span class="rounded-full bg-green/10 p-2 text-green-deep">
+                  <Icon name={t.icon ?? 'info'} class="w-5 h-5" />
+                </span>
+                <div>
+                  <p class="font-semibold text-charcoal">{t.label}</p>
+                  <p class="mt-1 text-sm leading-relaxed text-charcoal/75">{t.note}</p>
+                </div>
+              </li>
+            ))
+          }
+        </ul>
+        <p class="mt-5 text-xs leading-relaxed text-charcoal/60">{reviews.themesNote}</p>
+      </div>
+    </div>
+
+    <p class="mt-6 max-w-4xl text-xs leading-relaxed text-charcoal/60">{reviews.disclaimer}</p>
+  </div>
+</section>

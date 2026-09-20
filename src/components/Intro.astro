@@ -13,6 +13,11 @@ const highlights = intro.highlights?.items ?? [];
     <div class="md:col-span-3">
       <p class="section-eyebrow">{intro.eyebrow}</p>
       <h2 class="mt-2 font-serif text-3xl font-bold text-green-deep md:text-4xl">{intro.title}</h2>
+      {
+        intro.lead && (
+          <p class="mt-4 rounded-xl border border-gold/30 bg-cream/70 p-4 text-base leading-relaxed text-charcoal/85" set:html={intro.lead} />
+        )
+      }
       <p class="mt-5 text-base leading-relaxed text-charcoal/80">{intro.description}</p>
       {
         intro.why && (
@@ -38,5 +43,10 @@ const highlights = intro.highlights?.items ?? [];
         </ul>
       </div>
     </div>
+    {
+      intro.clusterNote && (
+        <p class="mt-8 max-w-4xl text-sm leading-relaxed text-charcoal/70" set:html={intro.clusterNote} />
+      )
+    }
   </div>
 </section>

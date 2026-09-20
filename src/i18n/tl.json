@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Wright Park Baguio — Kumpletong Gabay sa Bisita (Luneta ng mga Pino)",
-    "description": "Independiyenteng gabay na hindi pang-komersyal para sa Wright Park (Luneta ng mga Pino) sa Lungsod ng Baguio, Pilipinas. Kasaysayan, alamat, transportasyon, pasilidad, pagsakay sa kabayo at impormasyon sa paglalakbay para sa Lungsod ng mga Pino.",
-    "ogTitle": "Wright Park — Gabay sa Luneta ng mga Pino",
-    "ogDescription": "Kasaysayan, alamat, transportasyon, pasilidad at mga tip sa paglalakbay para sa Wright Park sa Baguio, ang Summer Capital ng Pilipinas."
+    "title": "Wright Park (Lungsod ng Baguio) - Gabay sa Bisita at Lokasyon",
+    "description": "Tuklasin ang Wright Park (Luneta ng mga Pino), ang tanyag na palatandaan sa Lungsod ng Baguio, Benguet, Pilipinas. Tingnan ang mapa ng lokasyon, oras ng pagbisita, kalapit na The Mansion at mga tip sa paglalakbay.",
+    "ogTitle": "Wright Park - Gabay sa Paglalakbay sa Lungsod ng Baguio",
+    "ogDescription": "Independiyenteng gabay ng bisita para sa Wright Park (Luneta ng mga Pino) sa Lungsod ng Baguio, Benguet, Pilipinas."
   },
   "header": {
     "siteName": "Wright Park",
@@ -20,6 +20,8 @@
     "faq": "Mga Madalas Itanong",
     "map": "Lokasyon at Mapa",
     "gallery": "Galerya",
+    "reviews": "Mga Pagsusuri sa Google",
+    "sources": "Mga Sanggunian",
     "selectLanguage": "Wika",
     "skipToContent": "Laktawan patungo sa pangunahing nilalaman"
   },
@@ -31,11 +33,16 @@
   },
   "hero": {
     "localName": "Luneta ng mga Pino",
-    "title": "Wright Park",
+    "title": "Wright Park (Luneta ng mga Pino)",
+    "cityLine": "Lungsod ng Baguio, Benguet, Pilipinas",
+    "breadcrumb": ["Wright Park (Luneta ng mga Pino)", "Lungsod ng Baguio", "Benguet", "Pilipinas"],
     "subtitle": "Ang makasaysayang parkeng puno ng pino sa Baguio, tahanan ng tanyag na Luneta ng mga Pino at daanan patungo sa pamana ng kabundukan ng Summer Capital.",
-    "rating": "4.6",
-    "reviews": "12,800",
-    "reviewsSuffix": "publikong pagsusuri",
+    "rating": "4.4",
+    "reviews": "8,075",
+    "reviewsSuffix": "mga pagsusuri ng gumagamit ng Google Maps",
+    "ratingSourcePrefix": "Ang rating at bilang ng mga pagsusuri ay nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps",
+    "ratingSourceDate": "Setyembre 2026",
+    "ratingSourceLink": "Tingnan ang lahat ng pagsusuri sa Google Maps",
     "ctaMaps": "Tingnan ang Mapa",
     "ctaExplore": "Simulan ang Paggalugad",
     "facts": [
@@ -43,10 +50,10 @@
       { "k": "Lokasyon", "v": "Lungsod ng Baguio, Benguet" },
       { "k": "Taas ng Lupa", "v": "~1,400 m ASL" },
       { "k": "Itinatag", "v": "Unang Bahagi ng 1900s" },
-      { "k": "Rating", "v": "4.6 / 5" },
+      { "k": "Rating", "v": "4.4 / 5" },
       { "k": "Rehiyon", "v": "Rehiyong Administratibo ng Cordillera" }
     ],
-    "heroAlt": "Wright Park Baguio, kasama ang Luneta ng mga Pino na sumasalamin sa matatayog na punong pino ng Benguet, na napapalibutan ng gumugulong na kagubatan sa kabundukan"
+    "heroAlt": "Wright Park (Luneta ng mga Pino) - Pangunahing tanawin sa Lungsod ng Baguio, Pilipinas"
   },
   "info": {
     "eyebrow": "Sa Isang Sulyap",
@@ -56,16 +63,19 @@
       { "k": "Opisyal na Pangalan", "v": "Wright Park (Luneta ng mga Pino)", "icon": "park" },
       { "k": "Pangalan sa Tagalog", "v": "Luneta ng mga Pino", "icon": "city" },
       { "k": "Uri", "v": "Publikong Parkeng Kagubatan sa Lungsod", "icon": "tree" },
-      { "k": "Tirahan", "v": "Leonard Wood Road, Lungsod ng Baguio", "icon": "pin" },
-      { "k": "Plus Code", "v": "6CWV+427 Baguio", "icon": "pin" },
-      { "k": "Rating", "v": "4.6 / 5 (≈12,800 pagsusuri)", "icon": "star" },
+      { "k": "Tirahan", "v": "The Mansion, Romulo Dr, Lungsod ng Baguio, Benguet", "icon": "pin" },
+      { "k": "Plus Code", "v": "CJ88+7V Baguio", "icon": "pin" },
+      { "k": "Postal Code", "v": "2600", "icon": "pin" },
+      { "k": "Rating", "v": "4.4 / 5 (≈8,075 pagsusuri sa Google Maps)", "icon": "star" },
       { "k": "Altitud", "v": "Tinatayang 1,400 metro sa ibabaw ng antas ng dagat", "icon": "city" },
       { "k": "Lalawigan", "v": "Benguet, Rehiyon ng Cordillera", "icon": "park" }
     ]
   },
   "intro": {
     "eyebrow": "Panimula",
-    "title": "Tungkol sa Wright Park",
+    "title": "Tungkol sa Wright Park (Luneta ng mga Pino)",
+    "lead": "Maligayang pagdating sa <strong>Wright Park (Luneta ng mga Pino)</strong>, na malawak na kinikilala bilang ang pangunahing <strong>Luneta ng mga Pino</strong>. Matatagpuan sa gitna ng <strong>Lungsod ng Baguio</strong>, <strong>Benguet</strong>, <strong>Pilipinas</strong>, ang destinasyong ito ay nagsisilbing pangunahing sentro para sa mga manlalakbay na bumibisita sa rehiyon.",
+    "clusterNote": "Kapag bumibisita sa <strong>Wright Park (Luneta ng mga Pino)</strong>, madaling magalugad ng mga bisita ang mga kalapit na makasaysayang palatandaan at mga punto ng interes, kabilang ang <strong>The Mansion</strong> at <strong>Baguio Botanical Garden</strong>.",
     "description": "Ang Wright Park ay isang makasaysayang parkeng kagubatan sa Lungsod ng Baguio, ang summer capital ng Pilipinas. Matatagpuan sa humigit-kumulang 1,400 metro sa ibabaw ng antas ng dagat, ang parke ay pinakakilala sa mahaba nitong sumasalamin na lawa — ang Luneta ng mga Pino — na napapalibutan ng mga hanay ng matatandang punong pino ng Benguet (Pinus kesiya). Ang lugar ay nasa kahabaan ng Leonard Wood Road, sa tapat mismo ng The Mansion, ang opisyal na summer residence ng Pangulo ng Pilipinas, at isa ito sa pinakamadalas kunan ng larawan at pinakabisitang pampublikong lugar sa lungsod. Ang mga lokal at bisita ay pumupunta sa Wright Park upang maglakad-lakad sa pagitan ng mga pino, sumakay sa kabayo, huminga ng malamig na hangin sa kabundukan, mag-piknik sa ilalim ng mga puno at gamitin itong basehan sa paggalugad ng iba pang mga makasaysayang tanawin sa Baguio.",
     "whyTitle": "Bakit dapat bisitahin ang Wright Park",
     "why": "Kung ikaw ay unang beses bibisita sa Baguio, dapat ang Wright Park ay nasa itaas ng iyong listahan. Kakaunti ang mga lugar na nakukuha ang tunay na diwa ng Lungsod ng mga Pino gaya nito: ang malutong na hangin sa kabundukan, ang tuwid na hanay ng mga pino, ang tahimik na sumasalamin na lawa, ang tunog ng mga kuko ng kabayo sa landas ng pagsakay at, sa tapat mismo ng kalsada, ang mga hardin ng pangulo sa The Mansion. Ito ay sabay na isang makasaysayang lugar na binalangkas noong panahon ng kolonyal na Amerikano, isang gumaganang lugar ng pagsakay sa kabayo para sa mga lokal na may-ari ng kabayo, at isang tahimik na luntiang pahingahan na maikling sakay lamang mula sa maingay na Session Road. Ang paglalakad dito sa umaga bago dumating ang maraming tao, na sinusundan ng almusal sa isang kalapit na kainan, ay nananatiling isa sa mga klasikong karanasan sa Baguio.",
@@ -82,8 +92,8 @@
   },
   "history": {
     "eyebrow": "Kasaysayan at Alamat",
-    "title": "Mula sa Amerikanong Hill Station hanggang sa Parke ng Lungsod",
-    "subtitle": "Paano naging Summer Capital ang isang maliit na nayon sa kabundukan, at paano nabuo ang Wright Park kasabay ng kasaysayan ng Baguio bago at pagkatapos ng kolonisasyon.",
+    "title": "Kasaysayan at Kahalagahan ng Wright Park",
+    "subtitle": "Mula sa Amerikanong Hill Station hanggang sa Parke ng Lungsod — paano naging Summer Capital ang isang maliit na nayon sa kabundukan, at paano nabuo ang Wright Park kasabay ng kasaysayan ng Baguio bago at pagkatapos ng kolonisasyon.",
     "sections": [
       {
         "era": "Bago ang Kolonisasyon",
@@ -420,23 +430,90 @@
       {
         "q": "Ano pa ang nasa distansyang maaaring lakarin mula sa Wright Park?",
         "a": "Ang The Mansion (direkta sa tapat ng kalsada), Baguio Botanical Garden (mga 10–15 minuto sa paglalakad), Teachers' Camp, Bell Church at ang mga landas sa tagaytay patungong Mines View Park ay lahat nasa madaling distansya ng paglalakad. Ang Good Shepherd Convent at ang tindahan ng mga produktong strawberry at ube nito ay karagdagang 15–20 minuto sa paglalakad o maikling sakay ng jeepney ang layo."
+      },
+      {
+        "q": "Ang Wright Park ba ay kapareho ng Luneta ng mga Pino?",
+        "a": "Oo. Ang Wright Park ang opisyal na pangalan ng parke, samantalang ang Luneta ng mga Pino (Pool of Pines) ay ang tanyag na pangalan na nagmula sa mahaba nitong sumasalamin na lawa na napapalibutan ng mga matatandang punong pino ng Benguet. Ang dalawang pangalan ay tumutukoy sa iisang pampublikong parke sa Romulo Drive / Leonard Wood Road sa Lungsod ng Baguio, Benguet, Pilipinas."
+      },
+      {
+        "q": "Ano ang rating ng Wright Park sa Google Maps?",
+        "a": "Noong Setyembre 2026, ang Wright Park ay may rating na 4.4 sa 5 batay sa humigit-kumulang 8,075 pagsusuri ng mga gumagamit ng Google Maps. Ang rating at bilang ng mga pagsusuri ay patuloy na nagbabago — tingnan ang listing sa Google Maps para sa kasalukuyang numero. Ang karapatang-ari ng mga pagsusuri ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps."
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Rating sa Google Maps",
+    "title": "Sinasabi ng mga Bisita Tungkol sa Wright Park",
+    "subtitle": "Ang Wright Park (Luneta ng mga Pino) ay may rating na 4.4 sa 5 mula sa mga gumagamit ng Google Maps. Ang buod sa ibaba ay pinagsama-sama mula sa mga pampublikong nakikitang pagsusuri ng gumagamit ng Google Maps — ang mga buong teksto ng pagsusuri ay nananatili sa Google Maps.",
+    "ratingLabel": "Rating sa Google Maps",
+    "outOf": "sa 5",
+    "countLabel": "mga pagsusuri ng gumagamit ng Google Maps",
+    "sourceTitle": "Pinagmulan ng pagsusuri",
+    "sourceNote": "Nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps, oras ng pag-sync Setyembre 2026; ang karapatang-ari ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps.",
+    "cta": "Tingnan ang lahat ng pagsusuri sa Google Maps",
+    "themesTitle": "Mga temang madalas banggitin ng mga tagasuri",
+    "themesNote": "Buod mula sa mga pampublikong nakikitang pagsusuri ng gumagamit ng Google Maps. Ito ay mga pinagsama-samang tema, hindi mga tiyak na sipi, at walang indibidwal na teksto ng pagsusuri ang inililimbag sa pahinang ito.",
+    "themes": [
+      { "icon": "tree", "label": "Ang Luneta ng mga Pino at ang bubong ng mga pino", "note": "Madalas na inilalarawan ng mga tagasuri ang sumasalamin na lawa, ang mga hanay ng matatandang punong pino ng Benguet at ang malamig na lilim na ibinibigay nito." },
+      { "icon": "view", "label": "Pagsakay sa kabayo sa landas ng pagsakay", "note": "Ang pagsakay sa pony at kabayo ay paulit-ulit na nababanggit bilang ang aktibidad na pinaplano ng mga bisita, lalo na para sa mga bata." },
+      { "icon": "users", "label": "Angkop sa pamilya at madaling lakarin", "note": "Ang patag na promenad, mga upuan at mga bukas na damuhan ay madalas na binabanggit bilang angkop para sa mga pamilya, matatanda at mabagal na paglalakad." },
+      { "icon": "sun", "label": "Malamig na klima sa kabundukan", "note": "Ang malamig na hangin ng Baguio, hamog sa umaga at liwanag ng gintong oras ay mga karaniwang tema sa mga impresyon ng mga bisita." },
+      { "icon": "info", "label": "Dagsa ng tao sa mga oras ng kasagsagan", "note": "Regular na nababanggit sa mga pagsusuri na ang mga katapusan ng linggo, pista at panahon ng Panagbenga ay mas matao kaysa sa mga umaga ng karaniwang araw." }
+    ],
+    "disclaimer": "Ang mga rating at bilang ng pagsusuri na ipinapakita sa pahinang ito ay naka-sync mula sa listing ng Wright Park sa Google Maps at ipinapakita lamang para sa sanggunian. Hindi ito inilalagay sa loob ng structured data (JSON-LD) ng site na ito. Ang Google Maps ay trademark ng Google LLC; ang site na ito ay walang kaugnayan sa Google."
+  },
+  "sources": {
+    "eyebrow": "Mga Sanggunian",
+    "title": "Mga Pinagmulan ng Datos at Sanggunian",
+    "intro": "Ang independiyenteng gabay na ito na hindi pang-komersyal ay nag-iipon ng impormasyon mula sa mga pampublikong magagamit na sanggunian. Kapag ipinapakita ang nilalaman ng third-party tulad ng mga rating at pagsusuri ng Google Maps, ang pinagmulan at oras ng pag-sync ay nakasaad sa ibaba.",
+    "reviewRowLabel": "Mga Pagsusuri",
+    "syncedLabel": "Naka-sync noong Setyembre 2026",
+    "sourceNoteLabel": "Paunawa sa pinagmulan",
+    "sourceNote": "Nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps, oras ng pag-sync Setyembre 2026; ang karapatang-ari ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps.",
+    "linkLabel": "Tingnan ang lahat ng pagsusuri sa Google Maps",
+    "items": [
+      {
+        "label": "Google Maps — listing ng Wright Park (rating at mga pagsusuri)",
+        "meta": "Mga Pagsusuri · Naka-sync noong Setyembre 2026",
+        "note": "Nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps, oras ng pag-sync Setyembre 2026; ang karapatang-ari ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps.",
+        "url": "https://maps.app.goo.gl/SZpr74QGHKPqBvu5A"
+      },
+      {
+        "label": "Kagawaran ng Turismo — Republika ng Pilipinas",
+        "meta": "Opisyal na portal ng turismo",
+        "note": "Mga pambansang anunsyo sa turismo, travel advisory at mga pamantayan ng destinasyon.",
+        "url": "https://www.tourism.gov.ph"
+      },
+      {
+        "label": "Pamahalaang Lungsod ng Baguio",
+        "meta": "Pamahalaang lokal",
+        "note": "Mga ordinansa ng lungsod, pamamahala ng parke at mga pampublikong abiso para sa Lungsod ng Baguio, Benguet.",
+        "url": "https://www.baguio.gov.ph"
+      },
+      {
+        "label": "Opisina ng Turismo ng Lungsod ng Baguio",
+        "meta": "Opisina ng turismo ng lokal",
+        "note": "Impormasyon ng bisita, mga lokal na kaganapan at gabay sa paglalakbay ayon sa panahon para sa Lungsod ng mga Pino.",
+        "url": "https://www.baguio.gov.ph/tourism"
       }
     ]
   },
   "map": {
     "eyebrow": "Lokasyon at Mapa",
-    "title": "Hanapin ang Wright Park sa Mapa",
-    "subtitle": "Ang parke ay nasa Leonard Wood Road sa gitna ng Baguio, sa tapat ng The Mansion at malapit sa Botanical Garden, Mines View Park at Teachers' Camp.",
+    "title": "Lokasyon at Paano Bisitahin ang Wright Park sa Lungsod ng Baguio",
+    "subtitle": "Hanapin ang Wright Park sa Mapa — ang parke ay nasa Romulo Drive / Leonard Wood Road sa gitna ng Baguio, sa tapat ng The Mansion at malapit sa Botanical Garden, Mines View Park at Teachers' Camp.",
     "addressLabel": "Tirahan",
-    "addressValue": "Leonard Wood Road, Lungsod ng Baguio, Benguet, Pilipinas 2600",
+    "addressValue": "The Mansion, Romulo Dr, Lungsod ng Baguio, Benguet, Pilipinas 2600",
     "hoursLabel": "Oras ng Pagbisita",
     "hoursValue": "Pampublikong parke — karaniwang bukas mula madaling araw hanggang maagang gabi; kumpirmahin sa lugar dahil ang oras ay maaaring magbago para sa mga kaganapan, pista o pagpapanatili",
-    "openLabel": "Buksan sa Google Maps"
+    "openLabel": "Buksan sa Google Maps",
+    "govtLinkIntro": "Para sa mga opisyal na update at impormasyon sa turismo ng rehiyon, bisitahin ang",
+    "govtLinkLabel": "Opisyal na Portal ng Turismo ng Pilipinas / Benguet"
   },
   "nearby": {
     "eyebrow": "Mga Kalapit na Lugar",
-    "title": "Mga Atraksyong Malapit sa Wright Park",
-    "subtitle": "Ang Wright Park ay nasa gitna ng koridor ng pamana at kalikasan ng Baguio. Ang mga sumusunod na tanawin ay maaaring marating sa paglalakad o maikling sakay ng jeepney o taksi. Ang oras ng pagbubukas at presyo ng tiket ay nagpapahiwatig lamang — mangyaring kumpirmahin sa bawat lugar bago bumisita.",
+    "title": "Mga Palatandaan at Atraksyon sa Paligid ng Wright Park",
+    "subtitle": "Mga Atraksyong Malapit sa Wright Park — ang Wright Park ay nasa gitna ng koridor ng pamana at kalikasan ng Baguio. Ang mga sumusunod na tanawin ay maaaring marating sa paglalakad o maikling sakay ng jeepney o taksi. Ang oras ng pagbubukas at presyo ng tiket ay nagpapahiwatig lamang — mangyaring kumpirmahin sa bawat lugar bago bumisita.",
     "spots": [
       {
         "icon": "building",
@@ -501,12 +578,12 @@
       { "file": "wright-park-2.jpg", "alt": "Ang hamog na dumadaloy sa kagubatan ng pino ng Wright Park sa malamig na panahon", "caption": "Maulang na umaga sa gitna ng mga pino" },
       { "file": "wright-park-3.jpg", "alt": "Ang mga nakasakay sa kabayo at kanilang gabay sa landas ng pagsakay ng Wright Park", "caption": "Ang landas ng kabayo at pagsakay sa pony" },
       { "file": "wright-park-4.jpg", "alt": "Ang pangunahing promenad na may mga upuang kahoy at punong pino sa Wright Park", "caption": "Pangunahing promenad sa kahabaan ng lawa" },
-      { "file": "wright-park-5.jpg", "alt": "Nakasentro na tanawin ng tarangkahan ng The Mansion mula sa tapat ng Leonard Wood Road", "caption": "Ang The Mansion sa tapat ng parke" },
+      { "file": "wright-park-5.jpg", "alt": "Ang The Mansion malapit sa Wright Park (Luneta ng mga Pino), Lungsod ng Baguio", "caption": "Ang The Mansion sa tapat ng parke" },
       { "file": "wright-park-6.jpg", "alt": "Ang lugar ng piknik kasama ang mga pamilyang nagpapahinga sa ilalim ng bubong ng pino", "caption": "Mga lugar ng piknik at lilim ng pino" },
       { "file": "wright-park-7.jpg", "alt": "Ang liwanag ng gintong oras na naghahagis ng mahabang anino sa Luneta ng mga Pino", "caption": "Gintong oras sa ibabaw ng Luneta ng mga Pino" },
       { "file": "wright-park-8.jpg", "alt": "Ang mga liryo sa tubig at isdang koi sa Luneta ng mga Pino sa panahon ng tag-ulan", "caption": "Mga liryo sa tubig sa panahon ng tag-ulan" },
-      { "file": "wright-park-9.jpg", "alt": "Ang mga hagdan-hagdan ng Baguio Botanical Garden, maikling lakad mula sa Wright Park", "caption": "Mga kalapit na hagdan ng Botanical Garden" },
-      { "file": "wright-park-10.jpg", "alt": "Ang deck ng pagmamasid ng Mines View Park na nakatingin sa mga bundok ng Benguet", "caption": "Malawak na tanawin ng Mines View Park" },
+      { "file": "wright-park-9.jpg", "alt": "Baguio Botanical Garden malapit sa Wright Park (Luneta ng mga Pino), Lungsod ng Baguio", "caption": "Mga kalapit na hagdan ng Botanical Garden" },
+      { "file": "wright-park-10.jpg", "alt": "Mines View Park malapit sa Wright Park (Luneta ng mga Pino), Lungsod ng Baguio", "caption": "Malawak na tanawin ng Mines View Park" },
       { "file": "wright-park-11.jpg", "alt": "Ang mga float ng Panagbenga Flower Festival sa Session Road sa Baguio", "caption": "Panahon ng Panagbenga sa lungsod" },
       { "file": "wright-park-12.jpg", "alt": "Tanawin mula sa himpapawid ng Lungsod ng Baguio na nagpapakita ng talampas na puno ng pino sa paligid ng Wright Park", "caption": "Ang Baguio, ang Lungsod ng mga Pino" },
       { "file": "wright-park-13.jpg", "alt": "Tradisyunal na dampa ng Ifugao sa Baguio Botanical Garden malapit sa Wright Park", "caption": "Mga pagpapakita ng pamana ng Cordillera sa malapit" },
@@ -528,12 +605,14 @@
     "resources": [
       { "label": "Lungsod ng Baguio", "url": "https://www.baguio.gov.ph" },
       { "label": "Opisina ng Turismo ng Lungsod ng Baguio", "url": "https://www.baguio.gov.ph/tourism" },
-      { "label": "Kagawaran ng Turismo ng Pilipinas", "url": "https://www.tourism.gov.ph" }
+      { "label": "Kagawaran ng Turismo ng Pilipinas", "url": "https://www.tourism.gov.ph" },
+      { "label": "Google Maps — mga pagsusuri sa Wright Park", "url": "https://maps.app.goo.gl/SZpr74QGHKPqBvu5A" }
     ],
     "visitTitle": "Bisitahin",
     "addressLabel": "Tirahan",
-    "addressValue": "Leonard Wood Road, Lungsod ng Baguio, Benguet, Pilipinas",
+    "addressValue": "The Mansion, Romulo Dr, Lungsod ng Baguio, Benguet, Pilipinas 2600",
     "mapsLabel": "Buksan sa Google Maps",
+    "reviewSource": "Mga rating at pagsusuri · Naka-sync noong Setyembre 2026 · Nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps; ang karapatang-ari ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps.",
     "disclaimer": "Lahat ng larawang ipinapakita ay pagmamay-ari at may karapatang-ari ng kanilang mga orihinal na litratista. Kung may anumang isyu sa karapatang-ari na lumitaw, mangyaring makipag-ugnayan sa tagapangasiwa ng site at ang materyal ay susuriin o aalisin agad.",
     "privacy": "Patakaran sa Privacy",
     "terms": "Mga Tuntunin ng Serbisyo",

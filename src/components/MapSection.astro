@@ -1,6 +1,6 @@
 ---
 import Icon from './Icon.astro';
-import { mapsUrl, mapsEmbedSrc } from '../config';
+import { mapsUrl, mapsEmbedSrc, govtTourismUrl } from '../config';
 
 interface Props {
   lang: string;
@@ -51,5 +51,21 @@ const map = messages.map;
         ></iframe>
       </div>
     </div>
+
+    {
+      map.govtLinkIntro && (
+        <p class="mt-8 text-sm text-charcoal/70">
+          {map.govtLinkIntro}{' '}
+          <a
+            href={govtTourismUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-semibold text-green-deep underline decoration-dotted underline-offset-2 transition hover:text-gold-deep"
+          >
+            {map.govtLinkLabel}
+          </a>
+        </p>
+      )
+    }
   </div>
 </section>
