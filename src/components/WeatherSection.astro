@@ -1,0 +1,254 @@
+---
+import Icon from './Icon.astro';
+import { attraction } from '../config';
+import {
+  getWeather,
+  buildAdvice,
+  weatherGroup,
+  weatherIcon,
+  beaufort,
+  windLevel,
+  humidityLevel,
+  uvLevel,
+  dayTip,
+  formatDay,
+  formatClock,
+} from '../lib/weather';
+import type { AdviceCategory } from '../lib/weather';
+
+interface Props {
+  lang: string;
+  messages: any;
+}
+const { lang, messages } = Astro.props;
+const weather = messages.weather;
+const codes = weather?.codes ?? {};
+const rules = weather?.rules ?? {};
+const dayTips = weather?.dayTips ?? {};
+const levels = weather?.levels ?? {};
+const emptyAdvice = { risk: [], outfit: [], plan: [], gear: [] };
+
+const snapshot = await getWeather(attraction.lat, attraction.lng);
+const advice = snapshot ? buildAdvice(snapshot) : emptyAdvice;
+
+const labelFor = (code: number) => codes[weatherGroup(code)] ?? codes.unknown ?? '';
+const iconFor = (code: number) => weatherIcon(code);
+const round = (n: number) => Math.round(n);
+const elevation = snapshot?.elevation ?? 1475;
+const elevationLabel = elevation.toLocaleString('en-US');
+const fill = (text: string) => text.replace('{elevation}', elevationLabel);
+
+const pick = (ids: string[], key: AdviceCategory): string[] =>
+  ids.map((id) => (rules[id]?.[key] as string) ?? '').filter(Boolean).map(fill);
+
+const risks = pick(advice.risk, 'risk');
+const outfits = pick(advice.outfit, 'outfit');
+const plans = pick(advice.plan, 'plan');
+const gears = pick(advice.gear, 'gear');
+
+const today = snapshot?.daily?.[0] ?? null;
+const humidityWord = levels.humidity?.[humidityLevel(snapshot?.humidity ?? 70)] ?? '';
+const uvValue = today?.uvIndex ?? snapshot?.uvIndex ?? 0;
+const uvWord = levels.uv?.[uvLevel(uvValue)] ?? '';
+const windForce = snapshot ? beaufort(Math.max(snapshot.windSpeed, today?.windMax ?? 0)) : 0;
+const windWord = levels.wind?.[windLevel(windForce)] ?? '';
+const windForceLabel = (weather?.windForceLabel ?? '{n}').replace('{n}', String(windForce));
+const observed = snapshot?.observedAt ? `${snapshot.observedAt}:00` : '';
+
+const days = (snapshot?.daily ?? []).map((d: any) => ({
+  date: d.date,
+  label: formatDay(d.date, lang),
+  code: d.code,
+  max: d.max,
+  min: d.min,
+  precipProb: d.precipProb,
+  tip: dayTips[dayTip(d)] ?? '',
+}));
+---
+
+<section id="weather" class="scroll-mt-20 bg-sand/60 py-16 md:py-24">
+  <div class="mx-auto max-w-6xl px-4">
+    <p class="section-eyebrow">{weather.eyebrow}</p>
+    <h2 class="mt-2 font-serif text-3xl font-bold text-green-deep md:text-4xl">{weather.title}</h2>
+    <p class="mt-3 max-w-2xl text-charcoal/70">{weather.subtitle}</p>
+
+    {
+      !snapshot && (
+        <div class="mt-8 rounded-2xl border border-amber-300/60 bg-amber-50 p-5">
+          <h3 class="font-serif text-lg font-semibold text-amber-900">{weather.fallbackTitle}</h3>
+          <p class="mt-2 text-sm leading-relaxed text-amber-900/85">{weather.fallbackText}</p>
+        </div>
+      )
+    }
+
+    {
+      snapshot && risks.length > 0 && (
+        <div class="mt-8 rounded-2xl border border-red-300 bg-red-50 p-5">
+          <h3 class="flex items-center gap-2 font-serif text-lg font-semibold text-red-800">
+            <Icon name="shield" class="w-5 h-5" />
+            {weather.riskTitle}
+          </h3>
+          <ul class="mt-3 space-y-2">
+            {risks.map((item: string) => (
+              <li class="flex items-start gap-2 text-sm leading-relaxed text-red-900/90">
+                <Icon name="info" class="mt-0.5 w-4 h-4 shrink-0 text-red-700" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )
+    }
+
+    {
+      snapshot && risks.length === 0 && (
+        <p class="mt-8 flex items-center gap-2 rounded-2xl border border-green-deep/20 bg-white/70 px-4 py-3 text-sm text-charcoal/75">
+          <Icon name="shield" class="w-4 h-4 text-green-deep" />
+          {weather.riskNone}
+        </p>
+      )
+    }
+
+    {
+      snapshot && (
+        <div class="mt-6 grid gap-6 lg:grid-cols-5">
+          <div class="glass-card rounded-2xl p-6 lg:col-span-2">
+            <div class="flex items-center justify-between">
+              <h3 class="font-serif text-lg font-semibold text-green-deep">{weather.currentTitle}</h3>
+              <span class="rounded-full bg-green-deep/10 px-3 py-1 text-xs text-green-deep">{weather.updatedLabel}: {formatClock(observed || snapshot.fetchedAt, lang)}</span>
+            </div>
+
+            <div class="mt-4 flex items-center gap-4">
+              <span class="flex h-16 w-16 items-center justify-center rounded-full bg-gold/20 text-gold-deep">
+                <Icon name={iconFor(snapshot.code)} class="w-9 h-9" />
+              </span>
+              <div>
+                <p class="font-serif text-4xl font-bold text-green-deep">{round(snapshot.temperature)}°</p>
+                <p class="text-sm text-charcoal/70">{labelFor(snapshot.code)}</p>
+              </div>
+            </div>
+
+            <dl class="mt-5 grid grid-cols-2 gap-3 text-sm">
+              <div class="rounded-xl bg-cream/70 p-3">
+                <dt class="text-xs uppercase tracking-wide text-charcoal/55">{weather.feelsLike}</dt>
+                <dd class="mt-1 font-semibold text-charcoal">{round(snapshot.apparentTemperature)}°</dd>
+              </div>
+              <div class="rounded-xl bg-cream/70 p-3">
+                <dt class="text-xs uppercase tracking-wide text-charcoal/55">{weather.humidity}</dt>
+                <dd class="mt-1 font-semibold text-charcoal">{humidityWord}</dd>
+              </div>
+              <div class="rounded-xl bg-cream/70 p-3">
+                <dt class="text-xs uppercase tracking-wide text-charcoal/55">{weather.precipProb}</dt>
+                <dd class="mt-1 font-semibold text-charcoal">{today?.precipProb === null || today?.precipProb === undefined ? '—' : `${round(today.precipProb)}%`}</dd>
+              </div>
+              <div class="rounded-xl bg-cream/70 p-3">
+                <dt class="text-xs uppercase tracking-wide text-charcoal/55">{weather.wind}</dt>
+                <dd class="mt-1 font-semibold text-charcoal">{windForceLabel} · {windWord}</dd>
+              </div>
+              <div class="rounded-xl bg-cream/70 p-3">
+                <dt class="text-xs uppercase tracking-wide text-charcoal/55">{weather.uvLabel}</dt>
+                <dd class="mt-1 font-semibold text-charcoal">{uvWord}</dd>
+              </div>
+              <div class="rounded-xl bg-cream/70 p-3">
+                <dt class="text-xs uppercase tracking-wide text-charcoal/55">{weather.todayRange}</dt>
+                <dd class="mt-1 font-semibold text-charcoal">{round(today?.max ?? snapshot.temperature)}° / {round(today?.min ?? snapshot.temperature)}°</dd>
+              </div>
+            </dl>
+
+            <p class="mt-4 text-xs leading-relaxed text-charcoal/60">
+              {weather.sourceLabel}: {weather.sourceNote}
+            </p>
+          </div>
+
+          <div class="glass-card rounded-2xl p-6 lg:col-span-3">
+            <div class="flex items-center justify-between">
+              <h3 class="font-serif text-lg font-semibold text-green-deep">{weather.forecastTitle}</h3>
+              <span class="text-xs text-charcoal/60">{weather.forecastHint}</span>
+            </div>
+
+            <ul class="mt-4 divide-y divide-gold/20">
+              {days.map((d: any) => (
+                <li class="flex flex-wrap items-center justify-between gap-3 py-3">
+                  <span class="w-24 shrink-0 text-sm text-charcoal/75">{d.label}</span>
+                  <span class="flex flex-1 items-center gap-2 text-charcoal/80">
+                    <Icon name={iconFor(d.code)} class="w-5 h-5 text-gold-deep" />
+                    <span class="text-xs">{labelFor(d.code)}</span>
+                  </span>
+                  <span class="w-20 shrink-0 text-right text-sm font-semibold text-charcoal">
+                    {round(d.max)}° / {round(d.min)}°
+                  </span>
+                  <span class="flex w-16 shrink-0 items-center justify-end gap-1 text-sm text-charcoal/70">
+                    <Icon name="droplet" class="w-4 h-4 text-sky-600" />
+                    {d.precipProb === null ? '—' : `${round(d.precipProb)}%`}
+                  </span>
+                  <span class="w-16 shrink-0 text-right">
+                    <span class="rounded-full bg-green-deep/10 px-2 py-1 text-xs text-green-deep">{d.tip}</span>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      )
+    }
+
+    {
+      (outfits.length > 0 || plans.length > 0 || gears.length > 0) && (
+        <div class="mt-6 grid gap-4 md:grid-cols-3">
+          {outfits.length > 0 && (
+            <div class="rounded-2xl border border-gold/20 bg-white/80 p-5">
+              <h3 class="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-green-deep">
+                <Icon name="shirt" class="w-4 h-4" />
+                {weather.outfitTitle}
+              </h3>
+              <ul class="mt-3 space-y-2">
+                {outfits.map((item: string) => (
+                  <li class="flex items-start gap-2 text-sm leading-relaxed text-charcoal/85">
+                    <Icon name="chevron" class="mt-1 w-3 h-3 shrink-0 text-gold-deep" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {plans.length > 0 && (
+            <div class="rounded-2xl border border-gold/20 bg-white/80 p-5">
+              <h3 class="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-green-deep">
+                <Icon name="route" class="w-4 h-4" />
+                {weather.planTitle}
+              </h3>
+              <ul class="mt-3 space-y-2">
+                {plans.map((item: string) => (
+                  <li class="flex items-start gap-2 text-sm leading-relaxed text-charcoal/85">
+                    <Icon name="chevron" class="mt-1 w-3 h-3 shrink-0 text-gold-deep" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {gears.length > 0 && (
+            <div class="rounded-2xl border border-gold/20 bg-white/80 p-5">
+              <h3 class="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-green-deep">
+                <Icon name="backpack" class="w-4 h-4" />
+                {weather.gearTitle}
+              </h3>
+              <ul class="mt-3 space-y-2">
+                {gears.map((item: string) => (
+                  <li class="flex items-start gap-2 text-sm leading-relaxed text-charcoal/85">
+                    <Icon name="chevron" class="mt-1 w-3 h-3 shrink-0 text-gold-deep" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      )
+    }
+
+    <p class="mt-6 max-w-4xl text-xs leading-relaxed text-charcoal/60">{weather.refreshNote}</p>
+  </div>
+</section>

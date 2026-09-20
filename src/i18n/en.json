@@ -22,6 +22,11 @@
     "gallery": "Gallery",
     "reviews": "Google Reviews",
     "sources": "Sources",
+    "weather": "Weather",
+    "routes": "Routes",
+    "audiences": "By Traveller",
+    "seasons": "Seasons",
+    "science": "Nature & Care",
     "selectLanguage": "Language",
     "skipToContent": "Skip to main content"
   },
@@ -323,6 +328,21 @@
           "Never park on the Leonard Wood Road shoulder directly in front of The Mansion gate, as towing is strictly enforced by city traffic police",
           "Check the weather forecast before driving; typhoon season (July–October) can bring landslides and temporary road closures to the Kennon and Aspiras-Palispis routes"
         ]
+      },
+      {
+        "icon": "plane",
+        "title": "From Clark International Airport (Pampanga)",
+        "text": "Clark is the practical air gateway for travellers coming from outside Luzon: roughly 180–210 km and about 3.5–5 hours to Baguio depending on traffic and weather. Transport falls into three types — an intercity coach that runs from Clark towards northern Luzon (some services connect via Manila), a pre-booked airport transfer or metered taxi, and shared shuttle vans arranged through hotels. Arrive during daylight, confirm the schedule a day ahead, and add a generous buffer for holiday traffic and wet-season roadworks."
+      },
+      {
+        "icon": "bus",
+        "title": "From Baguio's Bus Terminals to the Park",
+        "text": "Long-distance coaches from Manila and the north arrive at Baguio's public bus terminals in the city centre — commonly the Dangwa, Governor Pack and Slaughterhouse areas depending on the operator and route. From any of them, a city jeepney or a taxi reaches Wright Park in about 10–20 minutes in normal traffic, and longer during weekends and festival periods. Carry small notes, say \"Wright Park\", \"The Mansion\" or \"Leonard Wood Road\" clearly, and confirm the fare before boarding."
+      },
+      {
+        "icon": "taxi",
+        "title": "Chartered Vans, Hotel Shuttles & Package Transport",
+        "text": "Private chartered vans, shared tourist shuttles and hotel-arranged vehicles suit groups, photographers with equipment and travellers with reduced mobility. Rates are usually quoted per hour or per day, and the vehicle type, driver, route, waiting time and parking fees should all be agreed in writing before departure. Choose vehicles booked through your accommodation or official tourism channels, check that the plate number and permits are in order, and avoid unmarked operators who solicit in the street."
       }
     ]
   },
@@ -370,6 +390,26 @@
         "icon": "park",
         "title": "First Aid & Health",
         "text": "Basic first-aid posts and security booths are normally staffed at the main entrance of Wright Park. Baguio also has several hospitals and clinics of different types: government-run district hospitals, private multi-specialty hospitals and neighbourhood clinics. Pharmacies (botika) are widespread; many are open late or 24 hours along Session Road and major avenues. If you have a chronic condition, bring an adequate supply of medication from home, as specific brands may not be available locally."
+      },
+      {
+        "icon": "info",
+        "title": "Visitor Information & Guiding",
+        "text": "Orientation information for Baguio is available by type rather than by brand: the city tourism office and its satellite information desks, printed city maps, on-site signage at the park, and licensed local guides who can be arranged through official tourism channels. Look for identification and official accreditation before engaging a guide, agree the language, duration and fee in advance, and treat any offer that pressures you into a purchase as a warning sign."
+      },
+      {
+        "icon": "ticket",
+        "title": "Cash, Cards & ATMs",
+        "text": "Banks and automated teller machines are concentrated along Session Road, Magsaysay Avenue and inside the city's shopping centres, with most major card networks accepted. Smaller kiosks, jeepney fares, parking fees, pony rides and market stalls are cash-only, so carry small denominations of Philippine pesos. Card and QR-code payment is common in established restaurants and shops but should not be assumed at the park itself."
+      },
+      {
+        "icon": "globe",
+        "title": "Connectivity & Power",
+        "text": "Mobile coverage from the major national networks is generally good in central Baguio, including around Wright Park, though signal can weaken in the pine groves and on the ridge roads. Free public wireless internet is offered by some malls, cafés and public buildings; treat open networks as untrusted and avoid banking on them. Download offline maps and translation packs before travelling, and carry a power bank if you rely on your phone for navigation and photos."
+      },
+      {
+        "icon": "users",
+        "title": "Luggage, Families & Pets",
+        "text": "There is no large left-luggage facility inside Wright Park; travellers usually leave bags at their accommodation or use the luggage counters found at some transport terminals and shopping centres. The level promenade suits pushchairs, and many nearby cafés and malls provide baby-changing rooms and family restrooms. Dogs are welcome in the open areas of the park in practice, but should be kept on a short lead, kept away from the horses and the pool, and cleaned up after."
       }
     ]
   },
@@ -386,6 +426,349 @@
       "Baguio temperatures can swing sharply; carry a jacket, a light raincoat and layered clothing year-round",
       "Support local communities by patronising registered cooperatives, licensed guides and locally-owned restaurants rather than unregulated informal services when possible"
     ]
+  },
+  "weather": {
+    "eyebrow": "Weather & Forecast",
+    "title": "Weather at Wright Park Right Now",
+    "subtitle": "Live highland conditions at the park plus a multi-day outlook, so you know whether to pack a raincoat, a jacket or sunscreen.",
+    "updatedLabel": "Updated",
+    "currentTitle": "Conditions at the park",
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "precipitation": "Rainfall",
+    "precipProb": "Chance of rain",
+    "wind": "Wind",
+    "windForceLabel": "Force {n}",
+    "uvLabel": "UV level",
+    "todayRange": "Today high / low",
+    "forecastTitle": "7-day forecast",
+    "forecastHint": "Outlook and what to pack",
+    "riskTitle": "Weather risk alert",
+    "riskNone": "No weather risk to plan around right now — a normal visit is fine.",
+    "outfitTitle": "What to wear",
+    "planTitle": "How to plan the day",
+    "gearTitle": "What to pack",
+    "levels": {
+      "humidity": {
+        "humid": "Muggy",
+        "comfortable": "Comfortable",
+        "fresh": "Dry and fresh",
+        "dry": "Very dry"
+      },
+      "uv": {
+        "low": "Low",
+        "moderate": "Moderate",
+        "high": "Strong",
+        "veryHigh": "Very strong",
+        "extreme": "Extreme"
+      },
+      "wind": {
+        "calm": "Almost still",
+        "light": "Light breeze",
+        "moderate": "Moderate breeze",
+        "strong": "Breezy",
+        "gale": "Strong wind"
+      }
+    },
+    "dayTips": {
+      "umbrella": "Umbrella",
+      "raincoat": "Raincoat",
+      "sun": "Sunscreen",
+      "jacket": "Jacket",
+      "wind": "Wind layer",
+      "fog": "Low visibility",
+      "ok": "Good to go"
+    },
+    "rules": {
+      "thunder": {
+        "risk": "Thunderstorm: do not shelter under the tall pines or in open ground, and pause horse riding and any climb.",
+        "plan": "Open-air and on-water activities are usually suspended; switch to covered or indoor stops.",
+        "gear": "Raincoat, and keep your phone charged for weather and traffic updates."
+      },
+      "heavyRain": {
+        "risk": "Heavy rain: keep away from valleys, low-lying roads and the stone steps beside the pool, and watch for flash-flood and landslide notices.",
+        "plan": "Long stretches outdoors are not advised; the bridle path and open-air rides may pause at short notice.",
+        "gear": "A raincoat beats a long umbrella once the wind picks up."
+      },
+      "rainLikely": {
+        "outfit": "Light waterproof layer and shoes with a proper grip.",
+        "plan": "Showers are likely rather than certain: keep indoor stops in reserve and postpone long ridge walks.",
+        "gear": "Folding umbrella or a light raincoat."
+      },
+      "lightRain": {
+        "outfit": "Paths and stone steps get slippery — slow down on slopes and near the water.",
+        "plan": "Open-air activities lose their charm in drizzle; a short loop inside the park is more pleasant.",
+        "gear": "Folding umbrella."
+      },
+      "uvStrong": {
+        "outfit": "Sun protection matters even when the air feels cool — ultraviolet is stronger at this altitude.",
+        "plan": "Alternate pine shade with indoor breaks and stay out of the midday sun.",
+        "gear": "Sunscreen, sunglasses and a hat."
+      },
+      "uvModerate": {
+        "gear": "Sunscreen and sunglasses."
+      },
+      "hot": {
+        "outfit": "Light, breathable clothing in pale colours.",
+        "plan": "Shorten the midday stretch outdoors and use the pine shade.",
+        "gear": "Drinking water, sun protection and something to cool you down."
+      },
+      "warm": {
+        "gear": "Keep a bottle of water with you."
+      },
+      "coldDay": {
+        "outfit": "Warm coat plus an extra layer; add a scarf if you feel the cold.",
+        "plan": "Keep early-morning and evening stops short, with indoor breaks between them.",
+        "gear": "Warm layer and a hot drink."
+      },
+      "coldMorning": {
+        "outfit": "Add a jacket for the early morning and shed it once the sun is up."
+      },
+      "bigRange": {
+        "outfit": "Big swing between day and night — wear layers you can take off.",
+        "plan": "Mist and pool reflections early or late, pine shade at midday."
+      },
+      "windBreezy": {
+        "plan": "Exposed sections are windy: hats and light items blow away, and viewpoints may be restricted.",
+        "gear": "A hat with a chin strap; skip loose long skirts and floaty scarves."
+      },
+      "windStrong": {
+        "risk": "Strong wind: keep clear of billboards, temporary structures and dead standing trees.",
+        "plan": "Open-air and elevated activities are likely to close; stay on the sheltered paths inside the park."
+      },
+      "clear": {
+        "plan": "Clear weather — good for walking and for the late-afternoon light in the pines.",
+        "gear": "Sun protection."
+      },
+      "overcast": {
+        "plan": "Soft, even light flatters photos and there is no harsh sun — comfortable for a slow, long visit."
+      },
+      "fog": {
+        "risk": "Poor visibility: slow down and use headlights on the mountain roads, and expect limited views.",
+        "plan": "Save the panorama viewpoints for a clearer day; close-up and forest paths work better.",
+        "gear": "A light jacket, and a mask if damp air bothers you."
+      },
+      "humid": {
+        "plan": "The air feels muggy — slow the pace and drink water regularly."
+      },
+      "dry": {
+        "gear": "Lip balm and moisturiser, and drink water often."
+      },
+      "highland": {
+        "plan": "At about {elevation} m the sun is stronger and you tire sooner than at sea level — take the slopes slowly."
+      },
+      "landslide": {
+        "risk": "In the rainy season the mountain roads can see rock falls, landslides and temporary traffic control — check road conditions before you leave."
+      }
+    },
+    "sourceLabel": "Data source",
+    "sourceNote": "Observations and forecasts are supplied by the Open-Meteo public weather service for the coordinates of Wright Park (16.416° N, 120.615° E, about 1,475 m above sea level).",
+    "refreshNote": "The figures are retrieved when this page is generated and cached for a short period. Mountain weather changes quickly — check the latest forecast again shortly before you set out.",
+    "fallbackTitle": "Live weather temporarily unavailable",
+    "fallbackText": "Conditions could not be retrieved right now. As a general reference, Baguio's highland climate is mild year-round: dry-season days usually reach 22–26 °C, the coolest nights from December to February can drop to 8–12 °C, and afternoon showers are common from June to October.",
+    "codes": {
+      "clear": "Clear sky",
+      "mainlyClear": "Mainly clear",
+      "partly": "Partly cloudy",
+      "overcast": "Overcast",
+      "fog": "Fog and low cloud",
+      "drizzle": "Light drizzle",
+      "rain": "Rain",
+      "freezingRain": "Freezing rain",
+      "snow": "Snow",
+      "showers": "Rain showers",
+      "snowShowers": "Snow showers",
+      "thunder": "Thunderstorm",
+      "thunderHail": "Thunderstorm with hail",
+      "unknown": "Changeable conditions"
+    }
+  },
+  "routes": {
+    "eyebrow": "Suggested Routes",
+    "title": "Recommended Wright Park Routes",
+    "subtitle": "Two ready-made loops: a compact half-day circuit for tight schedules, and a full-day heritage walk linking the park with Baguio's eastern viewpoints.",
+    "durationLabel": "Time needed",
+    "distanceLabel": "Walking distance",
+    "halfDay": {
+      "label": "Half-day loop",
+      "duration": "2.5–3 hours",
+      "distance": "About 2–3 km on foot",
+      "summary": "A gentle circuit that keeps you inside and immediately around the park — ideal before or after a city-centre morning.",
+      "steps": [
+        "Enter through the main gate on Romulo Drive / Leonard Wood Road and follow the promenade beside the Pool of Pines",
+        "Continue to the picnic grove under the pines for a short rest and shade",
+        "Optional pony or horse ride along the level bridle path",
+        "Cross the road to the gate of The Mansion for exterior views of the presidential summer residence",
+        "Walk downhill to the Baguio Botanical Garden for Cordillera cultural displays",
+        "Return to the park entrance for coffee, snacks or strawberries"
+      ],
+      "note": "Best on weekday mornings, when the promenade is quiet and the light over the water is soft and even."
+    },
+    "fullDay": {
+      "label": "Full-day heritage walk",
+      "duration": "6–8 hours with breaks",
+      "distance": "About 6–8 km including ridge sections",
+      "summary": "A complete Baguio day: pine forest, presidential heritage, botanical collections and the classic Mines View panorama.",
+      "steps": [
+        "Early start at Wright Park: morning mist on the Pool of Pines and the pine canopy",
+        "The Mansion exterior and the landscaped grounds across the road",
+        "Baguio Botanical Garden: Ifugao, Kankana-ey and Ibaloi heritage displays",
+        "Lunch in the city centre or a packed picnic under the pines",
+        "Jeepney or taxi out to Mines View Park for the ridge panorama",
+        "Souvenir stop for strawberry, ube and peanut products",
+        "Return to Wright Park for golden-hour light and an evening horse ride",
+        "Dinner near Session Road and a slow walk back uphill to your accommodation"
+      ],
+      "note": "Carry water, a rain layer and small cash notes for jeepney fares; start early to avoid afternoon traffic on Leonard Wood Road."
+    }
+  },
+  "audiences": {
+    "eyebrow": "Tailored Plans",
+    "title": "Plans by Traveller Type",
+    "subtitle": "Choose the route that matches your group: families with children, photographers and nature watchers, or visitors who need a step-free, low-effort option.",
+    "durationLabel": "Time",
+    "paceLabel": "Pace",
+    "focusLabel": "Focus on",
+    "tipsLabel": "Practical notes",
+    "plans": [
+      {
+        "icon": "users",
+        "title": "Families with children",
+        "duration": "2–3 hours",
+        "pace": "Slow, with frequent stops",
+        "focus": [
+          "Pony and horse rides on the flat bridle path",
+          "Wide promenade and open lawns for running games",
+          "Snack and drink kiosks close to the main entrance",
+          "Fenced, shallow edges along the Pool of Pines"
+        ],
+        "tips": [
+          "Hold children's hands near the water and beside the horses",
+          "Confirm the ride duration and the total price before mounting",
+          "Bring wipes, a spare shirt and a small first-aid kit"
+        ]
+      },
+      {
+        "icon": "camera",
+        "title": "Photography & nature",
+        "duration": "3–5 hours",
+        "pace": "Unhurried, light-driven",
+        "focus": [
+          "Misty dawn reflections on the Pool of Pines",
+          "Vertical trunks, bark plates and pine-needle textures",
+          "Golden-hour backlight filtering through the canopy",
+          "Bird activity in the mid-storey of the pine stand"
+        ],
+        "tips": [
+          "A polarising filter cuts glare on the water surface",
+          "Bring a fast lens: the canopy makes the understorey dim",
+          "Set up before 07:00 if you want empty paths"
+        ]
+      },
+      {
+        "icon": "access",
+        "title": "Low-effort & step-free",
+        "duration": "1–1.5 hours",
+        "pace": "Gentle, with seated breaks",
+        "focus": [
+          "Level paved promenade running the length of the pool",
+          "Benches in the shade at regular intervals",
+          "Vehicle drop-off close to the main gate",
+          "Restrooms and kiosks near the entrance"
+        ],
+        "tips": [
+          "Arrive by vehicle and ask to be dropped at the main entrance",
+          "Avoid the gravel side paths after rain",
+          "Visit on weekdays: weekend crowds slow the promenade"
+        ]
+      }
+    ]
+  },
+  "seasons": {
+    "eyebrow": "Seasonal Strategy",
+    "title": "Quarter-by-Quarter Visiting Strategy",
+    "subtitle": "Baguio's highland year in four practical blocks — what the weather does, how busy it gets, and how to plan around it.",
+    "columns": {
+      "season": "Season",
+      "months": "Months",
+      "climate": "Climate",
+      "crowd": "Crowd level",
+      "strategy": "Suggested strategy"
+    },
+    "rows": [
+      {
+        "season": "Cool dry season",
+        "months": "Nov–Feb",
+        "climate": "Daytime 18–24 °C, nights 8–14 °C, frequent morning mist",
+        "crowd": "High — peaks at Christmas, New Year and Panagbenga (February)",
+        "strategy": "Arrive before 08:00 for clear reflections on the pool; book accommodation months ahead for late February; carry a warm layer for evenings"
+      },
+      {
+        "season": "Hot dry season",
+        "months": "Mar–May",
+        "climate": "Daytime 22–27 °C, strongest ultraviolet levels, generally dry",
+        "crowd": "High during school holidays and long weekends",
+        "strategy": "Walk before 10:00 or after 15:00; sunscreen and water are essential; expect the car park near the entrance to fill early"
+      },
+      {
+        "season": "Rainy season",
+        "months": "Jun–Oct",
+        "climate": "Afternoon thunderstorms, 16–22 °C, wettest in July–August",
+        "crowd": "Low to moderate except on public holidays",
+        "strategy": "Front-load outdoor plans into the morning, keep a rain layer handy, watch for slippery stonework and check road conditions in typhoon periods"
+      },
+      {
+        "season": "Shoulder weeks",
+        "months": "Late Oct, early Jun",
+        "climate": "Transitional: cool mornings with occasional showers",
+        "crowd": "Moderate",
+        "strategy": "The best balance of green scenery and manageable crowds; verify the status of Kennon Road and Marcos Highway before driving"
+      }
+    ],
+    "note": "The figures describe typical highland patterns for Baguio at roughly 1,400–1,500 m and are planning guidance only. Always consult the official weather bulletin and city advisories before travelling."
+  },
+  "science": {
+    "eyebrow": "Science & Stewardship",
+    "title": "Highland Ecology & Visitor Responsibility",
+    "subtitle": "A short field guide to what makes Wright Park's pine woodland work — and how visitors can help keep it healthy for the next century.",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "Benguet pine (Pinus kesiya)",
+        "text": "The pines framing the Pool of Pines are Benguet pine, a three-needled species native to the Cordillera and to parts of mainland South-East Asia. It favours full sunlight, acidic, well-drained soils and cool nights, and can exceed 30 m in height. The perfectly straight rows at Wright Park are a planted colonial plantation rather than natural forest: an even-aged stand that is now close to a century old, which is why the city and community groups run continuous replanting and hazard-tree pruning."
+      },
+      {
+        "icon": "sun",
+        "title": "Sun and ultraviolet at altitude",
+        "text": "Ultraviolet intensity rises by roughly 10–12% for every 1,000 m of elevation, and Baguio sits at about 1,400–1,500 m. Cool air hides the effect: visitors often sunburn on days that feel pleasant. On clear dry-season afternoons the UV index can reach very high levels, so sunscreen, a hat and sunglasses matter as much here as at the coast."
+      },
+      {
+        "icon": "droplet",
+        "title": "The Pool of Pines as an ecosystem",
+        "text": "The pool is an ornamental reflecting basin laid out in the early 1900s, not a natural lake. Its still water supports water lilies, algae, aquatic insects and — where stocked — fish, and it is sensitive to bread, food scraps and soap, which drive algal blooms and foul the water. Visitors should keep to the banks, never wade or swim, and never release pets or purchased animals into the basin."
+      },
+      {
+        "icon": "leaf",
+        "title": "Needle litter, soils and fire risk",
+        "text": "Pine needles are resinous and slow to decay, forming a dry, acidic litter layer that suppresses undergrowth and burns readily in the dry season. Compaction from foot traffic off the paths damages the shallow roots and speeds up erosion on the park's slopes. For these reasons the park asks visitors to stay on surfaced paths, and to keep all flames, including cigarettes, away from the groves."
+      },
+      {
+        "icon": "view",
+        "title": "City wildlife and working horses",
+        "text": "Even inside the city the mature pines host sunbirds, bulbuls, swifts and other small birds, especially in the quiet early morning. The horses on the bridle path are working animals with a fixed routine: do not feed them, do not block their line, and keep a respectful distance when they pass. Photographing people, handlers and their animals should always follow a polite request first."
+      }
+    ],
+    "responsibilityTitle": "Visitor responsibility",
+    "responsibility": [
+      "Stay on surfaced paths and lawns; pine roots are shallow and soil compaction weakens the trees",
+      "Carry out all rubbish, including food waste; never feed the fish, birds or horses",
+      "No open flames, cigarettes or drones in the pine groves and over The Mansion without permission",
+      "Use registered horse handlers and cooperatives, and agree the route, duration and price before starting",
+      "Keep voices low in the early morning: the park borders residential streets and a secure state residence",
+      "Ask before photographing people, and treat Cordillera cultural symbols, textiles and rituals with respect",
+      "Prefer refillable bottles and locally owned services, and avoid single-use plastic where a tap or fountain is available"
+    ],
+    "note": "This section is general science education compiled from public botanical, meteorological and heritage sources. It is not a substitute for on-site signage, city ordinances or the guidance of park staff."
   },
   "faq": {
     "eyebrow": "FAQ",
@@ -574,24 +957,24 @@
     "viewMaps": "View Wright Park on Google Maps",
     "creditNote": "All images © their original photographers. Linked for reference and educational illustration only.",
     "photos": [
-      { "file": "wright-park-1.jpg", "alt": "The Pool of Pines lined with mature Benguet pine trees at Wright Park, Baguio", "caption": "The Pool of Pines at daybreak" },
-      { "file": "wright-park-2.jpg", "alt": "Mist drifting through the pine forest of Wright Park in the cool season", "caption": "Misty morning among the pines" },
-      { "file": "wright-park-3.jpg", "alt": "Horseback riders and their guide on the bridle path of Wright Park", "caption": "The bridle path and pony rides" },
-      { "file": "wright-park-4.jpg", "alt": "The main promenade with benches and pine trees at Wright Park", "caption": "Main promenade along the pool" },
-      { "file": "wright-park-5.jpg", "alt": "The Mansion near Wright Park (Pool of Pines), Baguio City", "caption": "The Mansion opposite the park" },
-      { "file": "wright-park-6.jpg", "alt": "Picnic grove with families resting under the pine canopy", "caption": "Picnic groves and pine shade" },
-      { "file": "wright-park-7.jpg", "alt": "Golden hour light casting long shadows on the Pool of Pines", "caption": "Golden hour over the Pool of Pines" },
-      { "file": "wright-park-8.jpg", "alt": "Water lilies and koi fish in the Pool of Pines during the wet season", "caption": "Water lilies in the wet season" },
-      { "file": "wright-park-9.jpg", "alt": "Baguio Botanical Garden near Wright Park (Pool of Pines), Baguio City", "caption": "Nearby Botanical Garden terraces" },
-      { "file": "wright-park-10.jpg", "alt": "Mines View Park near Wright Park (Pool of Pines), Baguio City", "caption": "Mines View Park panorama" },
-      { "file": "wright-park-11.jpg", "alt": "Panagbenga Flower Festival floats on Session Road in Baguio", "caption": "Panagbenga season in the city" },
-      { "file": "wright-park-12.jpg", "alt": "Aerial view of Baguio City showing the pine-clad plateau around Wright Park", "caption": "Baguio, the City of Pines" },
-      { "file": "wright-park-13.jpg", "alt": "Traditional Ifugao hut in the Baguio Botanical Garden near Wright Park", "caption": "Cordillera heritage displays nearby" },
-      { "file": "wright-park-14.jpg", "alt": "Baguio pine cones and needles collected along the Wright Park forest trail", "caption": "Pine forest textures of Benguet" },
-      { "file": "wright-park-15.jpg", "alt": "Strawberry jam, ube halaya and peanut brittle, the classic Baguio pasalubong", "caption": "Cordillera food souvenirs" },
-      { "file": "wright-park-16.jpg", "alt": "Handwoven Igorot textiles and silver jewellery at the Baguio public market", "caption": "Local handicrafts and weaving" },
-      { "file": "wright-park-17.jpg", "alt": "Baguio Cathedral and Session Road skyline viewed from the hillside", "caption": "Baguio cityscape and skyline" },
-      { "file": "wright-park-18.jpg", "alt": "Ibaloi traditional ceremony with tapuy rice wine, a glimpse of Cordillera culture", "caption": "Cultural heritage of the Cordilleras" }
+      { "file": "wright-park-pool-of-pines-daybreak-1.jpg", "alt": "The Pool of Pines lined with mature Benguet pine trees at Wright Park, Baguio", "caption": "The Pool of Pines at daybreak" },
+      { "file": "wright-park-pine-forest-morning-mist-2.jpg", "alt": "Mist drifting through the pine forest of Wright Park in the cool season", "caption": "Misty morning among the pines" },
+      { "file": "wright-park-bridle-path-horse-riding-3.jpg", "alt": "Horseback riders and their guide on the bridle path of Wright Park", "caption": "The bridle path and pony rides" },
+      { "file": "wright-park-main-promenade-pine-benches-4.jpg", "alt": "The main promenade with benches and pine trees at Wright Park", "caption": "Main promenade along the pool" },
+      { "file": "wright-park-the-mansion-across-road-5.jpg", "alt": "The Mansion near Wright Park (Pool of Pines), Baguio City", "caption": "The Mansion opposite the park" },
+      { "file": "wright-park-picnic-grove-pine-canopy-6.jpg", "alt": "Picnic grove with families resting under the pine canopy", "caption": "Picnic groves and pine shade" },
+      { "file": "wright-park-pool-of-pines-golden-hour-7.jpg", "alt": "Golden hour light casting long shadows on the Pool of Pines", "caption": "Golden hour over the Pool of Pines" },
+      { "file": "wright-park-pool-of-pines-water-lilies-8.jpg", "alt": "Water lilies and koi fish in the Pool of Pines during the wet season", "caption": "Water lilies in the wet season" },
+      { "file": "wright-park-botanical-garden-nearby-9.jpg", "alt": "Baguio Botanical Garden near Wright Park (Pool of Pines), Baguio City", "caption": "Nearby Botanical Garden terraces" },
+      { "file": "wright-park-mines-view-park-panorama-10.jpg", "alt": "Mines View Park near Wright Park (Pool of Pines), Baguio City", "caption": "Mines View Park panorama" },
+      { "file": "wright-park-panagbenga-flower-festival-11.jpg", "alt": "Panagbenga Flower Festival floats on Session Road in Baguio", "caption": "Panagbenga season in the city" },
+      { "file": "wright-park-baguio-city-aerial-pines-12.jpg", "alt": "Aerial view of Baguio City showing the pine-clad plateau around Wright Park", "caption": "Baguio, the City of Pines" },
+      { "file": "wright-park-ifugao-hut-cordillera-heritage-13.jpg", "alt": "Traditional Ifugao hut in the Baguio Botanical Garden near Wright Park", "caption": "Cordillera heritage displays nearby" },
+      { "file": "wright-park-benguet-pine-cones-needles-14.jpg", "alt": "Baguio pine cones and needles collected along the Wright Park forest trail", "caption": "Pine forest textures of Benguet" },
+      { "file": "wright-park-strawberry-ube-pasalubong-15.jpg", "alt": "Strawberry jam, ube halaya and peanut brittle, the classic Baguio pasalubong", "caption": "Cordillera food souvenirs" },
+      { "file": "wright-park-igorot-textiles-handicrafts-16.jpg", "alt": "Handwoven Igorot textiles and silver jewellery at the Baguio public market", "caption": "Local handicrafts and weaving" },
+      { "file": "wright-park-baguio-cathedral-cityscape-17.jpg", "alt": "Baguio Cathedral and Session Road skyline viewed from the hillside", "caption": "Baguio cityscape and skyline" },
+      { "file": "wright-park-ibaloi-culture-cordillera-18.jpg", "alt": "Ibaloi traditional ceremony with tapuy rice wine, a glimpse of Cordillera culture", "caption": "Cultural heritage of the Cordilleras" }
     ]
   },
   "footer": {

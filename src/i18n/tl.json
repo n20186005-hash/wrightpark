@@ -22,6 +22,11 @@
     "gallery": "Galerya",
     "reviews": "Mga Pagsusuri sa Google",
     "sources": "Mga Sanggunian",
+    "weather": "Panahon",
+    "routes": "Mga Ruta",
+    "audiences": "Ayon sa Bisita",
+    "seasons": "Mga Panahon",
+    "science": "Kalikasan",
     "selectLanguage": "Wika",
     "skipToContent": "Laktawan patungo sa pangunahing nilalaman"
   },
@@ -323,6 +328,21 @@
           "Huwag kailanman iparada ang sasakyan sa gilid ng kalsada ng Leonard Wood Road nang direkta sa harap ng tarangkahan ng The Mansion, dahil ang paghila ng sasakyan ay mahigpit na ipinapatupad ng pulisya ng trapiko ng lungsod",
           "Tingnan ang ulat ng panahon bago magmaneho; ang panahon ng bagyo (Hul–Okt) ay maaaring magdala ng pagguho ng lupa at pansamantalang pagsasara ng kalsada sa mga rutang Kennon at Aspiras-Palispis"
         ]
+      },
+      {
+        "icon": "plane",
+        "title": "Mula sa Clark International Airport (Pampanga)",
+        "text": "Ang Clark ang praktikal na paliparan para sa mga bisitang galing sa labas ng Luzon: humigit-kumulang 180–210 km at mga 3.5–5 oras papuntang Baguio depende sa trapiko at panahon. Ang transportasyon ay nahahati sa tatlong uri — intercity coach na tumatakbo mula Clark patungong hilagang Luzon (may mga biyaheng dumadaan sa Maynila), pre-booked na airport transfer o metered na taxi, at mga shared shuttle van na inaayos ng mga hotel. Dumating habang may liwanag pa, kumpirmahin ang iskedyul isang araw bago, at maglaan ng maluwag na buffer para sa trapiko tuwing pista at roadworks sa tag-ulan."
+      },
+      {
+        "icon": "bus",
+        "title": "Mula sa mga Terminal ng Bus sa Baguio Patungong Parke",
+        "text": "Ang mga long-distance coach mula Maynila at hilaga ay dumarating sa mga pampublikong terminal ng bus sa sentro ng Baguio — karaniwan sa mga lugar ng Dangwa, Governor Pack at Slaughterhouse depende sa operator at ruta. Mula sa alinman sa mga ito, aabutin ng mga 10–20 minuto ang jeepney o taxi patungong Wright Park sa normal na trapiko, at mas matagal tuwing weekends at pista. Magdala ng maliliit na pera, sabihin nang malinaw ang \"Wright Park\", \"The Mansion\" o \"Leonard Wood Road\", at kumpirmahin ang pamasahe bago sumakay."
+      },
+      {
+        "icon": "taxi",
+        "title": "Chartered Van, Hotel Shuttle at Package na Transportasyon",
+        "text": "Ang mga pribadong chartered van, shared tourist shuttle at sasakyang inaayos ng hotel ay angkop para sa mga grupo, mga photographer na may dalang kagamitan at mga bisitang may limitadong lakas. Karaniwang nakabatay ang presyo sa oras o araw, at dapat nakasulat ang kasunduan sa uri ng sasakyan, drayber, ruta, oras ng paghihintay at bayad sa paradahan bago umalis. Piliin ang mga sasakyang naka-book sa pamamagitan ng inyong matutuluyan o mga opisyal na channel ng turismo, suriin ang plaka at mga permit, at iwasan ang mga walang markang operator na nanghihikayat sa kalsada."
       }
     ]
   },
@@ -370,6 +390,26 @@
         "icon": "park",
         "title": "Pangunang Lunas at Kalusugan",
         "text": "Ang mga pangunahing post ng pangunang lunas at booth ng seguridad ay karaniwang may tauhan sa pangunahing pasukan ng Wright Park. Ang Baguio ay mayroon ding ilang ospital at klinika ng iba't ibang uri: mga ospital ng distrito na pinapatakbo ng gobyerno, mga pribadong multi-specialty na ospital at mga klinika sa kapitbahayan. Ang mga botika (botika) ay malawak; marami ang bukas nang huli o 24 oras sa kahabaan ng Session Road at mga pangunahing avenue. Kung mayroon kang talamak na kondisyon, magdala ng sapat na suplay ng gamot mula sa bahay, dahil ang mga partikular na tatak ay maaaring hindi magagamit nang lokal."
+      },
+      {
+        "icon": "info",
+        "title": "Impormasyon sa Bisita at Pagga-guide",
+        "text": "Makukuha ang impormasyong pang-orientasyon para sa Baguio ayon sa uri kaysa sa pangalan ng negosyo: ang opisina ng turismo ng lungsod at mga satellite information desk nito, mga nakalimbag na mapa ng lungsod, mga karatula sa loob ng parke, at mga lisensyadong lokal na gabay na maaaring ayusin sa pamamagitan ng mga opisyal na channel ng turismo. Suriin muna ang pagkakakilanlan at opisyal na akreditasyon bago kumuha ng gabay, pagkasunduan ang wika, haba at bayad bago magsimula, at ituring bilang babala ang sinumang nagpipilit na bumili ka."
+      },
+      {
+        "icon": "ticket",
+        "title": "Pera, Card at ATM",
+        "text": "Ang mga bangko at ATM ay nakapokus sa Session Road, Magsaysay Avenue at sa loob ng mga shopping centre ng lungsod, at karamihan sa mga pangunahing card network ay tinatanggap. Ang maliliit na kiosk, pamasahe sa jeepney, bayad sa paradahan, pagsakay sa pony at mga tindahan sa palengke ay cash lang, kaya magdala ng maliliit na denominasyon ng piso ng Pilipinas. Karaniwan ang bayad gamit ang card at QR code sa mga kilalang restawran at tindahan ngunit huwag itong asahan sa loob mismo ng parke."
+      },
+      {
+        "icon": "globe",
+        "title": "Koneksyon at Kuryente",
+        "text": "Karaniwang mabuti ang saklaw ng mga pangunahing network ng telekomunikasyon sa sentro ng Baguio, kabilang ang paligid ng Wright Park, bagaman maaaring humina ang signal sa mga kakahuyan at mga kalsada sa tagaytay. May libreng pampublikong wireless internet sa ilang mall, café at pampublikong gusali; ituring na hindi ligtas ang mga bukas na network at iwasan ang online banking rito. I-download nang maaga ang offline na mapa at mga translation pack, at magdala ng power bank kung umaasa ka sa telepono para sa nabigasyon at larawan."
+      },
+      {
+        "icon": "users",
+        "title": "Bagaje, Pamilya at Alagang Hayop",
+        "text": "Walang malaking pasilidad para sa bagahe sa loob ng Wright Park; karaniwang iniiwan ng mga manlalakbay ang kanilang mga bag sa kanilang matutuluyan o ginagamit ang mga luggage counter sa ilang terminal ng transportasyon at shopping centre. Ang patag na promenad ay angkop sa stroller, at maraming kalapit na café at mall ang may baby-changing room at pampamilyang banyo. Karaniwang tinatanggap ang mga aso sa mga bukas na bahagi ng parke, ngunit dapat nakatali nang maikli, inilalayo sa mga kabayo at sa lawa, at nililinisan ang kanilang dumi."
       }
     ]
   },
@@ -386,6 +426,349 @@
       "Ang temperatura ng Baguio ay maaaring mabilis na magbago; magdala ng dyaket, magaan na kapote at maraming patong ng damit sa buong taon",
       "Suportahan ang mga lokal na komunidad sa pamamagitan ng pagtangkilik sa mga rehistradong kooperatiba, lisensyadong gabay at mga restawrang pag-aari ng lokal sa halip na mga hindi reguladong impormal na serbisyo hangga't maaari"
     ]
+  },
+  "weather": {
+    "eyebrow": "Panahon at Pagtataya",
+    "title": "Kasalukuyang Panahon sa Wright Park",
+    "subtitle": "Ang live na kalagayan sa kabundukan ng parke kasama ang pagtataya para sa mga susunod na araw, upang malaman kung kailangan ng payong, dyaket o sunscreen.",
+    "updatedLabel": "Na-update",
+    "currentTitle": "Kalagayan sa parke",
+    "feelsLike": "Pakiramdam",
+    "humidity": "Halumigmig",
+    "precipitation": "Ulan",
+    "precipProb": "Tyansa ng ulan",
+    "wind": "Hangin",
+    "windForceLabel": "Level {n}",
+    "uvLabel": "Antas ng UV",
+    "todayRange": "Pinakamataas / pinakamababa ngayon",
+    "forecastTitle": "Pagtataya sa 7 araw",
+    "forecastHint": "Pagtataya at kung ano ang dadalhin",
+    "riskTitle": "Babala sa panganib ng panahon",
+    "riskNone": "Walang partikular na panganib sa panahon na kailangang paghandaan — maaaring sundin ang karaniwang pagbisita.",
+    "outfitTitle": "Damit na isusuot",
+    "planTitle": "Paglalaan ng oras",
+    "gearTitle": "Dapat dalhin",
+    "levels": {
+      "humidity": {
+        "humid": "Mahalumigmig",
+        "comfortable": "Komportable",
+        "fresh": "Sariwa at tuyo",
+        "dry": "Napakatuyo"
+      },
+      "uv": {
+        "low": "Mababa",
+        "moderate": "Katamtaman",
+        "high": "Malakas",
+        "veryHigh": "Napakalakas",
+        "extreme": "Matindi"
+      },
+      "wind": {
+        "calm": "Halos walang hangin",
+        "light": "Mahinang hangin",
+        "moderate": "Katamtamang hangin",
+        "strong": "Medyo malakas na hangin",
+        "gale": "Malakas na hangin"
+      }
+    },
+    "dayTips": {
+      "umbrella": "Payong",
+      "raincoat": "Raincoat",
+      "sun": "Sunscreen",
+      "jacket": "Dyaket",
+      "wind": "Panghangin",
+      "fog": "Mababang visibility",
+      "ok": "Mainam"
+    },
+    "rules": {
+      "thunder": {
+        "risk": "May kulog at kidlat: huwag sumilong sa ilalim ng matataas na pino o sa bukas na lugar, at itigil muna ang pagsakay sa kabayo at pag-akyat.",
+        "plan": "Karaniwang isinuspinde ang mga bukas na aktibidad at anumang aktibidad sa tubig; lumipat sa mga pasilidad na may bubong.",
+        "gear": "Raincoat, at panatilihing may sapat na baterya ang telepono para sa mga update sa panahon at trapiko."
+      },
+      "heavyRain": {
+        "risk": "Malakas na ulan: lumayo sa mga lambak, mababang kalsada at mga batong hagdan sa tabi ng lawa, at bantayan ang mga abiso sa pagbaha at pagguho ng lupa.",
+        "plan": "Hindi inirerekomenda ang mahabang oras sa labas; maaaring ihinto anumang oras ang landas ng pagsakay at mga bukas na aktibidad.",
+        "gear": "Mas praktikal ang raincoat kaysa mahabang payong kapag lumakas ang hangin."
+      },
+      "rainLikely": {
+        "outfit": "Magaan na panlaban sa ulan at sapad na hindi madulas.",
+        "plan": "Malamang ngunit hindi tiyak na uulan: maglaan ng mga pasilidad na may bubong at ipagpabukas ang mahabang lakad sa tagaytay.",
+        "gear": "Tiklop na payong o magaan na raincoat."
+      },
+      "lightRain": {
+        "outfit": "Madulas ang mga landas at batong hagdan — bagalan ang lakad sa mga dalisdis at malapit sa tubig.",
+        "plan": "Hindi kasiya-siya ang mga bukas na aktibidad sa ambon; mas mainam ang maikling ikot sa loob ng parke.",
+        "gear": "Tiklop na payong."
+      },
+      "uvStrong": {
+        "outfit": "Kailangan ang proteksyon sa araw kahit malamig ang hangin — mas matindi ang ultraviolet sa ganitong taas.",
+        "plan": "Pagpalitin ang lilim ng mga pino at pahinga sa loob, at iwasan ang tanghaling tapat.",
+        "gear": "Sunscreen, salamin sa mata at sombrero."
+      },
+      "uvModerate": {
+        "gear": "Sunscreen at salamin sa mata."
+      },
+      "hot": {
+        "outfit": "Magaan at preskong damit, mas mainam kung mapusyaw ang kulay.",
+        "plan": "Paikliin ang oras sa labas tuwing tanghali at gamitin ang lilim ng mga pino.",
+        "gear": "Inuming tubig, proteksyon sa araw at pamatag sa init."
+      },
+      "warm": {
+        "gear": "Magdala ng isang bote ng tubig."
+      },
+      "coldDay": {
+        "outfit": "Makapal na dyaket at dagdag na layer; magdagdag ng scarf kung madaling ginawin.",
+        "plan": "Paikliin ang mga hinto sa madaling araw at gabi, na may pahinga sa loob sa pagitan.",
+        "gear": "Pang-init na layer at maiinit na inumin."
+      },
+      "coldMorning": {
+        "outfit": "Magdagdag ng dyaket sa umaga at tanggalin ito kapag lumabas na ang araw."
+      },
+      "bigRange": {
+        "outfit": "Malaki ang agwat ng init sa araw at gabi — magsuot ng mga layer na madaling tanggalin.",
+        "plan": "Hamog at repleksyon sa lawa sa umaga o gabi; lilim ng mga pino sa tanghali."
+      },
+      "windBreezy": {
+        "plan": "Mahangin sa mga bukas na bahagi: madaling tangayin ang sombrero at magagaan na gamit, at maaaring limitahan ang mga viewpoint.",
+        "gear": "Sombrerong may tali; iwasan ang maluwag na mahabang palda at magaan na scarf."
+      },
+      "windStrong": {
+        "risk": "Malakas na hangin: lumayo sa mga billboard, pansamantalang istruktura at mga tuyong nakatayong puno.",
+        "plan": "Malamang na isasara ang mga bukas at matataas na aktibidad; manatili sa mga landas na may lilim sa loob ng parke."
+      },
+      "clear": {
+        "plan": "Maliwanag ang panahon — mainam para sa paglalakad at sa liwanag ng hapon sa kakahuyan.",
+        "gear": "Proteksyon sa araw."
+      },
+      "overcast": {
+        "plan": "Malambot at pantay ang liwanag kaya maganda sa larawan, at walang matinding sikat ng araw — komportable ang mabagal at mahabang paglibot."
+      },
+      "fog": {
+        "risk": "Mababa ang kakayahang makakita: bagalan ang takbo at buksan ang ilaw sa mga kalsadang paakyat, at asahan ang limitadong tanawin.",
+        "plan": "Ipagpabukas ang malawak na tanawin; mas angkop ang mga malalapit na detalye at landas sa kakahuyan.",
+        "gear": "Magaan na dyaket, at maskara kung sensitibo sa maalinsangang hangin."
+      },
+      "humid": {
+        "plan": "Maalinsangan ang pakiramdam — bagalan ang lakad at uminom ng tubig nang regular."
+      },
+      "dry": {
+        "gear": "Lip balm at moisturizer, at uminom ng tubig nang madalas."
+      },
+      "highland": {
+        "plan": "Nasa humigit-kumulang {elevation} m ang taas: mas matindi ang sikat ng araw at mas mabilis maubos ang lakas kaysa sa kapatagan — bagalan ang pag-akyat at pagbaba."
+      },
+      "landslide": {
+        "risk": "Sa tag-ulan, maaaring magkaroon ng nahuhulog na bato, pagguho ng lupa at pansamantalang traffic control sa mga kalsadang paakyat — suriin muna ang kalagayan ng kalsada bago umalis."
+      }
+    },
+    "sourceLabel": "Pinagmulan ng datos",
+    "sourceNote": "Ang mga obserbasyon at pagtataya ay mula sa pampublikong serbisyo ng panahon na Open-Meteo para sa mga coordinate ng Wright Park (16.416° N, 120.615° E, humigit-kumulang 1,475 m sa ibabaw ng dagat).",
+    "refreshNote": "Ang mga numero ay kinukuha kapag nabuo ang pahinang ito at naka-cache nang maikling panahon. Mabilis magbago ang panahon sa kabundukan — tingnan muli ang pinakabagong pagtataya bago umalis.",
+    "fallbackTitle": "Hindi pansamantalang available ang live na panahon",
+    "fallbackText": "Hindi nakuha ang kasalukuyang kalagayan. Bilang pangkalahatang sanggunian, ang klima sa kabundukan ng Baguio ay katamtaman buong taon: sa tagtuyot ay karaniwang umaabot ang araw sa 22–26 °C, ang pinakamalamig na gabi mula Disyembre hanggang Pebrero ay maaaring bumaba sa 8–12 °C, at karaniwan ang mga pagbagsak ng ulan sa hapon mula Hunyo hanggang Oktubre.",
+    "codes": {
+      "clear": "Maliwanag na langit",
+      "mainlyClear": "Halos maliwanag",
+      "partly": "Bahagyang maulap",
+      "overcast": "Maulap",
+      "fog": "Hamog at mababang ulap",
+      "drizzle": "Magaan na ambon",
+      "rain": "Ulan",
+      "freezingRain": "Nagyeyelong ulan",
+      "snow": "Nyebe",
+      "showers": "Mga bugso ng ulan",
+      "snowShowers": "Mga bugso ng nyebe",
+      "thunder": "Bagyo na may kulog",
+      "thunderHail": "Bagyo na may kulog at yelo",
+      "unknown": "Pabago-bagong panahon"
+    }
+  },
+  "routes": {
+    "eyebrow": "Mga Mungkahing Ruta",
+    "title": "Mga Inirerekomendang Ruta sa Wright Park",
+    "subtitle": "Dalawang handa nang ruta: isang siksik na kalahating araw na ikot para sa masikip na iskedyul, at isang buong araw na pamana-lakad na nag-uugnay sa parke at mga tanawin sa silangan ng Baguio.",
+    "durationLabel": "Oras na kailangan",
+    "distanceLabel": "Layo sa paglalakad",
+    "halfDay": {
+      "label": "Kalahating araw na ikot",
+      "duration": "2.5–3 oras",
+      "distance": "Humigit-kumulang 2–3 km sa paglalakad",
+      "summary": "Isang magaan na ikot na mananatili sa loob at agarang paligid ng parke — mainam bago o pagkatapos ng umaga sa sentro ng lungsod.",
+      "steps": [
+        "Pumasok sa pangunahing tarangkahan sa Romulo Drive / Leonard Wood Road at sundan ang promenad sa tabi ng Luneta ng mga Pino",
+        "Magpatuloy sa piknikang bahagi sa ilalim ng mga pino para sa maikling pahinga at lilim",
+        "Opsyonal na pagsakay sa pony o kabayo sa patag na landas ng pagsakay",
+        "Tumawid sa tarangkahan ng The Mansion para sa panlabas na tanawin ng summer residence ng pangulo",
+        "Bumaba nang paglalakad patungong Baguio Botanical Garden para sa mga display ng kulturang Cordillera",
+        "Bumalik sa pasukan ng parke para sa kape, meryenda o strawberry"
+      ],
+      "note": "Pinakamainam sa mga umaga ng karaniwang araw, kung tahimik ang promenad at malambot at pantay ang liwanag sa ibabaw ng lawa."
+    },
+    "fullDay": {
+      "label": "Buong araw na pamana-lakad",
+      "duration": "6–8 oras kasama ang mga pahinga",
+      "distance": "Humigit-kumulang 6–8 km kasama ang mga bahagi ng tagaytay",
+      "summary": "Isang kumpletong araw sa Baguio: kagubatan ng pino, pamana ng pangulo, koleksyon ng halaman at ang klasikong malawak na tanawin ng Mines View.",
+      "steps": [
+        "Maagang simula sa Wright Park: hamog sa umaga sa Luneta ng mga Pino at sa bubong ng mga pino",
+        "Ang panlabas na bahagi ng The Mansion at ang mga hardin nito sa tapat ng kalsada",
+        "Baguio Botanical Garden: mga display ng pamana ng Ifugao, Kankana-ey at Ibaloi",
+        "Tanghalian sa sentro ng lungsod o nakabalot na piknik sa ilalim ng mga pino",
+        "Jeepney o taxi patungong Mines View Park para sa malawak na tanawin sa tagaytay",
+        "Hinto para sa mga produktong strawberry, ube at mani bilang pasalubong",
+        "Bumalik sa Wright Park para sa liwanag ng gintong oras at pagsakay sa kabayo sa hapon",
+        "Hapunan malapit sa Session Road at mabagal na paglakad pabalik sa inyong matutuluyan"
+      ],
+      "note": "Magdala ng tubig, panlaban sa ulan at maliliit na pera para sa pamasahe sa jeepney; magsimula nang maaga upang iwasan ang trapiko sa hapon sa Leonard Wood Road."
+    }
+  },
+  "audiences": {
+    "eyebrow": "Mga Planong Naangkop",
+    "title": "Mga Plano Ayon sa Uri ng Bisita",
+    "subtitle": "Piliin ang rutang tugma sa inyong grupo: mga pamilyang may mga bata, mga mahilig sa potograpiya at kalikasan, o mga bisitang nangangailangan ng patag at mababang-pagod na opsyon.",
+    "durationLabel": "Oras",
+    "paceLabel": "Bilis ng lakad",
+    "focusLabel": "Pagtuunan",
+    "tipsLabel": "Mga praktikal na paalala",
+    "plans": [
+      {
+        "icon": "users",
+        "title": "Mga pamilyang may mga bata",
+        "duration": "2–3 oras",
+        "pace": "Mabagal, na may madalas na paghinto",
+        "focus": [
+          "Pagsakay sa pony at kabayo sa patag na landas ng pagsakay",
+          "Malapad na promenad at bukas na damuhan para sa pagtakbo",
+          "Mga kiosk ng meryenda at inumin malapit sa pangunahing pasukan",
+          "May bakod at mababaw na gilid sa paligid ng Luneta ng mga Pino"
+        ],
+        "tips": [
+          "Hawakan ang kamay ng mga bata malapit sa tubig at sa tabi ng mga kabayo",
+          "Kumpirmahin muna ang haba ng pagsakay at kabuuang presyo bago sumakay",
+          "Magdala ng wipes, pamalit na damit at maliit na first-aid kit"
+        ]
+      },
+      {
+        "icon": "camera",
+        "title": "Potograpiya at kalikasan",
+        "duration": "3–5 oras",
+        "pace": "Hindi nagmamadali, nakasunod sa liwanag",
+        "focus": [
+          "Maalon na repleksyon sa umaga sa Luneta ng mga Pino",
+          "Mga tuwid na puno, balat ng puno at tekstura ng mga dahong pino",
+          "Backlight ng gintong oras na dumadaan sa bubong ng mga pino",
+          "Aktibidad ng mga ibon sa gitnang bahagi ng kagubatan ng pino"
+        ],
+        "tips": [
+          "Ang polarising filter ay nakakatanggal ng kinang sa ibabaw ng tubig",
+          "Magdala ng mabilis na lens: madilim ang ilalim ng mga pino dahil sa bubong nito",
+          "Mag-set up bago mag-07:00 kung gusto ng walang taong mga daan"
+        ]
+      },
+      {
+        "icon": "access",
+        "title": "Mababang-pagod at walang hagdan",
+        "duration": "1–1.5 oras",
+        "pace": "Mahinahon, na may mga upuan para magpahinga",
+        "focus": [
+          "Patag na sementadong promenad sa buong haba ng lawa",
+          "Mga upuang may lilim sa mga regular na pagitan",
+          "Pagbaba ng sasakyan malapit sa pangunahing tarangkahan",
+          "Mga banyo at kiosk malapit sa pasukan"
+        ],
+        "tips": [
+          "Dumating nang sasakyan at ipaibaba sa pangunahing pasukan",
+          "Iwasan ang mga daang graba kapag umuulan",
+          "Bumisita sa mga karaniwang araw: mabagal ang promenad kapag sabado't linggo dahil sa dami ng tao"
+        ]
+      }
+    ]
+  },
+  "seasons": {
+    "eyebrow": "Estratehiya Ayon sa Panahon",
+    "title": "Estratehiya sa Pagbisita Bawat Panahon ng Taon",
+    "subtitle": "Ang taon sa kabundukan ng Baguio sa apat na praktikal na bahagi — kung ano ang ginagawa ng panahon, gaano kadami ang tao, at kung paano magplano.",
+    "columns": {
+      "season": "Panahon",
+      "months": "Mga buwan",
+      "climate": "Klima",
+      "crowd": "Dami ng tao",
+      "strategy": "Mungkahing estratehiya"
+    },
+    "rows": [
+      {
+        "season": "Malamig na tagtuyot",
+        "months": "Nob–Peb",
+        "climate": "Araw 18–24 °C, gabi 8–14 °C, madalas na hamog sa umaga",
+        "crowd": "Mataas — kasagsagan tuwing Pasko, Bagong Taon at Panagbenga (Pebrero)",
+        "strategy": "Dumating bago mag-08:00 para sa malinaw na repleksyon sa lawa; mag-reserba ng matutuluyan nang ilang buwan bago ang huling bahagi ng Pebrero; magdala ng mainit na layer para sa gabi"
+      },
+      {
+        "season": "Mainit na tagtuyot",
+        "months": "Mar–May",
+        "climate": "Araw 22–27 °C, pinakamatinding ultraviolet, karaniwang tuyo",
+        "crowd": "Mataas tuwing bakasyon ng mga estudyante at mahabang weekends",
+        "strategy": "Maglakad bago mag-10:00 o pagkatapos ng 15:00; mahalaga ang sunscreen at tubig; asahan na maaga mapupuno ang paradahan malapit sa pasukan"
+      },
+      {
+        "season": "Tag-ulan",
+        "months": "Hun–Okt",
+        "climate": "Mga bagyo sa hapon, 16–22 °C, pinakamaulan sa Hulyo–Agosto",
+        "crowd": "Mababa hanggang katamtaman maliban sa mga pista opisyal",
+        "strategy": "Iuna ang mga planong panlabas sa umaga, magdala ng panlaban sa ulan, mag-ingat sa madulas na bato at suriin ang kalagayan ng kalsada tuwing may bagyo"
+      },
+      {
+        "season": "Mga linggong transisyon",
+        "months": "Huling bahagi ng Okt, unang bahagi ng Hun",
+        "climate": "Transisyon: malamig na umaga na may paminsang ulan",
+        "crowd": "Katamtaman",
+        "strategy": "Pinakamagandang timpla ng luntiang tanawin at kaya pang dami ng tao; suriin muna ang kalagayan ng Kennon Road at Marcos Highway bago magmaneho"
+      }
+    ],
+    "note": "Ang mga numero ay naglalarawan ng karaniwang pattern ng klima sa kabundukan ng Baguio sa humigit-kumulang 1,400–1,500 m at gabay lamang sa pagpaplano. Laging sumangguni muna sa opisyal na bulletin ng panahon at mga abiso ng lungsod bago maglakbay."
+  },
+  "science": {
+    "eyebrow": "Agham at Pangangalaga",
+    "title": "Ekolohiya ng Kabundukan at Pananagutan ng Bisita",
+    "subtitle": "Isang maikling gabay sa kung paano gumagana ang kagubatan ng pino ng Wright Park — at kung paano makatutulong ang mga bisita upang manatili itong malusog para sa susunod na siglo.",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "Pino ng Benguet (Pinus kesiya)",
+        "text": "Ang mga pinong nakapalibot sa Luneta ng mga Pino ay pino ng Benguet, isang species na may tatlong dahon bawat fascicle na katutubo sa Cordillera at sa mga bahagi ng mainland South-East Asia. Nangangailangan ito ng buong sikat ng araw, maasim at maayos na pinatutuluyang tubig na lupa, at malamig na gabi, at maaari itong lumampas sa 30 m ang taas. Ang perpektong tuwid na mga hanay sa Wright Park ay itinanim noong panahong kolonyal, hindi likas na kagubatan: isang magkakasing-edad na hanay na halos isang siglo na ngayon, kaya patuloy ang pagtatanim at pagputol ng mga mapanganib na sanga ng lungsod at mga samahan ng komunidad."
+      },
+      {
+        "icon": "sun",
+        "title": "Araw at ultraviolet sa mataas na lugar",
+        "text": "Tumataas ang intensity ng ultraviolet nang humigit-kumulang 10–12% sa bawat 1,000 m ng taas, at nasa humigit-kumulang 1,400–1,500 m ang Baguio. Itinatago ng malamig na hangin ang epekto: madalas na nasusunog sa araw ang mga bisita sa mga araw na parang kaaya-aya. Sa mga maliwanag na hapon ng tagtuyot ay maaaring umabot sa napakataas na antas ang UV index, kaya mahalaga rito ang sunscreen, sombrero at salamin sa mata gaya sa tabing-dagat."
+      },
+      {
+        "icon": "droplet",
+        "title": "Ang Luneta ng mga Pino bilang ecosystem",
+        "text": "Ang lawa ay isang pandekorasyon na sumasalamin na palanggana na inilatag noong unang bahagi ng 1900s, hindi likas na lawa. Ang tahimik nitong tubig ay sumusuporta sa mga water lily, algae, mga insekto sa tubig at — kung may inilagay — mga isda, at sensitibo ito sa tinapay, tira ng pagkain at sabon na nagdudulot ng pamumulaklak ng algae at pagkasira ng tubig. Manatili ang mga bisita sa pampang, huwag lumusong o lumangoy, at huwag pakawalan ang mga alagang hayop o biniling hayop sa lawa."
+      },
+      {
+        "icon": "leaf",
+        "title": "Mga nahulog na dahon, lupa at panganib ng sunog",
+        "text": "Ang mga dahon ng pino ay may dagta at mabagal mabulok, na bumubuo ng tuyo at maasim na patong na pumipigil sa mga halaman sa ilalim at madaling magliyab tuwing tagtuyot. Ang pagdiin ng lupa mula sa mga paa sa labas ng mga daan ay sumisira sa mababaw na ugat at nagpapabilis ng pagguho sa mga dalisdis ng parke. Dahil dito, hinihiling ng parke na manatili sa mga sementadong daan at ilayo ang anumang apoy, kabilang ang sigarilyo, sa mga kakahuyan."
+      },
+      {
+        "icon": "view",
+        "title": "Mga hayop sa lungsod at mga kabayong nagtatrabaho",
+        "text": "Kahit nasa loob ng lungsod, ang mga matatandang pino ay tahanan ng mga sunbird, bulbul, swift at iba pang maliliit na ibon, lalo na sa tahimik na umaga. Ang mga kabayo sa landas ng pagsakay ay mga hayop na may trabaho at may nakagawiang iskedyul: huwag silang pakainin, huwag harangan ang daan nila, at lumayo nang may respeto kapag dumadaan. Laging humingi muna ng pahintulot bago kuhanan ng larawan ang mga tao, tagapangasiwa at kanilang mga hayop."
+      }
+    ],
+    "responsibilityTitle": "Pananagutan ng bisita",
+    "responsibility": [
+      "Manatili sa mga sementadong daan at damuhan; mababaw ang ugat ng pino at ang pagdiin ng lupa ay nagpapahina sa mga puno",
+      "Iuwi ang lahat ng basura, kabilang ang tira ng pagkain; huwag pakainin ang mga isda, ibon o kabayo",
+      "Walang bukas na apoy, sigarilyo o drone sa mga kakahuyan at sa ibabaw ng The Mansion nang walang pahintulot",
+      "Gumamit ng mga rehistradong tagapangasiwa ng kabayo at kooperatiba, at pagkasunduan muna ang ruta, haba at presyo bago simulan",
+      "Panatilihing mababa ang boses sa maagang umaga: nasa tabi ng parke ang mga residential na kalsada at isang ligtas na pasilidad ng estado",
+      "Humingi ng pahintulot bago kuhanan ng larawan ang mga tao, at igalang ang mga simbolo, tela at ritwal ng kulturang Cordillera",
+      "Mas mainam ang mga bote na maaaring punuin muli at mga serbisyong lokal na pagmamay-ari, at iwasan ang single-use plastic kung may gripo o fountain"
+    ],
+    "note": "Ang seksyong ito ay pangkalahatang edukasyon sa agham na pinagsama mula sa mga pampublikong sanggunian sa botanika, meteorolohiya at pamana. Hindi nito pinapalitan ang mga karatula sa lugar, mga ordinansa ng lungsod o ang patnubay ng mga tauhan ng parke."
   },
   "faq": {
     "eyebrow": "Mga Madalas Itanong",
@@ -574,24 +957,24 @@
     "viewMaps": "Tingnan ang Wright Park sa Google Maps",
     "creditNote": "Lahat ng larawan © ng kanilang mga orihinal na litratista. Nakaugnay lamang para sa sanggunian at pang-edukasyon na paglalarawan.",
     "photos": [
-      { "file": "wright-park-1.jpg", "alt": "Ang Luneta ng mga Pino na may linya ng mga matatandang punong pino ng Benguet sa Wright Park, Baguio", "caption": "Ang Luneta ng mga Pino sa bukang-liwayway" },
-      { "file": "wright-park-2.jpg", "alt": "Ang hamog na dumadaloy sa kagubatan ng pino ng Wright Park sa malamig na panahon", "caption": "Maulang na umaga sa gitna ng mga pino" },
-      { "file": "wright-park-3.jpg", "alt": "Ang mga nakasakay sa kabayo at kanilang gabay sa landas ng pagsakay ng Wright Park", "caption": "Ang landas ng kabayo at pagsakay sa pony" },
-      { "file": "wright-park-4.jpg", "alt": "Ang pangunahing promenad na may mga upuang kahoy at punong pino sa Wright Park", "caption": "Pangunahing promenad sa kahabaan ng lawa" },
-      { "file": "wright-park-5.jpg", "alt": "Ang The Mansion malapit sa Wright Park (Luneta ng mga Pino), Lungsod ng Baguio", "caption": "Ang The Mansion sa tapat ng parke" },
-      { "file": "wright-park-6.jpg", "alt": "Ang lugar ng piknik kasama ang mga pamilyang nagpapahinga sa ilalim ng bubong ng pino", "caption": "Mga lugar ng piknik at lilim ng pino" },
-      { "file": "wright-park-7.jpg", "alt": "Ang liwanag ng gintong oras na naghahagis ng mahabang anino sa Luneta ng mga Pino", "caption": "Gintong oras sa ibabaw ng Luneta ng mga Pino" },
-      { "file": "wright-park-8.jpg", "alt": "Ang mga liryo sa tubig at isdang koi sa Luneta ng mga Pino sa panahon ng tag-ulan", "caption": "Mga liryo sa tubig sa panahon ng tag-ulan" },
-      { "file": "wright-park-9.jpg", "alt": "Baguio Botanical Garden malapit sa Wright Park (Luneta ng mga Pino), Lungsod ng Baguio", "caption": "Mga kalapit na hagdan ng Botanical Garden" },
-      { "file": "wright-park-10.jpg", "alt": "Mines View Park malapit sa Wright Park (Luneta ng mga Pino), Lungsod ng Baguio", "caption": "Malawak na tanawin ng Mines View Park" },
-      { "file": "wright-park-11.jpg", "alt": "Ang mga float ng Panagbenga Flower Festival sa Session Road sa Baguio", "caption": "Panahon ng Panagbenga sa lungsod" },
-      { "file": "wright-park-12.jpg", "alt": "Tanawin mula sa himpapawid ng Lungsod ng Baguio na nagpapakita ng talampas na puno ng pino sa paligid ng Wright Park", "caption": "Ang Baguio, ang Lungsod ng mga Pino" },
-      { "file": "wright-park-13.jpg", "alt": "Tradisyunal na dampa ng Ifugao sa Baguio Botanical Garden malapit sa Wright Park", "caption": "Mga pagpapakita ng pamana ng Cordillera sa malapit" },
-      { "file": "wright-park-14.jpg", "alt": "Mga bunga at karayom ng pino ng Baguio na nakolekta sa kahabaan ng landas ng kagubatan ng Wright Park", "caption": "Mga tekstura ng kagubatan ng pino ng Benguet" },
-      { "file": "wright-park-15.jpg", "alt": "Jam ng strawberry, ube halaya at peanut brittle, ang klasikong pasalubong ng Baguio", "caption": "Mga pagkaing pasalubong mula sa Cordillera" },
-      { "file": "wright-park-16.jpg", "alt": "Mga hinabing telang Igorot at alahas na pilak sa pampublikong palengke ng Baguio", "caption": "Mga lokal na handicraft at paghahabi" },
-      { "file": "wright-park-17.jpg", "alt": "Katedral ng Baguio at tanawin ng Session Road na tinitingnan mula sa gilid ng burol", "caption": "Tanawin at skyline ng lungsod ng Baguio" },
-      { "file": "wright-park-18.jpg", "alt": "Tradisyunal na seremonya ng mga Ibaloi kasama ang tapuy na alak ng bigas, isang sulyap sa kultura ng Cordillera", "caption": "Pamanang pangkultura ng mga Cordillera" }
+      { "file": "wright-park-pool-of-pines-daybreak-1.jpg", "alt": "Ang Luneta ng mga Pino na may linya ng mga matatandang punong pino ng Benguet sa Wright Park, Baguio", "caption": "Ang Luneta ng mga Pino sa bukang-liwayway" },
+      { "file": "wright-park-pine-forest-morning-mist-2.jpg", "alt": "Ang hamog na dumadaloy sa kagubatan ng pino ng Wright Park sa malamig na panahon", "caption": "Maulang na umaga sa gitna ng mga pino" },
+      { "file": "wright-park-bridle-path-horse-riding-3.jpg", "alt": "Ang mga nakasakay sa kabayo at kanilang gabay sa landas ng pagsakay ng Wright Park", "caption": "Ang landas ng kabayo at pagsakay sa pony" },
+      { "file": "wright-park-main-promenade-pine-benches-4.jpg", "alt": "Ang pangunahing promenad na may mga upuang kahoy at punong pino sa Wright Park", "caption": "Pangunahing promenad sa kahabaan ng lawa" },
+      { "file": "wright-park-the-mansion-across-road-5.jpg", "alt": "Ang The Mansion malapit sa Wright Park (Luneta ng mga Pino), Lungsod ng Baguio", "caption": "Ang The Mansion sa tapat ng parke" },
+      { "file": "wright-park-picnic-grove-pine-canopy-6.jpg", "alt": "Ang lugar ng piknik kasama ang mga pamilyang nagpapahinga sa ilalim ng bubong ng pino", "caption": "Mga lugar ng piknik at lilim ng pino" },
+      { "file": "wright-park-pool-of-pines-golden-hour-7.jpg", "alt": "Ang liwanag ng gintong oras na naghahagis ng mahabang anino sa Luneta ng mga Pino", "caption": "Gintong oras sa ibabaw ng Luneta ng mga Pino" },
+      { "file": "wright-park-pool-of-pines-water-lilies-8.jpg", "alt": "Ang mga liryo sa tubig at isdang koi sa Luneta ng mga Pino sa panahon ng tag-ulan", "caption": "Mga liryo sa tubig sa panahon ng tag-ulan" },
+      { "file": "wright-park-botanical-garden-nearby-9.jpg", "alt": "Baguio Botanical Garden malapit sa Wright Park (Luneta ng mga Pino), Lungsod ng Baguio", "caption": "Mga kalapit na hagdan ng Botanical Garden" },
+      { "file": "wright-park-mines-view-park-panorama-10.jpg", "alt": "Mines View Park malapit sa Wright Park (Luneta ng mga Pino), Lungsod ng Baguio", "caption": "Malawak na tanawin ng Mines View Park" },
+      { "file": "wright-park-panagbenga-flower-festival-11.jpg", "alt": "Ang mga float ng Panagbenga Flower Festival sa Session Road sa Baguio", "caption": "Panahon ng Panagbenga sa lungsod" },
+      { "file": "wright-park-baguio-city-aerial-pines-12.jpg", "alt": "Tanawin mula sa himpapawid ng Lungsod ng Baguio na nagpapakita ng talampas na puno ng pino sa paligid ng Wright Park", "caption": "Ang Baguio, ang Lungsod ng mga Pino" },
+      { "file": "wright-park-ifugao-hut-cordillera-heritage-13.jpg", "alt": "Tradisyunal na dampa ng Ifugao sa Baguio Botanical Garden malapit sa Wright Park", "caption": "Mga pagpapakita ng pamana ng Cordillera sa malapit" },
+      { "file": "wright-park-benguet-pine-cones-needles-14.jpg", "alt": "Mga bunga at karayom ng pino ng Baguio na nakolekta sa kahabaan ng landas ng kagubatan ng Wright Park", "caption": "Mga tekstura ng kagubatan ng pino ng Benguet" },
+      { "file": "wright-park-strawberry-ube-pasalubong-15.jpg", "alt": "Jam ng strawberry, ube halaya at peanut brittle, ang klasikong pasalubong ng Baguio", "caption": "Mga pagkaing pasalubong mula sa Cordillera" },
+      { "file": "wright-park-igorot-textiles-handicrafts-16.jpg", "alt": "Mga hinabing telang Igorot at alahas na pilak sa pampublikong palengke ng Baguio", "caption": "Mga lokal na handicraft at paghahabi" },
+      { "file": "wright-park-baguio-cathedral-cityscape-17.jpg", "alt": "Katedral ng Baguio at tanawin ng Session Road na tinitingnan mula sa gilid ng burol", "caption": "Tanawin at skyline ng lungsod ng Baguio" },
+      { "file": "wright-park-ibaloi-culture-cordillera-18.jpg", "alt": "Tradisyunal na seremonya ng mga Ibaloi kasama ang tapuy na alak ng bigas, isang sulyap sa kultura ng Cordillera", "caption": "Pamanang pangkultura ng mga Cordillera" }
     ]
   },
   "footer": {

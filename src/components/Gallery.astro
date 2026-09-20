@@ -25,6 +25,7 @@ const photos = gallery.photos ?? [];
               src={`/gallery/${p.file}`}
               alt={p.alt}
               loading="lazy"
+              decoding="async"
               class="h-44 w-full object-cover transition duration-500 group-hover:scale-105"
             />
             <figcaption class="px-3 py-2 text-xs text-charcoal/70">{p.caption}</figcaption>

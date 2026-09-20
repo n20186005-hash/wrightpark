@@ -13,18 +13,40 @@ const nav = [
   { id: 'intro', label: messages.header.intro },
   { id: 'history', label: messages.header.history },
   { id: 'architecture', label: messages.header.architecture },
+  { id: 'weather', label: messages.header.weather },
   { id: 'guide', label: messages.header.guide },
+  { id: 'routes', label: messages.header.routes },
+  { id: 'audiences', label: messages.header.audiences },
   { id: 'best-time', label: messages.header.bestTime },
+  { id: 'seasons', label: messages.header.seasons },
   { id: 'transport', label: messages.header.transport },
   { id: 'facilities', label: messages.header.facilities },
-  { id: 'nearby', label: messages.header.nearby },
+  { id: 'science', label: messages.header.science },
   { id: 'safety', label: messages.header.safety },
+  { id: 'nearby', label: messages.header.nearby },
   { id: 'faq', label: messages.header.faq },
   { id: 'map', label: messages.header.map },
   { id: 'gallery', label: messages.header.gallery },
   { id: 'reviews', label: messages.header.reviews },
   { id: 'sources', label: messages.header.sources },
 ];
+
+// Desktop keeps a curated set so the sticky bar stays on one line; the mobile
+// menu lists every section.
+const primaryIds = [
+  'intro',
+  'history',
+  'architecture',
+  'weather',
+  'guide',
+  'routes',
+  'audiences',
+  'best-time',
+  'transport',
+  'facilities',
+  'map',
+];
+const navPrimary = nav.filter((item) => primaryIds.includes(item.id));
 ---
 
 <header class="sticky top-0 z-50 border-b border-gold/30 bg-cream/90 backdrop-blur">
@@ -34,9 +56,9 @@ const nav = [
       <span>{messages.header.siteName}</span>
     </a>
 
-    <nav aria-label="Primary" class="hidden items-center gap-1 lg:flex">
+    <nav aria-label="Primary" class="hidden items-center gap-1 xl:flex">
       {
-        nav.map((item) => (
+        navPrimary.map((item) => (
           <a
             href={`/${lang}#${item.id}`}
             class="rounded-md px-3 py-2 text-sm font-medium text-charcoal/80 transition hover:bg-sand hover:text-green-deep"
@@ -78,14 +100,14 @@ const nav = [
         aria-label="Menu"
         aria-expanded="false"
         aria-controls="mobile-menu"
-        class="rounded-md p-2 text-green-deep lg:hidden"
+        class="rounded-md p-2 text-green-deep xl:hidden"
       >
         <Icon name="menu" class="w-6 h-6" />
       </button>
     </div>
   </div>
 
-  <div id="mobile-menu" class="hidden border-t border-gold/20 bg-cream lg:hidden">
+  <div id="mobile-menu" class="hidden border-t border-gold/20 bg-cream xl:hidden">
     <nav aria-label="Mobile" class="mx-auto flex max-w-6xl flex-col px-4 py-3">
       {
         nav.map((item) => (
