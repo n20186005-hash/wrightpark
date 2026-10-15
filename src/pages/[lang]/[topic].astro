@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TopicPage from '../../components/TopicPage.astro';
+import { ui } from '../../i18n/ui';
+import { siteConfig } from '../../config';
+
+// English-first topic pages per the SEO report (P0: opening-hours & parking;
+// P1: horseback-riding & how-to-get-there; P2: nearby-attractions).
+const TOPIC_SLUGS = [
+  'opening-hours',
+  'parking',
+  'horseback-riding',
+  'how-to-get-there',
+  'nearby-attractions',
+];
+
+export function getStaticPaths() {
+  return TOPIC_SLUGS.map((slug) => ({
+    params: { lang: 'en', topic: slug },
+    props: { lang: 'en', topicSlug: slug },
+  }));
+}
+
+const { lang, topicSlug } = Astro.props;
+const messages = ui[lang];
+const topic = messages.topics?.[topicSlug];
+const url = `${siteConfig.baseUrl}/${lang}/${topicSlug}`;
+const alternates = { en: url, xDefault: url };
+const faqItems = (topic?.faq ?? []).map((it: any) => ({ q: it.q, a: it.a }));
+const pageTitle = `${topic?.title} — Wright Park Guide`;
+---
+
+<BaseLayout
+  lang={lang}
+  messages={messages}
+  path={topicSlug}
+  pageTitle={pageTitle}
+  faqItems={faqItems}
+  alternates={alternates}
+>
+  <TopicPage lang={lang} messages={messages} topicSlug={topicSlug} />
+</BaseLayout>

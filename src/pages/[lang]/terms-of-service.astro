@@ -12,8 +12,9 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const messages = ui[lang];
+const legalTitle = `${messages.legal.terms.title} — Wright Park Guide`;
 ---
 
-<BaseLayout lang={lang} messages={messages} path="terms-of-service">
+<BaseLayout lang={lang} messages={messages} path="terms-of-service" noindex pageTitle={legalTitle}>
   <LegalPage lang={lang} messages={messages} kind="terms" />
 </BaseLayout>

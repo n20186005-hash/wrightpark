@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Wright Park (Baguio City) - Visitor Guide & Location",
-    "description": "Discover Wright Park (Pool of Pines), the iconic landmark in Baguio City, Benguet, Philippines. View location map, opening details, nearby The Mansion, and travel tips.",
-    "ogTitle": "Wright Park - Baguio City Travel Guide",
-    "ogDescription": "Independent visitor guide to Wright Park (Pool of Pines) in Baguio City, Benguet, Philippines."
+    "title": "Wright Park Baguio – Opening Hours, Horse Riding & Visitor Guide",
+    "description": "Plan your visit to Wright Park in Baguio. Explore the Pool of Pines, horse-riding activities, entrance fees, parking tips, directions and nearby attractions.",
+    "ogTitle": "Wright Park Baguio – Opening Hours, Horse Riding & Visitor Guide",
+    "ogDescription": "Independent visitor guide to Wright Park (Pool of Pines) in Baguio City, Benguet, Philippines — opening hours, horse riding, parking, directions and nearby attractions."
   },
   "header": {
     "siteName": "Wright Park",
@@ -36,6 +36,168 @@
     "readMore": "Read more",
     "onSiteConfirm": "Hours and fees may change — confirm on-site before visiting"
   },
+  "quickInfo": {
+    "eyebrow": "Quick Visitor Information",
+    "title": "Wright Park Baguio — Quick Visitor Information",
+    "subtitle": "The essentials for planning a visit to Wright Park (Pool of Pines) in Baguio City.",
+    "items": [
+      { "icon": "pin", "label": "Location", "value": "Romulo Drive, Baguio City, Benguet", "note": "Opposite the main gate of The Mansion" },
+      { "icon": "clock", "label": "Opening Hours", "value": "Public park — generally open from early morning to early evening", "note": "Confirm the latest schedule on-site; hours may change for events or maintenance" },
+      { "icon": "ticket", "label": "Entrance Fee", "value": "Generally free to enter", "note": "Horse riding and parking are charged separately on-site" },
+      { "icon": "route", "label": "Activities", "value": "Horse riding, sightseeing, picnics" },
+      { "icon": "building", "label": "Nearby", "value": "The Mansion (across the road)" }
+    ],
+    "ctaMaps": "View on map",
+    "ctaExplore": "Plan your visit"
+  },
+  "topics": {
+    "openingHours": {
+      "eyebrow": "Plan your visit",
+      "title": "Wright Park Baguio Opening Hours",
+      "subtitle": "When the park is usually open, the best hours to visit, and how to confirm the latest schedule before you go.",
+      "intro": "Wright Park is a public, open-air park in Baguio City. There is no ticket booth or gated entrance for the grounds themselves, so the site is generally accessible during daylight hours. Because the park is managed by the local government and used for community events, the exact open and close times can shift for festivals, holidays or maintenance. Always confirm the current schedule on-site or with the Baguio City Tourism Office before you travel.",
+      "keyFacts": [
+        { "label": "Typical hours", "value": "Daylight hours, roughly 06:00–18:00", "note": "Common for Baguio public parks; confirm on-site" },
+        { "label": "Entrance", "value": "Open-access grounds, no gate", "note": "The Pool of Pines promenade is free to walk" },
+        { "label": "Best time to visit", "value": "Weekday mornings 06:00–09:00", "note": "Cool air, soft light, fewest crowds" },
+        { "label": "Peak crowding", "value": "Weekends, holidays, Panagbenga", "note": "Busiest Feb–Mar and holiday periods" },
+        { "label": "Closed?", "value": "Rarely fully closed", "note": "Sections may close briefly for events or maintenance" }
+      ],
+      "sections": [
+        { "h": "Typical visiting hours", "body": "Wright Park is an open public space rather than a gated attraction, so it does not keep fixed shop-style hours. In practice visitors can usually walk the Pool of Pines promenade and pine groves from early morning until early evening. The 06:00–18:00 window is a typical guideline for Baguio's public parks, not a guaranteed schedule." },
+        { "h": "Best hours to avoid crowds", "body": "Weekday mornings between about 06:00 and 09:00 are the calmest time to visit — the air is cool, the light is soft for photos, and the bridle path is quiet. Afternoons near sunset are popular with locals, and the park is noticeably busier on weekends, school holidays and during the Panagbenga flower festival." },
+        { "h": "Holidays and special events", "body": "During major events such as Panagbenga (held each year from late January into early March), Holy Week and the December holiday season, parts of the park and surrounding roads can be busier or temporarily rerouted. Allow extra time and expect limited parking on these days." },
+        { "h": "How to confirm before you go", "body": "Opening times, event closures and any temporary guidelines can change. Check with the Baguio City Tourism Office or look for on-site notices at the park entrance before travelling, especially if you are visiting for a specific activity or a booked horse-riding session." }
+      ],
+      "faq": [
+        { "q": "What are Wright Park's opening hours?", "a": "Wright Park is an open public park with no gated entrance, generally accessible during daylight hours (often around 06:00–18:00). These are typical public-park hours rather than a fixed schedule, so confirm on-site before you travel." },
+        { "q": "Is Wright Park open at night?", "a": "The grounds are primarily a daytime, open-air space. After dark the park is poorly lit and quiet; most visitors come during daylight. Evening plans are better suited to nearby Session Road or Burnham Park." },
+        { "q": "What is the best time of day to visit?", "a": "Weekday mornings from about 06:00 to 09:00 offer the coolest air, best light and fewest crowds. Sunset is scenic but busier, especially on weekends." },
+        { "q": "Is Wright Park closed on certain days?", "a": "Full closures are rare. Sections may be briefly closed for city events, maintenance or weather-related safety. Check on-site notices or the Baguio City Tourism Office for the latest information." },
+        { "q": "Can I visit during Panagbenga?", "a": "Yes. Wright Park stays open during the Panagbenga flower festival (late January to early March), but it is much busier and parking is limited. Arrive early and expect crowds on parade days." }
+      ],
+      "updated": "October 2026"
+    },
+    "parking": {
+      "eyebrow": "Plan your visit",
+      "title": "Wright Park Baguio Parking",
+      "subtitle": "Where to park near Wright Park, how the on-site and overflow lots work, and tips for busy weekends.",
+      "intro": "Wright Park sits on a narrow ridge opposite The Mansion, so dedicated parking is limited. A managed parking area is provided near the entrance, but it fills quickly on weekends and holidays. When it is full, city marshals usually direct drivers to nearby overflow spaces within a short walk. This guide explains what to expect so you can plan ahead.",
+      "keyFacts": [
+        { "label": "On-site parking", "value": "Limited lot near the entrance", "note": "Fills early on weekends & holidays" },
+        { "label": "Overflow parking", "value": "Nearby school, barangay & market lots", "note": "Directed by city marshals when full" },
+        { "label": "Parking fee", "value": "Regulated fee usually applies", "note": "Posted on-site; keep small change" },
+        { "label": "Best strategy", "value": "Arrive before 09:00 or after 16:00", "note": "Avoids peak crowding" },
+        { "label": "Drop-off", "value": "Designated zone near entrance", "note": "Good for seniors & families" }
+      ],
+      "sections": [
+        { "h": "On-site parking at Wright Park", "body": "A designated parking area is provided at Wright Park, but capacity is limited and it sits on a busy road opposite The Mansion. On weekend mornings and holiday periods it can fill within the first few hours, after which drivers are normally guided to overflow parking nearby." },
+        { "h": "Overflow and alternative parking", "body": "When the on-site lot is full, city marshals typically direct vehicles to overflow areas such as public school grounds, barangay lots and public-market car parks a few minutes' walk away. These are walked-in distances, so wear comfortable shoes if you park farther out." },
+        { "h": "Parking fees", "body": "A regulated parking fee usually applies at the managed lots. Rates are posted on-site and collected by local attendants; they can change, so carry small bills and confirm the amount before leaving your vehicle. This site does not set or receive any parking fees." },
+        { "h": "Tips for weekends and peak season", "body": "Arrive before about 09:00 or later in the afternoon to find a space more easily. During Panagbenga, Holy Week and December, expect heavy demand and consider a taxi, ride-hailing service or a guided tour that includes parking." },
+        { "h": "Accessible drop-off", "body": "A designated drop-off and parking zone is available near the entrance, which helps seniors, families with babies and visitors with mobility needs avoid the longer walk from overflow lots." }
+      ],
+      "faq": [
+        { "q": "Is there parking at Wright Park?", "a": "Yes, a limited on-site parking lot is provided near the entrance, but it fills quickly on weekends and holidays. When full, city marshals direct drivers to nearby overflow parking." },
+        { "q": "How much is parking at Wright Park?", "a": "A regulated parking fee usually applies at the managed lots, with rates posted on-site by local attendants. Rates can change, so confirm the amount when you park." },
+        { "q": "Where can I park when the lot is full?", "a": "City marshals typically guide vehicles to overflow areas such as public school grounds, barangay lots and market car parks within a short walk of the park." },
+        { "q": "Can I be dropped off at the entrance?", "a": "Yes, a designated drop-off and parking zone near the entrance is available, which is convenient for seniors, families and visitors with mobility needs." },
+        { "q": "Is parking safe?", "a": "The managed and overflow lots are generally attended, but as with any tourist area, do not leave valuables in your vehicle and keep your belongings with you." }
+      ],
+      "updated": "October 2026"
+    },
+    "horsebackRiding": {
+      "eyebrow": "Things to do",
+      "title": "Horseback Riding at Wright Park",
+      "subtitle": "Everything you need to know about the pony and horse rides along the Wright Park bridle path.",
+      "intro": "Horseback and pony riding is one of Wright Park's best-known traditions, dating back to the park's early days as a pine-clad retreat. Local horse owners operate rides along the park's shaded bridle path, with options for short leads and longer circuits. This guide covers what to expect, typical arrangements and how to ride safely.",
+      "keyFacts": [
+        { "label": "Availability", "value": "Daily, weather permitting", "note": "Most active mornings & afternoons" },
+        { "label": "Experience", "value": "All levels welcome", "note": "Guides for children & beginners" },
+        { "label": "Booking", "value": "On-site, no advance needed", "note": "Queues form on busy days" },
+        { "label": "Payment", "value": "Cash common on-site", "note": "Confirm total rate first" },
+        { "label": "Duration", "value": "Short lead to longer circuit", "note": "Agree length before starting" }
+      ],
+      "sections": [
+        { "h": "The Wright Park bridle path", "body": "Rides follow a pine-shaded bridle path beside the Pool of Pines. The setting — straight rows of Benguet pines, cool highland air and the still reflecting pool — is what makes the Wright Park ride one of Baguio's most photographed experiences." },
+        { "h": "What to expect", "body": "Horses and ponies are hired by the ride, with local handlers leading the animal for children and beginners. You can usually choose a short lead around the immediate area or a longer circuit along the path. Agree the route and duration with the handler before you start." },
+        { "h": "Rates and payment", "body": "Riding fees are set by the local operators on-site and are separate from any parking charge. Rates can change, so confirm the total price, the length of the ride and whether a guide fee is included before you begin. Cash is commonly used; carry small bills." },
+        { "h": "Safety and tips", "body": "Wear closed shoes and a jacket for the cool air, follow the handler's instructions, and keep a safe distance from other horses. Children should ride with a leading handler. If you are unsure, ask the operator to explain the route and safety brief before mounting." },
+        { "h": "For children and beginners", "body": "Pony rides are popular with young children, and guides are used to first-time riders. Let the handler know if anyone in your group is nervous or very young so they can match you with a calm horse and a shorter, gentler route." }
+      ],
+      "faq": [
+        { "q": "Can you ride horses at Wright Park?", "a": "Yes. Horseback and pony riding along the park's pine-shaded bridle path is one of Wright Park's long-standing attractions, run by local horse owners." },
+        { "q": "How much does horseback riding cost?", "a": "Riding fees are set by the local operators on-site and are separate from parking. Rates can change, so confirm the total price, ride length and whether a guide fee is included before you start." },
+        { "q": "Do I need to book in advance?", "a": "Usually no — rides are hired on-site. On busy weekends and holidays you may wait in a queue, so arriving early helps." },
+        { "q": "Is it safe for children?", "a": "Yes. Children typically ride with a leading handler, and operators are used to first-time and young riders. Tell the handler if anyone is nervous or very young so they can choose a calm horse and a shorter route." },
+        { "q": "What should I wear?", "a": "Closed shoes and a light jacket are best for Baguio's cool highland air. Follow the handler's safety instructions and keep clear of other horses." }
+      ],
+      "updated": "October 2026"
+    },
+    "howToGetThere": {
+      "eyebrow": "Getting there",
+      "title": "How to Get to Wright Park Baguio",
+      "subtitle": "Directions to Wright Park from Baguio city center, Mines View, The Mansion and the lowlands.",
+      "intro": "Wright Park lies along Leonard Wood Road / Romulo Drive in central Baguio, directly opposite the main gate of The Mansion. It is only a few kilometres from Session Road and Burnham Park, making it easy to combine with other Baguio sights. Here is how to reach it by public transport, taxi and from farther afield.",
+      "keyFacts": [
+        { "label": "From Session Road", "value": "~2–3 km northwest", "note": "10–15 min by taxi or jeepney" },
+        { "label": "From The Mansion", "value": "Directly across the road", "note": "2–3 min walk" },
+        { "label": "By jeepney", "value": "Routes via Leonard Wood Rd", "note": "Ask driver for Wright Park" },
+        { "label": "By taxi / ride-hailing", "value": "Door-to-door", "note": "Use 'Wright Park / The Mansion'" },
+        { "label": "From Manila", "value": "Via TPLEX to Baguio", "note": "Then taxi or bus to park" }
+      ],
+      "sections": [
+        { "h": "From Baguio city center", "body": "Wright Park is about 2–3 km northwest of Session Road. A taxi or ride-hailing trip takes roughly 10–15 minutes in light traffic; jeepneys running along Leonard Wood Road also pass nearby. Tell the driver you are going to Wright Park, opposite The Mansion." },
+        { "h": "By public jeepney", "body": "Several jeepney routes serve the Leonard Wood Road corridor. Board a Baguio-centered jeepney heading that way and ask the driver to drop you at Wright Park; the stop is a short walk from the park entrance across from The Mansion." },
+        { "h": "By taxi or ride-hailing", "body": "Taxis and ride-hailing apps can drop you at the Wright Park entrance on Romulo Drive. Use 'Wright Park' or 'The Mansion' as your landmark — the park sits directly opposite the presidential summer residence." },
+        { "h": "From Manila or the lowlands", "body": "Most travellers reach Baguio by bus via the Tarlac–Pangasinan–La Union Expressway (TPLEX), then take a taxi or jeepney to Wright Park. The park is a short hop from the bus terminal area; agree the fare or use the meter before departing." },
+        { "h": "From The Mansion and Mines View", "body": "Wright Park is directly across Leonard Wood Road from The Mansion, about a 2–3 minute walk. From Mines View Park it is a short taxi or jeepney ride along the same ridge, making the three easy to combine in one morning." }
+      ],
+      "faq": [
+        { "q": "How do I get to Wright Park from Session Road?", "a": "Wright Park is about 2–3 km northwest of Session Road. Take a taxi, ride-hailing service or a Leonard Wood Road jeepney and ask to be dropped at Wright Park, opposite The Mansion." },
+        { "q": "Is Wright Park walkable from The Mansion?", "a": "Yes. The park entrance is directly across Leonard Wood Road from The Mansion — roughly a 2–3 minute walk." },
+        { "q": "Can I take public transport to Wright Park?", "a": "Yes. Jeepneys along Leonard Wood Road pass near the park; tell the driver you are going to Wright Park. Taxis and ride-hailing apps also reach the entrance directly." },
+        { "q": "How far is Wright Park from Mines View Park?", "a": "A short taxi or jeepney ride along the same ridge. Many visitors combine The Mansion, Wright Park and Mines View in a single morning." },
+        { "q": "What landmark should I give the driver?", "a": "Use 'Wright Park' or 'The Mansion' — the park sits directly opposite the main gate of The Mansion on Romulo Drive / Leonard Wood Road." }
+      ],
+      "updated": "October 2026"
+    },
+    "nearbyAttractions": {
+      "eyebrow": "Nearby",
+      "title": "Attractions Near Wright Park Baguio",
+      "subtitle": "Other Baguio sights within walking distance or a short ride of Wright Park.",
+      "intro": "Wright Park is well placed for a half-day of sightseeing. The Mansion is directly across the road, and several other Baguio landmarks — gardens, viewpoints and heritage sites — are within a short walk or ride. Here are the closest and most popular options to pair with your visit.",
+      "keyFacts": [
+        { "label": "The Mansion", "value": "Across the road", "note": "Presidential summer residence" },
+        { "label": "Botanical Garden", "value": "~10–15 min walk", "note": "Native plants & pine trails" },
+        { "label": "Mines View Park", "value": "Short ride along ridge", "note": "Viewpoint & souvenir row" },
+        { "label": "Teachers' Camp", "value": "Nearby heritage site", "note": "Historic training grounds" },
+        { "label": "Bell Church", "value": "Short ride", "note": "Taoist temple & gardens" }
+      ],
+      "sections": [
+        { "h": "The Mansion", "body": "The official summer residence of the Philippine President sits directly across Leonard Wood Road from Wright Park. Visitors can view the ornate gate and gardens from outside; it is the park's most immediate landmark and a natural first stop." },
+        { "h": "Baguio Botanical Garden", "body": "About a 10–15 minute walk from Wright Park, the Botanical Garden showcases native and ornamental plants along pine-shaded trails. It is a calm, family-friendly complement to the Pool of Pines." },
+        { "h": "Mines View Park", "body": "A short taxi or jeepney ride along the same ridge, Mines View Park is known for its panoramic valley viewpoint and rows of souvenir and local-product stalls. It pairs naturally with Wright Park and The Mansion." },
+        { "h": "Teachers' Camp and Bell Church", "body": "Teachers' Camp, a historic training ground, and Bell Church, a Taoist temple with landscaped gardens, are both a short ride away and add cultural variety to a Wright Park circuit." },
+        { "h": "Good Shepherd and local treats", "body": "The Good Shepherd convent shop, known for strawberry and ube products, is about 15–20 minutes on foot or a short jeepney ride away — a popular stop for pasalubong (gifts) after a morning at the park." }
+      ],
+      "faq": [
+        { "q": "What is near Wright Park?", "a": "The Mansion is directly across the road, with Baguio Botanical Garden (about 10–15 minutes' walk), Mines View Park, Teachers' Camp, Bell Church and the Good Shepherd shop all a short distance away." },
+        { "q": "Can I walk from Wright Park to The Mansion?", "a": "Yes. The Mansion's main gate is directly across Leonard Wood Road from Wright Park, roughly a 2–3 minute walk." },
+        { "q": "How far is Wright Park from Mines View Park?", "a": "A short taxi or jeepney ride along the same ridge. Many visitors combine The Mansion, Wright Park and Mines View in one morning." },
+        { "q": "Is the Botanical Garden worth visiting?", "a": "Yes, if you enjoy gardens and quiet pine trails. It is about a 10–15 minute walk from Wright Park and offers native plants in a calm setting." },
+        { "q": "What can I buy nearby?", "a": "The Good Shepherd shop near Mines View is popular for strawberry and ube treats, and Mines View has many souvenir stalls for pasalubong." }
+      ],
+      "updated": "October 2026"
+    }
+  },
+  "topicLinks": [
+    { "slug": "opening-hours", "label": "Opening Hours", "desc": "When Wright Park is open and the best hours to visit." },
+    { "slug": "parking", "label": "Parking", "desc": "Where to park and what to expect on busy days." },
+    { "slug": "horseback-riding", "label": "Horseback Riding", "desc": "Pony and horse rides along the pine bridle path." },
+    { "slug": "how-to-get-there", "label": "How to Get There", "desc": "Directions from Baguio city center and the lowlands." },
+    { "slug": "nearby-attractions", "label": "Nearby Attractions", "desc": "The Mansion, Botanical Garden, Mines View and more." }
+  ],
   "hero": {
     "localName": "Luneta ng mga Pino",
     "title": "Wright Park (Pool of Pines)",
@@ -43,10 +205,10 @@
     "breadcrumb": ["Wright Park (Pool of Pines)", "Baguio City", "Benguet", "Philippines"],
     "subtitle": "Baguio's century-old pine-clad park, home to the iconic Pool of Pines and a gateway to the Summer Capital's highland heritage.",
     "rating": "4.4",
-    "reviews": "8,075",
+    "reviews": "8,100",
     "reviewsSuffix": "Google Maps user reviews",
     "ratingSourcePrefix": "Rating & review count synced from Google Maps user reviews",
-    "ratingSourceDate": "September 2026",
+    "ratingSourceDate": "October 2026",
     "ratingSourceLink": "View all Google Maps reviews",
     "ctaMaps": "View Map",
     "ctaExplore": "Start Exploring",
@@ -71,7 +233,7 @@
       { "k": "Address", "v": "The Mansion, Romulo Dr, Baguio City, Benguet", "icon": "pin" },
       { "k": "Plus Code", "v": "CJ88+7V Baguio", "icon": "pin" },
       { "k": "Postal Code", "v": "2600", "icon": "pin" },
-      { "k": "Rating", "v": "4.4 / 5 (≈8,075 Google Maps reviews)", "icon": "star" },
+      { "k": "Rating", "v": "4.4 / 5 (≈8,100 Google Maps reviews)", "icon": "star" },
       { "k": "Altitude", "v": "Approx. 1,400 metres above sea level", "icon": "city" },
       { "k": "Province", "v": "Benguet, Cordillera Region", "icon": "park" }
     ]
@@ -133,13 +295,13 @@
       {
         "era": "Today",
         "heading": "Wright Park in the 21st century",
-        "body": "Wright Park remains one of the most-visited green spaces in Northern Luzon. On weekends and during the April-May Panagbenga Flower Festival, the park fills with families, students, couples and tour groups, but it is still possible to find quiet corners on weekday mornings. The City Government of Baguio, in partnership with the Department of Environment and Natural Resources (DENR) and local community cooperatives, manages tree-planting drives, waste-management programmes and heritage conservation initiatives to keep the park viable for the next hundred years."
+        "body": "Wright Park remains one of the most-visited green spaces in Northern Luzon. On weekends and during the Panagbenga Flower Festival — Baguio's annual flower festival, held each year from late January into early March — the park fills with families, students, couples and tour groups, but it is still possible to find quiet corners on weekday mornings. The City Government of Baguio, in partnership with the Department of Environment and Natural Resources (DENR) and local community cooperatives, manages tree-planting drives, waste-management programmes and heritage conservation initiatives to keep the park viable for the next hundred years."
       }
     ],
     "legend": {
       "eyebrow": "Folklore & Local Memory",
       "title": "Stories of the Pines",
-      "intro": "Wright Park and the Baguio plateau carry layers of oral history from the Igorot communities of the Cordilleras and from the lowland Tagalog and Ilocano settlers who later made the city their home. Below are folk narratives and cultural themes associated with the area, compiled from public sources for general education. Oral versions differ by community.",
+      "intro": "Wright Park and the Baguio plateau carry layers of oral history from the Igorot communities of the Cordilleras and from the lowland Tagalog and Ilocano settlers who later made the city their home. Below are folk narratives and cultural themes associated with the area, compiled from public sources for general education. Oral versions differ by community. These are legends and oral tradition shared for cultural context — they are not verified historical facts about the park.",
       "stories": [
         {
           "title": "The Spirit of the White Pine",
@@ -820,7 +982,7 @@
       },
       {
         "q": "What is Wright Park's Google Maps rating?",
-        "a": "As of September 2026, Wright Park holds a 4.4 out of 5 rating based on roughly 8,075 Google Maps user reviews. Ratings and review counts change continuously — please check the Google Maps listing for the live figure. Copyright of the reviews belongs to their original authors and Google Maps."
+        "a": "As of October 2026, Wright Park holds a 4.4 out of 5 rating based on roughly 8,100 Google Maps user reviews. Ratings and review counts change continuously — please check the Google Maps listing for the live figure. Copyright of the reviews belongs to their original authors and Google Maps."
       }
     ]
   },
@@ -832,7 +994,7 @@
     "outOf": "out of 5",
     "countLabel": "Google Maps user reviews",
     "sourceTitle": "Review source",
-    "sourceNote": "Synced from Google Maps user reviews, sync date September 2026; copyright belongs to the original authors and Google Maps.",
+    "sourceNote": "Synced from Google Maps user reviews, sync date October 2026; copyright belongs to the original authors and Google Maps.",
     "cta": "View all reviews on Google Maps",
     "themesTitle": "Themes most often mentioned by reviewers",
     "themesNote": "Summarised from publicly visible Google Maps user reviews. These are aggregated themes, not verbatim quotations, and no individual review text is reproduced on this page.",
@@ -850,15 +1012,15 @@
     "title": "Data Sources & References",
     "intro": "This independent, non-profit visitor guide compiles information from publicly available sources. Where third-party content such as Google Maps ratings and reviews is displayed, the source and sync date are stated below.",
     "reviewRowLabel": "Reviews",
-    "syncedLabel": "Synced September 2026",
+    "syncedLabel": "Synced October 2026",
     "sourceNoteLabel": "Source note",
-    "sourceNote": "Synced from Google Maps user reviews, sync date September 2026; copyright belongs to the original authors and Google Maps.",
+    "sourceNote": "Synced from Google Maps user reviews, sync date October 2026; copyright belongs to the original authors and Google Maps.",
     "linkLabel": "View all Google Maps reviews",
     "items": [
       {
         "label": "Google Maps — Wright Park listing (rating & user reviews)",
-        "meta": "Reviews · Synced September 2026",
-        "note": "Synced from Google Maps user reviews, sync date September 2026; copyright belongs to the original authors and Google Maps.",
+        "meta": "Reviews · Synced October 2026",
+        "note": "Synced from Google Maps user reviews, sync date October 2026; copyright belongs to the original authors and Google Maps.",
         "url": "https://maps.app.goo.gl/SZpr74QGHKPqBvu5A"
       },
       {
@@ -995,7 +1157,7 @@
     "addressLabel": "Address",
     "addressValue": "The Mansion, Romulo Dr, Baguio City, Benguet, Philippines 2600",
     "mapsLabel": "Open in Google Maps",
-    "reviewSource": "Ratings & reviews · Synced September 2026 · Synced from Google Maps user reviews; copyright belongs to the original authors and Google Maps.",
+    "reviewSource": "Ratings & reviews · Synced October 2026 · Synced from Google Maps user reviews; copyright belongs to the original authors and Google Maps.",
     "disclaimer": "All images shown are the property of and copyrighted by their original photographers. If any copyright issue arises, please contact the site administrator and the material will be reviewed or removed promptly.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",

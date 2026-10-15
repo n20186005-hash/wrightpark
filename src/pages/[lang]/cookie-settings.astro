@@ -12,8 +12,9 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const messages = ui[lang];
+const legalTitle = `${messages.legal.cookie.title} — Wright Park Guide`;
 ---
 
-<BaseLayout lang={lang} messages={messages} path="cookie-settings">
+<BaseLayout lang={lang} messages={messages} path="cookie-settings" noindex pageTitle={legalTitle}>
   <LegalPage lang={lang} messages={messages} kind="cookie" />
 </BaseLayout>

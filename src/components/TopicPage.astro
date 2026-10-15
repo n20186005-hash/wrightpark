@@ -1,0 +1,115 @@
+---
+import { siteConfig } from '../config';
+
+interface Props {
+  lang: string;
+  messages: any;
+  topicSlug: string;
+}
+const { lang, messages, topicSlug } = Astro.props;
+const topic = messages.topics?.[topicSlug];
+const slug = topicSlug;
+const url = `${siteConfig.baseUrl}/${lang}/${slug}`;
+const homeUrl = `${siteConfig.baseUrl}/${lang}`;
+const siteName = messages.header?.siteName ?? 'Wright Park Guide';
+
+const keyFacts = topic?.keyFacts ?? [];
+const sections = topic?.sections ?? [];
+const faq = topic?.faq ?? [];
+const topicList = Object.entries(messages.topics ?? {}).filter(([k]) => k !== slug);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  '@id': `${url}#breadcrumb`,
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: siteName, item: homeUrl },
+    { '@type': 'ListItem', position: 2, name: topic?.title ?? '', item: url },
+  ],
+};
+---
+
+<article class="bg-cream">
+  <div class="mx-auto max-w-3xl px-4 py-12 md:py-16">
+    <nav aria-label="Breadcrumb" class="text-sm text-charcoal/60">
+      <a href={homeUrl} class="hover:text-green-deep">{siteName}</a>
+      <span class="px-2">/</span>
+      <span class="text-charcoal/80">{topic?.title}</span>
+    </nav>
+
+    <p class="section-eyebrow mt-6">{topic?.eyebrow}</p>
+    <h1 class="mt-2 font-serif text-3xl font-bold text-green-deep md:text-4xl">{topic?.title}</h1>
+    <p class="mt-3 max-w-2xl text-charcoal/70">{topic?.subtitle}</p>
+    {topic?.updated && <p class="mt-2 text-xs text-charcoal/50">Updated {topic.updated}</p>}
+
+    {
+      keyFacts.length > 0 && (
+        <div class="mt-8 grid gap-4 sm:grid-cols-2">
+          {keyFacts.map((f: any) => (
+            <div class="glass-card rounded-2xl p-5">
+              <p class="text-xs uppercase tracking-wide text-charcoal/55">{f.label}</p>
+              <p class="mt-1 font-semibold text-charcoal">{f.value}</p>
+              {f.note && <p class="mt-1 text-xs text-charcoal/55">{f.note}</p>}
+            </div>
+          ))}
+        </div>
+      )
+    }
+
+    {topic?.intro && <p class="mt-8 leading-relaxed text-charcoal/80">{topic.intro}</p>}
+
+    {
+      sections.length > 0 && (
+        <div class="mt-8 space-y-8">
+          {sections.map((s: any) => (
+            <section>
+              <h2 class="font-serif text-xl font-semibold text-green-deep">{s.h}</h2>
+              <p class="mt-2 leading-relaxed text-charcoal/80">{s.body}</p>
+            </section>
+          ))}
+        </div>
+      )
+    }
+
+    {
+      faq.length > 0 && (
+        <section class="mt-12">
+          <h2 class="font-serif text-2xl font-bold text-green-deep">FAQ</h2>
+          <div class="mt-4 space-y-3">
+            {faq.map((it: any) => (
+              <details class="rounded-xl border border-charcoal/10 bg-white/60 p-4">
+                <summary class="cursor-pointer font-semibold text-charcoal">{it.q}</summary>
+                <p class="mt-2 text-sm leading-relaxed text-charcoal/75">{it.a}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      topicList.length > 0 && (
+        <section class="mt-12">
+          <h2 class="font-serif text-xl font-semibold text-green-deep">More visitor guides</h2>
+          <ul class="mt-4 grid gap-3 sm:grid-cols-2">
+            {topicList.map(([k, t]: any) => (
+              <li>
+                <a
+                  href={`/${lang}/${k}`}
+                  class="block rounded-xl border border-charcoal/10 bg-white/60 p-4 transition hover:border-gold/40 hover:bg-sand/40"
+                >
+                  <span class="font-semibold text-green-deep">{t.title}</span>
+                  {t.subtitle && <p class="mt-1 text-sm text-charcoal/65">{t.subtitle}</p>}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <a href={homeUrl} class="mt-10 inline-block text-sm font-medium text-green-deep hover:underline">← {siteName}</a>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+</article>

@@ -1,0 +1,53 @@
+---
+import Icon from './Icon.astro';
+import { mapsUrl } from '../config';
+
+interface Props {
+  lang: string;
+  messages: any;
+}
+const { messages } = Astro.props;
+const q = messages.quickInfo;
+const items = q?.items ?? [];
+---
+
+<section id="quick-info" class="scroll-mt-20 bg-green-deep text-cream">
+  <div class="mx-auto max-w-6xl px-4 py-12 md:py-16">
+    <p class="text-xs font-semibold uppercase tracking-widest text-gold">{q.eyebrow}</p>
+    <h2 class="mt-2 font-serif text-2xl font-bold md:text-3xl">{q.title}</h2>
+    {q.subtitle && <p class="mt-2 max-w-2xl text-sm text-cream/80">{q.subtitle}</p>}
+
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        items.map((it: any) => (
+          <div class="rounded-2xl border border-cream/15 bg-cream/5 p-5">
+            <div class="flex items-center gap-2 text-gold">
+              <Icon name={it.icon ?? 'info'} class="w-5 h-5" />
+              <span class="text-xs font-semibold uppercase tracking-wide">{it.label}</span>
+            </div>
+            <p class="mt-2 text-sm leading-relaxed text-cream">{it.value}</p>
+            {it.note && <p class="mt-1 text-xs text-cream/60">{it.note}</p>}
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a
+        href={mapsUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 rounded-full bg-gold px-5 py-2.5 text-sm font-semibold text-charcoal transition hover:bg-gold-deep hover:text-white"
+      >
+        <Icon name="map" class="w-4 h-4" />
+        {q.ctaMaps}
+      </a>
+      <a
+        href="#info"
+        class="inline-flex items-center gap-2 rounded-full border border-cream/30 px-5 py-2.5 text-sm font-semibold text-cream transition hover:bg-cream/10"
+      >
+        {q.ctaExplore}
+      </a>
+    </div>
+  </div>
+</section>

@@ -54,18 +54,18 @@ export const attraction = {
   countryCode: 'PH',
   postalCode: '2600',
   plusCode: 'CJ88+7V Baguio',
-  /** Latest Google Maps rating & review count (synced September 2026). */
+  /** Latest Google Maps rating & review count (synced October 2026). */
   rating: '4.4',
   ratingMax: '5',
-  reviews: '8075',
+  reviews: '8100',
   ratingCountLabel: {
-    tl: '8,075',
-    en: '8,075',
+    tl: '8,100',
+    en: '8,100',
   },
   /** Sync timestamp displayed next to every rating/review mention. */
   ratingSyncedAt: {
-    tl: 'Setyembre 2026',
-    en: 'September 2026',
+    tl: 'Oktubre 2026',
+    en: 'October 2026',
   },
   lat: 16.4156997,
   lng: 120.6146484,
@@ -89,7 +89,7 @@ export const reviewSource = {
   provider: 'Google Maps',
   syncedAt: attraction.ratingSyncedAt,
   copyright: {
-    tl: 'Nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps, oras ng pag-sync Setyembre 2026; ang karapatang-ari ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps.',
-    en: 'Synced from Google Maps user reviews, sync date September 2026; copyright belongs to the original authors and Google Maps.',
+    tl: 'Nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps, oras ng pag-sync Oktubre 2026; ang karapatang-ari ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps.',
+    en: 'Synced from Google Maps user reviews, sync date October 2026; copyright belongs to the original authors and Google Maps.',
   },
 };

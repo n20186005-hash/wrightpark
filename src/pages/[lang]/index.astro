@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Hero from '../../components/Hero.astro';
+import QuickInfo from '../../components/QuickInfo.astro';
 import InfoCard from '../../components/InfoCard.astro';
 import Intro from '../../components/Intro.astro';
 import History from '../../components/History.astro';
@@ -16,6 +17,7 @@ import Facilities from '../../components/Facilities.astro';
 import ScienceSection from '../../components/ScienceSection.astro';
 import Safety from '../../components/Safety.astro';
 import FAQ from '../../components/FAQ.astro';
+import TopicLinks from '../../components/TopicLinks.astro';
 import MapSection from '../../components/MapSection.astro';
 import Gallery from '../../components/Gallery.astro';
 import Nearby from '../../components/Nearby.astro';
@@ -36,6 +38,7 @@ const messages = ui[lang];
 
 <BaseLayout lang={lang} messages={messages}>
   <Hero lang={lang} messages={messages} />
+  <QuickInfo lang={lang} messages={messages} />
   <InfoCard lang={lang} messages={messages} />
   <Intro lang={lang} messages={messages} />
   <History lang={lang} messages={messages} />
@@ -55,5 +58,6 @@ const messages = ui[lang];
   <Nearby lang={lang} messages={messages} />
   <ReviewsSection lang={lang} messages={messages} />
   <FAQ lang={lang} messages={messages} />
+  <TopicLinks lang={lang} messages={messages} />
   <SourcesSection lang={lang} messages={messages} />
 </BaseLayout>

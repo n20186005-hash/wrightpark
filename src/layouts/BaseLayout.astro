@@ -10,10 +10,26 @@ interface Props {
   lang: string;
   messages: any;
   path?: string;
+  /** When true, add <meta name="robots" content="noindex, follow"> (legal pages). */
+  noindex?: boolean;
+  /** Optional document title override (e.g. legal page titles distinct from home). */
+  pageTitle?: string;
+  /** Optional FAQ items to use for the FAQPage JSON-LD instead of messages.faq. */
+  faqItems?: { q: string; a: string }[];
+  /** Optional full hreflang alternate set (used by English-only topic pages). */
+  alternates?: Record<string, string>;
 }
-const { lang, messages, path = '' } = Astro.props;
+const {
+  lang,
+  messages,
+  path = '',
+  noindex = false,
+  pageTitle,
+  faqItems: faqOverride,
+  alternates: alternatesOverride,
+} = Astro.props;
 
-const title = messages.meta?.title ?? siteConfig.name;
+const title = pageTitle ?? messages.meta?.title ?? siteConfig.name;
 const description = messages.meta?.description ?? '';
 const ogTitle = messages.meta?.ogTitle ?? title;
 const ogDescription = messages.meta?.ogDescription ?? description;
@@ -39,12 +55,13 @@ const entityId = `${siteConfig.baseUrl}/#attraction`;
 const basePath = path ? '/' + path.replace(/^\/+|\/+$/g, '') : '';
 const canonical = `${siteConfig.baseUrl}/${lang}${basePath}`;
 const url = `${siteConfig.baseUrl}/${lang}${basePath}`;
-const alternates = buildAlternates(path);
+const alternates = alternatesOverride ?? buildAlternates(path);
+const announceLocales = alternatesOverride ? [lang] : languagesList;
 const htmlLang = htmlLangAttr(lang);
 
 const siteNameFallback = siteConfig.name;
 
-const faqItems = (messages.faq?.items ?? []).map((it: any) => ({
+const faqItems = (faqOverride ?? messages.faq?.items ?? []).map((it: any) => ({
   '@type': 'Question',
   name: it.q,
   acceptedAnswer: { '@type': 'Answer', text: it.a },
@@ -132,6 +149,7 @@ const gaConfigSnippet = `
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
     <meta name="theme-color" content="#274C30" />
 
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -162,7 +180,7 @@ const gaConfigSnippet = `
     <meta property="og:image:alt" content={imageAlt} />
     <meta property="og:locale" content={ogLocale[lang] ?? lang} />
     {
-      languagesList
+      announceLocales
         .filter((l) => l !== lang)
         .map((l) => <meta property="og:locale:alternate" content={ogLocale[l] ?? l} />)
     }

@@ -36,6 +36,20 @@
     "readMore": "Magbasa pa",
     "onSiteConfirm": "Maaaring magbago ang oras at bayad — kumpirmahin muna sa lugar bago bumisita"
   },
+  "quickInfo": {
+    "eyebrow": "Mabilis na Impormasyon para sa Bisita",
+    "title": "Wright Park Baguio — Mabilis na Impormasyon para sa Bisita",
+    "subtitle": "Ang mga pangunahing detalye para planuhin ang pagbisita sa Wright Park (Pool of Pines) sa Lungsod ng Baguio.",
+    "items": [
+      { "icon": "pin", "label": "Lokasyon", "value": "Romulo Drive, Lungsod ng Baguio, Benguet", "note": "Katapat ng pangunahing gate ng The Mansion" },
+      { "icon": "clock", "label": "Oras ng Pagbukas", "value": "Pampublikong parke — karaniwang bukas mula sa madaling araw hanggang sa paglubog ng araw", "note": "Kumpirmahin ang pinakabagong iskedyul sa lugar; maaaring magbago ang oras sa mga okasyon o maintenance" },
+      { "icon": "ticket", "label": "Bayad sa Pagpasok", "value": "Karaniwang libre ang pagpasok", "note": "Ang pagsakay sa kabayo at parking ay may hiwalay na bayad sa lugar" },
+      { "icon": "route", "label": "Mga Aktibidad", "value": "Pagsakay sa kabayo, sightseeing, picnic" },
+      { "icon": "building", "label": "Malapit", "value": "Ang The Mansion (sa kabila ng kalsada)" }
+    ],
+    "ctaMaps": "Tingnan sa mapa",
+    "ctaExplore": "Planuhin ang iyong bisita"
+  },
   "hero": {
     "localName": "Luneta ng mga Pino",
     "title": "Wright Park (Luneta ng mga Pino)",
@@ -43,10 +57,10 @@
     "breadcrumb": ["Wright Park (Luneta ng mga Pino)", "Lungsod ng Baguio", "Benguet", "Pilipinas"],
     "subtitle": "Ang makasaysayang parkeng puno ng pino sa Baguio, tahanan ng tanyag na Luneta ng mga Pino at daanan patungo sa pamana ng kabundukan ng Summer Capital.",
     "rating": "4.4",
-    "reviews": "8,075",
+    "reviews": "8,100",
     "reviewsSuffix": "mga pagsusuri ng gumagamit ng Google Maps",
     "ratingSourcePrefix": "Ang rating at bilang ng mga pagsusuri ay nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps",
-    "ratingSourceDate": "Setyembre 2026",
+    "ratingSourceDate": "Oktubre 2026",
     "ratingSourceLink": "Tingnan ang lahat ng pagsusuri sa Google Maps",
     "ctaMaps": "Tingnan ang Mapa",
     "ctaExplore": "Simulan ang Paggalugad",
@@ -71,7 +85,7 @@
       { "k": "Tirahan", "v": "The Mansion, Romulo Dr, Lungsod ng Baguio, Benguet", "icon": "pin" },
       { "k": "Plus Code", "v": "CJ88+7V Baguio", "icon": "pin" },
       { "k": "Postal Code", "v": "2600", "icon": "pin" },
-      { "k": "Rating", "v": "4.4 / 5 (≈8,075 pagsusuri sa Google Maps)", "icon": "star" },
+      { "k": "Rating", "v": "4.4 / 5 (≈8,100 pagsusuri sa Google Maps)", "icon": "star" },
       { "k": "Altitud", "v": "Tinatayang 1,400 metro sa ibabaw ng antas ng dagat", "icon": "city" },
       { "k": "Lalawigan", "v": "Benguet, Rehiyon ng Cordillera", "icon": "park" }
     ]
@@ -133,13 +147,13 @@
       {
         "era": "Ngayon",
         "heading": "Ang Wright Park sa ika-21 siglo",
-        "body": "Ang Wright Park ay nananatiling isa sa mga pinakabisitang luntiang lugar sa Hilagang Luzon. Sa mga katapusan ng linggo at sa panahon ng Panagbenga Flower Festival noong Abril at Mayo, ang parke ay napupuno ng mga pamilya, mag-aaral, magkasintahan at mga pangkat ng turista, ngunit posible pa ring makahanap ng mga tahimik na sulok sa mga umaga ng araw ng trabaho. Ang Pamahalaan ng Lungsod ng Baguio, sa pakikipagtulungan sa Kagawaran ng Kapaligiran at Likas na Yaman (DENR) at mga lokal na kooperatiba ng komunidad, ay namamahala ng mga pagtatanim ng puno, mga programa sa pamamahala ng basura at mga inisyatiba sa pangangalaga ng pamana upang panatilihing buhay ang parke para sa susunod na isang daang taon."
+        "body": "Ang Wright Park ay nananatiling isa sa mga pinakabisitang luntiang lugar sa Hilagang Luzon. Sa mga katapusan ng linggo at sa panahon ng Panagbenga Flower Festival — ang taunang pistang bulaklak ng Baguio na ginaganap tuwing huling bahagi ng Enero hanggang maagang Marso — ang parke ay napupuno ng mga pamilya, mag-aaral, magkasintahan at mga pangkat ng turista, ngunit posible pa ring makahanap ng mga tahimik na sulok sa mga umaga ng araw ng trabaho. Ang Pamahalaan ng Lungsod ng Baguio, sa pakikipagtulungan sa Kagawaran ng Kapaligiran at Likas na Yaman (DENR) at mga lokal na kooperatiba ng komunidad, ay namamahala ng mga pagtatanim ng puno, mga programa sa pamamahala ng basura at mga inisyatiba sa pangangalaga ng pamana upang panatilihing buhay ang parke para sa susunod na isang daang taon."
       }
     ],
     "legend": {
       "eyebrow": "Alamat at Lokal na Alaala",
       "title": "Mga Kuwento ng mga Pino",
-      "intro": "Ang Wright Park at ang talampas ng Baguio ay may mga antas ng pasalitang kasaysayan mula sa mga komunidad ng Igorot sa Cordillera at mula sa mga nanirahang Tagalog at Ilokano mula sa mababang lupain na kalaunan ay nanirahan sa lungsod. Nasa ibaba ang mga kuwentong bayan at mga temang pangkulturang kaugnay ng lugar, na pinagsama-sama mula sa mga pampublikong sanggunian para sa pangkalahatang kaalaman. Ang mga pasalitang bersyon ay magkakaiba ayon sa komunidad.",
+      "intro": "Ang Wright Park at ang talampas ng Baguio ay may mga antas ng pasalitang kasaysayan mula sa mga komunidad ng Igorot sa Cordillera at mula sa mga nanirahang Tagalog at Ilokano mula sa mababang lupain na kalaunan ay nanirahan sa lungsod. Nasa ibaba ang mga kuwentong bayan at mga temang pangkulturang kaugnay ng lugar, na pinagsama-sama mula sa mga pampublikong sanggunian para sa pangkalahatang kaalaman. Ang mga pasalitang bersyon ay magkakaiba ayon sa komunidad. Ang mga ito ay mga alamat at pasalitang tradisyon na ibinahagi para sa kontekstong pangkultura — hindi sila mga beripikadong katotohanang pangkasaysayan tungkol sa parke.",
       "stories": [
         {
           "title": "Ang Diwa ng Puting Pino",
@@ -820,7 +834,7 @@
       },
       {
         "q": "Ano ang rating ng Wright Park sa Google Maps?",
-        "a": "Noong Setyembre 2026, ang Wright Park ay may rating na 4.4 sa 5 batay sa humigit-kumulang 8,075 pagsusuri ng mga gumagamit ng Google Maps. Ang rating at bilang ng mga pagsusuri ay patuloy na nagbabago — tingnan ang listing sa Google Maps para sa kasalukuyang numero. Ang karapatang-ari ng mga pagsusuri ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps."
+        "a": "Noong Oktubre 2026, ang Wright Park ay may rating na 4.4 sa 5 batay sa humigit-kumulang 8,100 pagsusuri ng mga gumagamit ng Google Maps. Ang rating at bilang ng mga pagsusuri ay patuloy na nagbabago — tingnan ang listing sa Google Maps para sa kasalukuyang numero. Ang karapatang-ari ng mga pagsusuri ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps."
       }
     ]
   },
@@ -832,7 +846,7 @@
     "outOf": "sa 5",
     "countLabel": "mga pagsusuri ng gumagamit ng Google Maps",
     "sourceTitle": "Pinagmulan ng pagsusuri",
-    "sourceNote": "Nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps, oras ng pag-sync Setyembre 2026; ang karapatang-ari ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps.",
+    "sourceNote": "Nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps, oras ng pag-sync Oktubre 2026; ang karapatang-ari ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps.",
     "cta": "Tingnan ang lahat ng pagsusuri sa Google Maps",
     "themesTitle": "Mga temang madalas banggitin ng mga tagasuri",
     "themesNote": "Buod mula sa mga pampublikong nakikitang pagsusuri ng gumagamit ng Google Maps. Ito ay mga pinagsama-samang tema, hindi mga tiyak na sipi, at walang indibidwal na teksto ng pagsusuri ang inililimbag sa pahinang ito.",
@@ -850,15 +864,15 @@
     "title": "Mga Pinagmulan ng Datos at Sanggunian",
     "intro": "Ang independiyenteng gabay na ito na hindi pang-komersyal ay nag-iipon ng impormasyon mula sa mga pampublikong magagamit na sanggunian. Kapag ipinapakita ang nilalaman ng third-party tulad ng mga rating at pagsusuri ng Google Maps, ang pinagmulan at oras ng pag-sync ay nakasaad sa ibaba.",
     "reviewRowLabel": "Mga Pagsusuri",
-    "syncedLabel": "Naka-sync noong Setyembre 2026",
+    "syncedLabel": "Naka-sync noong Oktubre 2026",
     "sourceNoteLabel": "Paunawa sa pinagmulan",
-    "sourceNote": "Nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps, oras ng pag-sync Setyembre 2026; ang karapatang-ari ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps.",
+    "sourceNote": "Nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps, oras ng pag-sync Oktubre 2026; ang karapatang-ari ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps.",
     "linkLabel": "Tingnan ang lahat ng pagsusuri sa Google Maps",
     "items": [
       {
         "label": "Google Maps — listing ng Wright Park (rating at mga pagsusuri)",
-        "meta": "Mga Pagsusuri · Naka-sync noong Setyembre 2026",
-        "note": "Nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps, oras ng pag-sync Setyembre 2026; ang karapatang-ari ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps.",
+        "meta": "Mga Pagsusuri · Naka-sync noong Oktubre 2026",
+        "note": "Nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps, oras ng pag-sync Oktubre 2026; ang karapatang-ari ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps.",
         "url": "https://maps.app.goo.gl/SZpr74QGHKPqBvu5A"
       },
       {
@@ -995,7 +1009,7 @@
     "addressLabel": "Tirahan",
     "addressValue": "The Mansion, Romulo Dr, Lungsod ng Baguio, Benguet, Pilipinas 2600",
     "mapsLabel": "Buksan sa Google Maps",
-    "reviewSource": "Mga rating at pagsusuri · Naka-sync noong Setyembre 2026 · Nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps; ang karapatang-ari ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps.",
+    "reviewSource": "Mga rating at pagsusuri · Naka-sync noong Oktubre 2026 · Nakasabay mula sa mga pagsusuri ng gumagamit ng Google Maps; ang karapatang-ari ay pagmamay-ari ng mga orihinal na may-akda at ng Google Maps.",
     "disclaimer": "Lahat ng larawang ipinapakita ay pagmamay-ari at may karapatang-ari ng kanilang mga orihinal na litratista. Kung may anumang isyu sa karapatang-ari na lumitaw, mangyaring makipag-ugnayan sa tagapangasiwa ng site at ang materyal ay susuriin o aalisin agad.",
     "privacy": "Patakaran sa Privacy",
     "terms": "Mga Tuntunin ng Serbisyo",
